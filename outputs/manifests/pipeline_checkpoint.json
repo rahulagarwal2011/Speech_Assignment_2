@@ -1,0 +1,48 @@
+{
+  "completed_steps": [
+    "evaluate"
+  ],
+  "results": {
+    "evaluate": {
+      "status": "success",
+      "elapsed_sec": 19.8,
+      "detail": {
+        "agent": "phase7-evaluator-reporter",
+        "status": "complete",
+        "outputs": {
+          "evaluation_metrics": "outputs/reports/evaluation_metrics.json",
+          "figures_dir": "outputs/reports/figures/",
+          "report_scaffold": "outputs/reports/PA2_Report_Scaffold.md",
+          "implementation_note": "outputs/reports/implementation_note.md",
+          "figures_generated": [
+            "lid_confusion_matrix",
+            "prosody_ablation",
+            "wer_by_language",
+            "eer_det_curve",
+            "adversarial_tradeoff",
+            "f0_contour_comparison",
+            "adversarial_spectrogram"
+          ]
+        },
+        "config_used": {
+          "config_path": "configs/dataset_config.yaml"
+        },
+        "metrics": {
+          "summary": {
+            "pass": 1,
+            "fail": 3,
+            "skip": 4
+          },
+          "prerequisite_check": {
+            "outputs/manifests/phase0-scaffolder.json": true,
+            "outputs/manifests/phase1-data-downloader.json": true,
+            "outputs/manifests/phase2-data-preparer.json": true,
+            "outputs/manifests/phase3-stt-pipeline.json": true,
+            "outputs/manifests/phase4-translation-ipa.json": true,
+            "outputs/manifests/phase5-voice-cloning.json": true
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1486 @@
+{
+  "source_transcript": "outputs/transcript_code_switched.json",
+  "num_segments": 185,
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.82,
+      "text": "If I, if the laser pointer is visible.",
+      "language": "en",
+      "ipa": "ɪf aɪ, ɪf ðə ˈleɪzər ˈpɔɪntər ɪz ˈvɪzəbəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 8.52,
+      "end_time": 9.84,
+      "text": "Yes, we can see the laser pointer.",
+      "language": "en",
+      "ipa": "jɛs, wi kən si ðə ˈleɪzər ˈpɔɪntər.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 10.02,
+      "end_time": 10.76,
+      "text": "Okay, perfect.",
+      "language": "en",
+      "ipa": "ˌoʊˈkeɪ, ˈpərˌfɪkt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 11.4,
+      "end_time": 12.48,
+      "text": "Thank you so much Dr. Richards,",
+      "language": "en",
+      "ipa": "θæŋk ju soʊ məʧ ˈdɑktər. ˈrɪʧərdz,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 12.58,
+      "end_time": 13.72,
+      "text": "very kind of you once again.",
+      "language": "en",
+      "ipa": "ˈvɛri kaɪnd əv ju wəns əˈgɛn.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 14.14,
+      "end_time": 18.62,
+      "text": "And I, it's a great opportunity for me to join",
+      "language": "en",
+      "ipa": "ənd aɪ, ɪts ə greɪt ˌɑpərˈtunəti fər mi tɪ ʤɔɪn",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 18.62,
+      "end_time": 21.48,
+      "text": "part of your lecture series as much as I can",
+      "language": "en",
+      "ipa": "pɑrt əv jʊr ˈlɛkʧər ˈsɪriz ɛz məʧ ɛz aɪ kən",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 22.0,
+      "end_time": 24.400000000000002,
+      "text": "and share some of the things that I'm working on.",
+      "language": "en",
+      "ipa": "ənd ʃɛr səm əv ðə θɪŋz ðət əm ˈwərkɪŋ ɔn.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 25.779999999999998,
+      "end_time": 29.04,
+      "text": "And more than that, I'm super excited to be",
+      "language": "en",
+      "ipa": "ənd mɔr ðən ðət, əm ˈsupər ɪkˈsaɪtɪd tɪ bi",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 29.04,
+      "end_time": 32.44,
+      "text": "part of this class, share some of the knowledge that I have.",
+      "language": "en",
+      "ipa": "pɑrt əv ðɪs klæs, ʃɛr səm əv ðə ˈnɑlɪʤ ðət aɪ hæv.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 33.22,
+      "end_time": 37.2,
+      "text": "And as in every time I try to come and share my knowledge here,",
+      "language": "en",
+      "ipa": "ənd ɛz ɪn ˈɛvəri taɪm aɪ traɪ tɪ kəm ənd ʃɛr maɪ ˈnɑlɪʤ hir,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 37.68,
+      "end_time": 40.76,
+      "text": "the most exciting part for me is the questions",
+      "language": "en",
+      "ipa": "ðə moʊst ɪkˈsaɪtɪŋ pɑrt fər mi ɪz ðə kˈwɛsʧənz",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 40.76,
+      "end_time": 44.38,
+      "text": "that the students ask every time they ask a question.",
+      "language": "en",
+      "ipa": "ðət ðə ˈstudənts æsk ˈɛvəri taɪm ðeɪ æsk ə kˈwɛʃən.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 44.9,
+      "end_time": 47.76,
+      "text": "Many of the questions are new for me also.",
+      "language": "en",
+      "ipa": "ˈmɛni əv ðə kˈwɛsʧənz ər nu fər mi ˈɔlsoʊ.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 47.76,
+      "end_time": 49.28,
+      "text": "It makes me think a lot.",
+      "language": "en",
+      "ipa": "ɪt meɪks mi θɪŋk ə lɔt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 49.56,
+      "end_time": 53.94,
+      "text": "So I'm looking forward to a lot of questions from this class.",
+      "language": "en",
+      "ipa": "soʊ əm ˈlʊkɪŋ ˈfɔrwərd tɪ ə lɔt əv kˈwɛsʧənz frəm ðɪs klæs.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 54.52,
+      "end_time": 56.64,
+      "text": "I don't have a lot of content.",
+      "language": "en",
+      "ipa": "aɪ doʊnt hæv ə lɔt əv ˈkɑntɛnt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 56.64,
+      "end_time": 58.7,
+      "text": "I also don't prepare a lot of slides.",
+      "language": "en",
+      "ipa": "aɪ ˈɔlsoʊ doʊnt priˈpɛr ə lɔt əv slaɪdz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 59.44,
+      "end_time": 61.44,
+      "text": "I just tend to talk a lot.",
+      "language": "en",
+      "ipa": "aɪ ʤɪst tɛnd tɪ tɔk ə lɔt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 61.46,
+      "end_time": 65.4,
+      "text": "So if you have any questions or any kind of additional thoughts,",
+      "language": "en",
+      "ipa": "soʊ ɪf ju hæv ˈɛni kˈwɛsʧənz ər ˈɛni kaɪnd əv əˈdɪʃənəl θɔts,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 66.42,
+      "end_time": 69.92,
+      "text": "do not hesitate to unmute yourself and ask them.",
+      "language": "en",
+      "ipa": "du nɑt ˈhɛzəˌteɪt tɪ unmute ˈjɔrsɛlf ənd æsk ðɛm.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 70.06,
+      "end_time": 72.26,
+      "text": "Or I also have an eye on the chat.",
+      "language": "en",
+      "ipa": "ər aɪ ˈɔlsoʊ hæv ən aɪ ɔn ðə ʧæt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 72.6,
+      "end_time": 75.44,
+      "text": "If you want to ask any questions on the chat, I'm happy with that also.",
+      "language": "en",
+      "ipa": "ɪf ju wɔnt tɪ æsk ˈɛni kˈwɛsʧənz ɔn ðə ʧæt, əm ˈhæpi wɪθ ðət ˈɔlsoʊ.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 77.42,
+      "end_time": 80.88,
+      "text": "With that in mind, I will go to the next slide",
+      "language": "en",
+      "ipa": "wɪθ ðət ɪn maɪnd, aɪ wɪl goʊ tɪ ðə nɛkst slaɪd",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 80.88,
+      "end_time": 83.62,
+      "text": "where I'm talking through the rough agenda",
+      "language": "en",
+      "ipa": "wɛr əm ˈtɔkɪŋ θru ðə rəf əˈʤɛndə",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 83.62,
+      "end_time": 86.56,
+      "text": "that we will be going through for the next four classes.",
+      "language": "en",
+      "ipa": "ðət wi wɪl bi goʊɪŋ θru fər ðə nɛkst fɔr ˈklæsɪz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 88.74000000000001,
+      "end_time": 94.74,
+      "text": "I got to know that we learned about speech recognition",
+      "language": "en",
+      "ipa": "aɪ gɑt tɪ noʊ ðət wi ˈlərnɪd əˈbaʊt spiʧ ˌrɛkɪgˈnɪʃən",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 96.16,
+      "end_time": 98.94,
+      "text": "using hidden Markov models and other techniques.",
+      "language": "en",
+      "ipa": "ˈjuzɪŋ ˈhɪdən markov ˈmɑdəlz ənd ˈəðər tɛkˈniks.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 99.38,
+      "end_time": 104.3,
+      "text": "So we will be migrating from hidden Markov models",
+      "language": "en",
+      "ipa": "soʊ wi wɪl bi ˈmaɪˌgreɪtɪŋ frəm ˈhɪdən markov ˈmɑdəlz",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 104.3,
+      "end_time": 107.92,
+      "text": "and see how in the last four to five years,",
+      "language": "en",
+      "ipa": "ənd si haʊ ɪn ðə læst fɔr tɪ faɪv jɪrz,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 109.3,
+      "end_time": 111.48,
+      "text": "transformers and modern generative AI",
+      "language": "en",
+      "ipa": "trænsˈfɔrmərz ənd ˈmɑdərn ˈʤɛnərətɪv eɪaɪ",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 111.48,
+      "end_time": 117.12,
+      "text": "has reinvented this whole space of speech recognition.",
+      "language": "en",
+      "ipa": "həz ˌriɪnˈvɛntɪd ðɪs hoʊl speɪs əv spiʧ ˌrɛkɪgˈnɪʃən.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 117.92,
+      "end_time": 120.02,
+      "text": "So we'll be talking about transformers,",
+      "language": "en",
+      "ipa": "soʊ wɪl bi ˈtɔkɪŋ əˈbaʊt trænsˈfɔrmərz,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 120.58,
+      "end_time": 121.62,
+      "text": "self-supervised learning,",
+      "language": "en",
+      "ipa": "self-supervised ˈlərnɪŋ,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 121.66,
+      "end_time": 124.26,
+      "text": "and then two of the most important topics,",
+      "language": "en",
+      "ipa": "ənd ðɛn tu əv ðə moʊst ˌɪmˈpɔrtənt ˈtɑpɪks,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 124.52,
+      "end_time": 126.86,
+      "text": "which is like speech to text and text to speech.",
+      "language": "en",
+      "ipa": "wɪʧ ɪz laɪk spiʧ tɪ tɛkst ənd tɛkst tɪ spiʧ.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 128.24,
+      "end_time": 130.68,
+      "text": "And as an add-on, we will, towards the end,",
+      "language": "en",
+      "ipa": "ənd ɛz ən add-on, wi wɪl, təˈwɔrdz ðə ɛnd,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 130.8,
+      "end_time": 134.32,
+      "text": "talk about generating speech and understanding speech is good,",
+      "language": "en",
+      "ipa": "tɔk əˈbaʊt ˈʤɛnərˌeɪtɪŋ spiʧ ənd ˌəndərˈstændɪŋ spiʧ ɪz gʊd,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 134.48,
+      "end_time": 136.9,
+      "text": "but music is just one level above it.",
+      "language": "en",
+      "ipa": "bət mˈjuzɪk ɪz ʤɪst wən ˈlɛvəl əˈbəv ɪt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 136.9,
+      "end_time": 140.88,
+      "text": "How do we go about doing music generation and general audio modeling?",
+      "language": "en",
+      "ipa": "haʊ du wi goʊ əˈbaʊt duɪŋ mˈjuzɪk ˌʤɛnərˈeɪʃən ənd ˈʤɛnərəl ˈɑdiˌoʊ ˈmɑdəlɪŋ?",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 140.88,
+      "end_time": 143.16,
+      "text": "And we'll end up with one of my favorite topics",
+      "language": "en",
+      "ipa": "ənd wɪl ɛnd əp wɪθ wən əv maɪ ˈfeɪvərɪt ˈtɑpɪks",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 143.16,
+      "end_time": 148.3,
+      "text": "on how do we identify this whole space of speech processing",
+      "language": "en",
+      "ipa": "ɔn haʊ du wi aɪˈdɛntəˌfaɪ ðɪs hoʊl speɪs əv spiʧ ˈprɑsɛsɪŋ",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 148.3,
+      "end_time": 150.1,
+      "text": "using multi-agent systems.",
+      "language": "en",
+      "ipa": "ˈjuzɪŋ multi-agent ˈsɪstəmz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 152.86,
+      "end_time": 157.9,
+      "text": "Let's start with a simple landscape to define some of the keywords",
+      "language": "en",
+      "ipa": "lɛts stɑrt wɪθ ə ˈsɪmpəl ˈlænˌskeɪp tɪ dɪˈfaɪn səm əv ðə ˈkiˌwərdz",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 157.9,
+      "end_time": 162.18,
+      "text": "that I will be using again and again in this whole set of lectures.",
+      "language": "en",
+      "ipa": "ðət aɪ wɪl bi ˈjuzɪŋ əˈgɛn ənd əˈgɛn ɪn ðɪs hoʊl sɛt əv ˈlɛkʧərz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 163.62,
+      "end_time": 166.54,
+      "text": "The set of problems that we are going to talk about",
+      "language": "en",
+      "ipa": "ðə sɛt əv ˈprɑbləmz ðət wi ər goʊɪŋ tɪ tɔk əˈbaʊt",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 166.54,
+      "end_time": 168.44,
+      "text": "is these set of problems.",
+      "language": "en",
+      "ipa": "ɪz ðiz sɛt əv ˈprɑbləmz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 169.07999999999998,
+      "end_time": 171.18,
+      "text": "There is a speaker who is speaking something,",
+      "language": "en",
+      "ipa": "ðɛr ɪz ə ˈspikər hu ɪz ˈspikɪŋ ˈsəmθɪŋ,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 171.42,
+      "end_time": 172.68,
+      "text": "or we have an audio file.",
+      "language": "en",
+      "ipa": "ər wi hæv ən ˈɑdiˌoʊ faɪl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 173.4,
+      "end_time": 176.28,
+      "text": "What automated speech recognition does",
+      "language": "en",
+      "ipa": "wət ˈɔtəˌmeɪtɪd spiʧ ˌrɛkɪgˈnɪʃən dɪz",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 176.28,
+      "end_time": 179.6,
+      "text": "is to take those audio files or speech",
+      "language": "en",
+      "ipa": "ɪz tɪ teɪk ðoʊz ˈɑdiˌoʊ faɪlz ər spiʧ",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 179.6,
+      "end_time": 182.16,
+      "text": "and convert them into natural language text.",
+      "language": "en",
+      "ipa": "ənd ˈkɑnvərt ðɛm ˈɪntu ˈnæʧərəl ˈlæŋgwɪʤ tɛkst.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 182.66,
+      "end_time": 186.0,
+      "text": "Some of the internal problems of ASR",
+      "language": "en",
+      "ipa": "səm əv ðə ˌɪnˈtərnəl ˈprɑbləmz əv asr",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 186.0,
+      "end_time": 188.7,
+      "text": "include speech to text and speaker diarization",
+      "language": "en",
+      "ipa": "ˌɪnˈklud spiʧ tɪ tɛkst ənd ˈspikər diarization",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 188.7,
+      "end_time": 190.86,
+      "text": "and also speaker alignment.",
+      "language": "en",
+      "ipa": "ənd ˈɔlsoʊ ˈspikər əˈlaɪnmənt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 191.96,
+      "end_time": 195.72,
+      "text": "And then when the data is in natural language format,",
+      "language": "en",
+      "ipa": "ənd ðɛn wɪn ðə ˈdætə ɪz ɪn ˈnæʧərəl ˈlæŋgwɪʤ ˈfɔrˌmæt,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 195.72,
+      "end_time": 198.32,
+      "text": "we get to any kind of data transformation,",
+      "language": "en",
+      "ipa": "wi gɪt tɪ ˈɛni kaɪnd əv ˈdætə ˌtrænsfərˈmeɪʃən,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 198.6,
+      "end_time": 200.36,
+      "text": "data cleaning, language translation,",
+      "language": "en",
+      "ipa": "ˈdætə ˈklinɪŋ, ˈlæŋgwɪʤ trænzˈleɪʃən,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 200.54,
+      "end_time": 202.18,
+      "text": "whatever you want to do on top of it.",
+      "language": "en",
+      "ipa": "ˌwəˈtɛvər ju wɔnt tɪ du ɔn tɔp əv ɪt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 202.79999999999998,
+      "end_time": 205.68,
+      "text": "And once the data is transformed and cleaned,",
+      "language": "en",
+      "ipa": "ənd wəns ðə ˈdætə ɪz trænsˈfɔrmd ənd klind,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 206.46,
+      "end_time": 209.66,
+      "text": "we then perform what is called as speech synthesis",
+      "language": "en",
+      "ipa": "wi ðɛn pərˈfɔrm wət ɪz kɔld ɛz spiʧ ˈsɪnθəsəs",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 210.22,
+      "end_time": 212.42,
+      "text": "or also called as text to speech.",
+      "language": "en",
+      "ipa": "ər ˈɔlsoʊ kɔld ɛz tɛkst tɪ spiʧ.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 212.9,
+      "end_time": 215.88,
+      "text": "It should be called as TTS, text to speech,",
+      "language": "en",
+      "ipa": "ɪt ʃʊd bi kɔld ɛz tts, tɛkst tɪ spiʧ,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 217.06,
+      "end_time": 220.3,
+      "text": "where we can add tone, voice, music, whatever,",
+      "language": "en",
+      "ipa": "wɛr wi kən æd toʊn, vɔɪs, mˈjuzɪk, ˌwəˈtɛvər,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 220.3,
+      "end_time": 222.24,
+      "text": "and it comes back as an audio file.",
+      "language": "en",
+      "ipa": "ənd ɪt kəmz bæk ɛz ən ˈɑdiˌoʊ faɪl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 222.24,
+      "end_time": 226.0,
+      "text": "So this is the life cycle of an audio file",
+      "language": "en",
+      "ipa": "soʊ ðɪs ɪz ðə laɪf ˈsaɪkəl əv ən ˈɑdiˌoʊ faɪl",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 226.0,
+      "end_time": 227.96,
+      "text": "to text and back to audio file.",
+      "language": "en",
+      "ipa": "tɪ tɛkst ənd bæk tɪ ˈɑdiˌoʊ faɪl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 228.42,
+      "end_time": 229.84,
+      "text": "And these are all the problems",
+      "language": "en",
+      "ipa": "ənd ðiz ər ɔl ðə ˈprɑbləmz",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 229.84,
+      "end_time": 231.6,
+      "text": "that we will be seeing in the lectures.",
+      "language": "en",
+      "ipa": "ðət wi wɪl bi siɪŋ ɪn ðə ˈlɛkʧərz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 231.76,
+      "end_time": 234.6,
+      "text": "And especially from a perspective on",
+      "language": "en",
+      "ipa": "ənd əˈspɛʃəli frəm ə pərˈspɛktɪv ɔn",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 234.6,
+      "end_time": 237.94,
+      "text": "how generative AI models, transformers, and agents",
+      "language": "en",
+      "ipa": "haʊ ˈʤɛnərətɪv eɪaɪ ˈmɑdəlz, trænsˈfɔrmərz, ənd ˈeɪʤənts",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 237.94,
+      "end_time": 240.48,
+      "text": "have basically reinvented this whole space.",
+      "language": "en",
+      "ipa": "hæv ˈbeɪsɪkli ˌriɪnˈvɛntɪd ðɪs hoʊl speɪs.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 242.22,
+      "end_time": 246.14,
+      "text": "So to start with, I'm going to stick into this,",
+      "language": "en",
+      "ipa": "soʊ tɪ stɑrt wɪθ, əm goʊɪŋ tɪ stɪk ˈɪntu ðɪs,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 246.14,
+      "end_time": 247.94,
+      "text": "in this lecture for the next one hour,",
+      "language": "en",
+      "ipa": "ɪn ðɪs ˈlɛkʧər fər ðə nɛkst wən aʊər,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 247.94,
+      "end_time": 253.82,
+      "text": "I'm going to stick to, just, let me just get a pen.",
+      "language": "en",
+      "ipa": "əm goʊɪŋ tɪ stɪk tɪ, ʤɪst, lɛt mi ʤɪst gɪt ə pɛn.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 254.28,
+      "end_time": 258.48,
+      "text": "I'm going to stick with, the pen should work,",
+      "language": "en",
+      "ipa": "əm goʊɪŋ tɪ stɪk wɪθ, ðə pɛn ʃʊd wərk,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 258.48,
+      "end_time": 260.44,
+      "text": "let me just check.",
+      "language": "en",
+      "ipa": "lɛt mi ʤɪst ʧɛk.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 264.28,
+      "end_time": 264.28,
+      "text": "",
+      "language": "en",
+      "ipa": "",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 269.48,
+      "end_time": 270.08,
+      "text": "Yeah, okay.",
+      "language": "en",
+      "ipa": "jæ, ˌoʊˈkeɪ.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 270.38,
+      "end_time": 274.2,
+      "text": "Going to speak only about automated speech recognition.",
+      "language": "en",
+      "ipa": "goʊɪŋ tɪ spik ˈoʊnli əˈbaʊt ˈɔtəˌmeɪtɪd spiʧ ˌrɛkɪgˈnɪʃən.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 274.48,
+      "end_time": 277.18,
+      "text": "So let's stick to that problem for the next one hour.",
+      "language": "en",
+      "ipa": "soʊ lɛts stɪk tɪ ðət ˈprɑbləm fər ðə nɛkst wən aʊər.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 277.18,
+      "end_time": 279.28,
+      "text": "So just giving a perspective on",
+      "language": "en",
+      "ipa": "soʊ ʤɪst ˈgɪvɪŋ ə pərˈspɛktɪv ɔn",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 279.28,
+      "end_time": 281.62,
+      "text": "what we are going to focus about.",
+      "language": "en",
+      "ipa": "wət wi ər goʊɪŋ tɪ ˈfoʊkɪs əˈbaʊt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 282.38,
+      "end_time": 284.14,
+      "text": "If you look at automated speech recognition,",
+      "language": "en",
+      "ipa": "ɪf ju lʊk æt ˈɔtəˌmeɪtɪd spiʧ ˌrɛkɪgˈnɪʃən,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 285.14,
+      "end_time": 287.6,
+      "text": "in the pipeline of automated speech recognition,",
+      "language": "en",
+      "ipa": "ɪn ðə ˈpaɪˌplaɪn əv ˈɔtəˌmeɪtɪd spiʧ ˌrɛkɪgˈnɪʃən,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 287.68,
+      "end_time": 289.68,
+      "text": "there are multiple models that are involved.",
+      "language": "en",
+      "ipa": "ðɛr ər ˈməltəpəl ˈmɑdəlz ðət ər ˌɪnˈvɑlvd.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 290.52,
+      "end_time": 294.76,
+      "text": "Specifically, I want to highlight three models.",
+      "language": "en",
+      "ipa": "spəˈsɪfɪkli, aɪ wɔnt tɪ ˈhaɪˌlaɪt θri ˈmɑdəlz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 295.0,
+      "end_time": 296.66,
+      "text": "One is the acoustic model,",
+      "language": "en",
+      "ipa": "wən ɪz ðə əˈkustɪk ˈmɑdəl,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 297.14,
+      "end_time": 298.62,
+      "text": "the other is called a language model,",
+      "language": "en",
+      "ipa": "ðə ˈəðər ɪz kɔld ə ˈlæŋgwɪʤ ˈmɑdəl,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 298.76,
+      "end_time": 300.38,
+      "text": "the other is called a decoder model.",
+      "language": "en",
+      "ipa": "ðə ˈəðər ɪz kɔld ə dɪˈkoʊdər ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 301.3,
+      "end_time": 304.58,
+      "text": "Both are basically the same image",
+      "language": "en",
+      "ipa": "boʊθ ər ˈbeɪsɪkli ðə seɪm ˈɪmɪʤ",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 304.58,
+      "end_time": 308.48,
+      "text": "in two different perspectives to understand what is happening.",
+      "language": "en",
+      "ipa": "ɪn tu ˈdɪfərənt pərˈspɛktɪvz tɪ ˌəndərˈstænd wət ɪz ˈhæpənɪŋ.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 309.1,
+      "end_time": 312.28,
+      "text": "If you look at the top image, there's a speech,",
+      "language": "en",
+      "ipa": "ɪf ju lʊk æt ðə tɔp ˈɪmɪʤ, ðɛrz ə spiʧ,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 312.58,
+      "end_time": 314.34,
+      "text": "audio file, audio wave, whatever it is.",
+      "language": "en",
+      "ipa": "ˈɑdiˌoʊ faɪl, ˈɑdiˌoʊ weɪv, ˌwəˈtɛvər ɪt ɪz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 314.98,
+      "end_time": 317.28,
+      "text": "From that, we do some kind of feature extraction.",
+      "language": "en",
+      "ipa": "frəm ðət, wi du səm kaɪnd əv ˈfiʧər ɛkˈstrækʃən.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 318.26,
+      "end_time": 321.42,
+      "text": "The end of the feature extraction is some kind of a spectrogram",
+      "language": "en",
+      "ipa": "ðə ɛnd əv ðə ˈfiʧər ɛkˈstrækʃən ɪz səm kaɪnd əv ə spectrogram",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 321.42,
+      "end_time": 324.7,
+      "text": "or a substrogram like MFCC features.",
+      "language": "en",
+      "ipa": "ər ə substrogram laɪk mfcc ˈfiʧərz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 325.34,
+      "end_time": 330.28,
+      "text": "And from those features, we build what is called as an acoustic model,",
+      "language": "en",
+      "ipa": "ənd frəm ðoʊz ˈfiʧərz, wi bɪld wət ɪz kɔld ɛz ən əˈkustɪk ˈmɑdəl,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 330.28,
+      "end_time": 335.1,
+      "text": "which basically understands what this audio is all about",
+      "language": "en",
+      "ipa": "wɪʧ ˈbeɪsɪkli ˌəndərˈstændz wət ðɪs ˈɑdiˌoʊ ɪz ɔl əˈbaʊt",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 335.1,
+      "end_time": 339.0,
+      "text": "and we get higher order audio features.",
+      "language": "en",
+      "ipa": "ənd wi gɪt haɪər ˈɔrdər ˈɑdiˌoʊ ˈfiʧərz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 340.34,
+      "end_time": 343.96,
+      "text": "Typically for this, I don't know what is happening.",
+      "language": "en",
+      "ipa": "ˈtɪpɪkəli fər ðɪs, aɪ doʊnt noʊ wət ɪz ˈhæpənɪŋ.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 344.6,
+      "end_time": 346.2,
+      "text": "Typically for the acoustic model,",
+      "language": "en",
+      "ipa": "ˈtɪpɪkəli fər ðə əˈkustɪk ˈmɑdəl,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 346.32,
+      "end_time": 351.08,
+      "text": "that is where we either use Gaussian mixture model GMMs",
+      "language": "en",
+      "ipa": "ðət ɪz wɛr wi ˈiðər juz ˈgaʊsiən ˈmɪksʧər ˈmɑdəl gmms",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 351.08,
+      "end_time": 352.84,
+      "text": "or hidden Markov models,",
+      "language": "en",
+      "ipa": "ər ˈhɪdən markov ˈmɑdəlz,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 352.88,
+      "end_time": 355.26,
+      "text": "which is a special case of Gaussian mixture model.",
+      "language": "en",
+      "ipa": "wɪʧ ɪz ə ˈspɛʃəl keɪs əv ˈgaʊsiən ˈmɪksʧər ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 356.21999999999997,
+      "end_time": 359.14,
+      "text": "So that is what we have seen so far,",
+      "language": "en",
+      "ipa": "soʊ ðət ɪz wət wi hæv sin soʊ fɑr,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 359.34,
+      "end_time": 365.66,
+      "text": "that how we can use HMM for building this acoustic model.",
+      "language": "en",
+      "ipa": "ðət haʊ wi kən juz həm fər ˈbɪldɪŋ ðɪs əˈkustɪk ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 366.38,
+      "end_time": 368.66,
+      "text": "And then we build a language model.",
+      "language": "en",
+      "ipa": "ənd ðɛn wi bɪld ə ˈlæŋgwɪʤ ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 369.56,
+      "end_time": 372.6,
+      "text": "Language model basically understands the underlying language itself.",
+      "language": "en",
+      "ipa": "ˈlæŋgwɪʤ ˈmɑdəl ˈbeɪsɪkli ˌəndərˈstændz ðə ˌəndərˈlaɪɪŋ ˈlæŋgwɪʤ ˌɪtˈsɛlf.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 372.64,
+      "end_time": 375.68,
+      "text": "Say for example, if I'm speaking in English,",
+      "language": "en",
+      "ipa": "seɪ fər ɪgˈzæmpəl, ɪf əm ˈspikɪŋ ɪn ˈɪŋlɪʃ,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 376.48,
+      "end_time": 378.72,
+      "text": "understanding my voice is one part,",
+      "language": "en",
+      "ipa": "ˌəndərˈstændɪŋ maɪ vɔɪs ɪz wən pɑrt,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 379.22,
+      "end_time": 382.1,
+      "text": "but understanding English itself is another part.",
+      "language": "en",
+      "ipa": "bət ˌəndərˈstændɪŋ ˈɪŋlɪʃ ˌɪtˈsɛlf ɪz əˈnəðər pɑrt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 382.42,
+      "end_time": 384.58,
+      "text": "English also has a lot of grammar in it.",
+      "language": "en",
+      "ipa": "ˈɪŋlɪʃ ˈɔlsoʊ həz ə lɔt əv ˈgræmər ɪn ɪt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 384.58,
+      "end_time": 389.6,
+      "text": "So if we understand the English language and the grammar behind it,",
+      "language": "en",
+      "ipa": "soʊ ɪf wi ˌəndərˈstænd ðə ˈɪŋlɪʃ ˈlæŋgwɪʤ ənd ðə ˈgræmər bɪˈhaɪnd ɪt,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 389.6,
+      "end_time": 392.44,
+      "text": "understanding what I'm speaking is going to be much more easier.",
+      "language": "en",
+      "ipa": "ˌəndərˈstændɪŋ wət əm ˈspikɪŋ ɪz goʊɪŋ tɪ bi məʧ mɔr ˈiziər.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 393.08,
+      "end_time": 395.18,
+      "text": "So that becomes my second model.",
+      "language": "en",
+      "ipa": "soʊ ðət bɪˈkəmz maɪ ˈsɛkənd ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 395.68,
+      "end_time": 399.08,
+      "text": "And my third model is like, okay, I understand the language,",
+      "language": "en",
+      "ipa": "ənd maɪ θərd ˈmɑdəl ɪz laɪk, ˌoʊˈkeɪ, aɪ ˌəndərˈstænd ðə ˈlæŋgwɪʤ,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 399.12,
+      "end_time": 400.18,
+      "text": "I understand your voice.",
+      "language": "en",
+      "ipa": "aɪ ˌəndərˈstænd jʊr vɔɪs.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 400.58,
+      "end_time": 403.16,
+      "text": "Now I exactly want to transcribe what you are saying",
+      "language": "en",
+      "ipa": "naʊ aɪ ɪgˈzæktli wɔnt tɪ trænˈskraɪb wət ju ər seɪɪŋ",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 403.16,
+      "end_time": 405.1,
+      "text": "and that becomes my decoder model.",
+      "language": "en",
+      "ipa": "ənd ðət bɪˈkəmz maɪ dɪˈkoʊdər ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 406.24,
+      "end_time": 408.26,
+      "text": "So the same, we have a language model,",
+      "language": "en",
+      "ipa": "soʊ ðə seɪm, wi hæv ə ˈlæŋgwɪʤ ˈmɑdəl,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 408.26,
+      "end_time": 410.74,
+      "text": "we have an acoustic model and we have a decoder model.",
+      "language": "en",
+      "ipa": "wi hæv ən əˈkustɪk ˈmɑdəl ənd wi hæv ə dɪˈkoʊdər ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 411.18,
+      "end_time": 413.5,
+      "text": "These three models is what we have been learning.",
+      "language": "en",
+      "ipa": "ðiz θri ˈmɑdəlz ɪz wət wi hæv bɪn ˈlərnɪŋ.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 414.14,
+      "end_time": 416.96,
+      "text": "The acoustic model is usually a hidden Markov model.",
+      "language": "en",
+      "ipa": "ðə əˈkustɪk ˈmɑdəl ɪz ˈjuʒəwəli ə ˈhɪdən markov ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 417.36,
+      "end_time": 421.08,
+      "text": "The language model traditionally was an engram model",
+      "language": "en",
+      "ipa": "ðə ˈlæŋgwɪʤ ˈmɑdəl trəˈdɪʃənəli wɑz ən ˈɛnˌgræm ˈmɑdəl",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 421.08,
+      "end_time": 422.52,
+      "text": "or a bag of words model.",
+      "language": "en",
+      "ipa": "ər ə bæg əv wərdz ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 423.04,
+      "end_time": 427.8,
+      "text": "And the decoding model could be anything from a probabilistic model",
+      "language": "en",
+      "ipa": "ənd ðə dɪˈkoʊdɪŋ ˈmɑdəl kʊd bi ˈɛniˌθɪŋ frəm ə probabilistic ˈmɑdəl",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 427.8,
+      "end_time": 429.44,
+      "text": "to even a lookup table.",
+      "language": "en",
+      "ipa": "tɪ ˈivɪn ə ˈlʊkəp ˈteɪbəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 430.12,
+      "end_time": 433.38,
+      "text": "So this is what we have been seeing so far.",
+      "language": "en",
+      "ipa": "soʊ ðɪs ɪz wət wi hæv bɪn siɪŋ soʊ fɑr.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 433.66,
+      "end_time": 436.12,
+      "text": "But what I want to focus is like,",
+      "language": "en",
+      "ipa": "bət wət aɪ wɔnt tɪ ˈfoʊkɪs ɪz laɪk,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 436.12,
+      "end_time": 440.18,
+      "text": "how do we migrate from hidden Markov models to transformers?",
+      "language": "en",
+      "ipa": "haʊ du wi ˈmaɪˌgreɪt frəm ˈhɪdən markov ˈmɑdəlz tɪ trænsˈfɔrmərz?",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 441.46,
+      "end_time": 446.6,
+      "text": "Okay, so again, repeating one more time just to make it clear.",
+      "language": "en",
+      "ipa": "ˌoʊˈkeɪ, soʊ əˈgɛn, rɪˈpitɪŋ wən mɔr taɪm ʤɪst tɪ meɪk ɪt klɪr.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 447.16,
+      "end_time": 449.44,
+      "text": "When we take a transcript or a voice,",
+      "language": "en",
+      "ipa": "wɪn wi teɪk ə ˈtrænˌskrɪpt ər ə vɔɪs,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 450.04,
+      "end_time": 452.90000000000003,
+      "text": "we break them into phonemes.",
+      "language": "en",
+      "ipa": "wi breɪk ðɛm ˈɪntu ˈfoʊnimz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 453.7,
+      "end_time": 460.64,
+      "text": "Phonemes are the smallest component of an audio wave or a sound wave.",
+      "language": "en",
+      "ipa": "ˈfoʊnimz ər ðə sˈmɔləst kəmˈpoʊnənt əv ən ˈɑdiˌoʊ weɪv ər ə saʊnd weɪv.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 461.04,
+      "end_time": 462.74,
+      "text": "So we break them into phonemes.",
+      "language": "en",
+      "ipa": "soʊ wi breɪk ðɛm ˈɪntu ˈfoʊnimz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 462.82,
+      "end_time": 464.08,
+      "text": "Each phoneme is a state.",
+      "language": "en",
+      "ipa": "iʧ ˈfoʊnim ɪz ə steɪt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 464.64,
+      "end_time": 466.52,
+      "text": "So we take one particular phoneme.",
+      "language": "en",
+      "ipa": "soʊ wi teɪk wən ˌpɑˈtɪkjələr ˈfoʊnim.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 466.86,
+      "end_time": 468.2,
+      "text": "We use an acoustic model.",
+      "language": "en",
+      "ipa": "wi juz ən əˈkustɪk ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 468.2,
+      "end_time": 472.34,
+      "text": "It's either a hidden Markov model or a Gaussian mixture model",
+      "language": "en",
+      "ipa": "ɪts ˈiðər ə ˈhɪdən markov ˈmɑdəl ər ə ˈgaʊsiən ˈmɪksʧər ˈmɑdəl",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 472.34,
+      "end_time": 474.5,
+      "text": "and extract features from it.",
+      "language": "en",
+      "ipa": "ənd ˈɛkˌstrækt ˈfiʧərz frəm ɪt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 474.72,
+      "end_time": 478.98,
+      "text": "So the output of this acoustic modeling is basically features.",
+      "language": "en",
+      "ipa": "soʊ ðə ˈaʊtˌpʊt əv ðɪs əˈkustɪk ˈmɑdəlɪŋ ɪz ˈbeɪsɪkli ˈfiʧərz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 480.2,
+      "end_time": 483.76,
+      "text": "And again, traditionally, if you look at language model,",
+      "language": "en",
+      "ipa": "ənd əˈgɛn, trəˈdɪʃənəli, ɪf ju lʊk æt ˈlæŋgwɪʤ ˈmɑdəl,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 483.76,
+      "end_time": 488.06,
+      "text": "it is a huge lookup table or could be a bag of words model.",
+      "language": "en",
+      "ipa": "ɪt ɪz ə juʤ ˈlʊkəp ˈteɪbəl ər kʊd bi ə bæg əv wərdz ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 488.24,
+      "end_time": 491.98,
+      "text": "Say for example, if I say 1, 2, 3,",
+      "language": "en",
+      "ipa": "seɪ fər ɪgˈzæmpəl, ɪf aɪ seɪ 1 2 3",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 492.76,
+      "end_time": 495.86,
+      "text": "and expect what is the next token in the sentence.",
+      "language": "en",
+      "ipa": "ənd ɪkˈspɛkt wət ɪz ðə nɛkst ˈtoʊkən ɪn ðə ˈsɛntəns.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 496.0,
+      "end_time": 497.84,
+      "text": "As humans, we know it could be a comma.",
+      "language": "en",
+      "ipa": "ɛz ˈjumənz, wi noʊ ɪt kʊd bi ə ˈkɑmə.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 498.2,
+      "end_time": 502.2,
+      "text": "And that is what our bag of words model will also predict,",
+      "language": "en",
+      "ipa": "ənd ðət ɪz wət ɑr bæg əv wərdz ˈmɑdəl wɪl ˈɔlsoʊ prɪˈdɪkt,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 502.62,
+      "end_time": 507.28,
+      "text": "saying that there is 54% chance that it is a comma.",
+      "language": "en",
+      "ipa": "seɪɪŋ ðət ðɛr ɪz 54 ʧæns ðət ɪt ɪz ə ˈkɑmə.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 508.78,
+      "end_time": 513.54,
+      "text": "There is a 5% chance it is an ellipsis like dot dot dot.",
+      "language": "en",
+      "ipa": "ðɛr ɪz ə 5 ʧæns ɪt ɪz ən ellipsis laɪk dɑt dɑt dɑt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 513.94,
+      "end_time": 515.94,
+      "text": "There is a 4% chance it is a full stop.",
+      "language": "en",
+      "ipa": "ðɛr ɪz ə 4 ʧæns ɪt ɪz ə fʊl stɑp.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 516.12,
+      "end_time": 518.6,
+      "text": "And there is a 4.5% chance it's an and.",
+      "language": "en",
+      "ipa": "ənd ðɛr ɪz ə 4.5 ʧæns ɪts ən ənd.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 520.44,
+      "end_time": 525.04,
+      "text": "So it basically predicts the next word in the sequence.",
+      "language": "en",
+      "ipa": "soʊ ɪt ˈbeɪsɪkli prɪˈdɪkts ðə nɛkst wərd ɪn ðə ˈsikwəns.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 525.5999999999999,
+      "end_time": 529.38,
+      "text": "And once we predict the next, take the top rank one,",
+      "language": "en",
+      "ipa": "ənd wəns wi prɪˈdɪkt ðə nɛkst, teɪk ðə tɔp ræŋk wən,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 529.44,
+      "end_time": 533.64,
+      "text": "which is comma and say, OK, it's 1, 2, 3.",
+      "language": "en",
+      "ipa": "wɪʧ ɪz ˈkɑmə ənd seɪ, ˈoʊˈkeɪ, ɪts 1 2 3",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 534.06,
+      "end_time": 535.32,
+      "text": "What is the next word?",
+      "language": "en",
+      "ipa": "wət ɪz ðə nɛkst wərd?",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 535.88,
+      "end_time": 538.64,
+      "text": "It says there is a 46% chance that it is 4",
+      "language": "en",
+      "ipa": "ɪt sɪz ðɛr ɪz ə 46 ʧæns ðət ɪt ɪz 4",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 538.64,
+      "end_time": 541.38,
+      "text": "and 7% chance that it is and.",
+      "language": "en",
+      "ipa": "ənd 7 ʧæns ðət ɪt ɪz ənd.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 541.9,
+      "end_time": 544.06,
+      "text": "So that's what basically language model does.",
+      "language": "en",
+      "ipa": "soʊ ðæts wət ˈbeɪsɪkli ˈlæŋgwɪʤ ˈmɑdəl dɪz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 544.26,
+      "end_time": 545.64,
+      "text": "It understands the vocabulary.",
+      "language": "en",
+      "ipa": "ɪt ˌəndərˈstændz ðə voʊˈkæbjəˌlɛri.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 545.88,
+      "end_time": 547.0,
+      "text": "It understands the grammar.",
+      "language": "en",
+      "ipa": "ɪt ˌəndərˈstændz ðə ˈgræmər.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 547.44,
+      "end_time": 549.4,
+      "text": "And it also tries to predict the next word.",
+      "language": "en",
+      "ipa": "ənd ɪt ˈɔlsoʊ traɪz tɪ prɪˈdɪkt ðə nɛkst wərd.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 552.38,
+      "end_time": 556.14,
+      "text": "OK, so we saw these two models, right?",
+      "language": "en",
+      "ipa": "ˈoʊˈkeɪ, soʊ wi sɔ ðiz tu ˈmɑdəlz, raɪt?",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 556.14,
+      "end_time": 557.64,
+      "text": "The acoustic model and language model.",
+      "language": "en",
+      "ipa": "ðə əˈkustɪk ˈmɑdəl ənd ˈlæŋgwɪʤ ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 557.74,
+      "end_time": 562.04,
+      "text": "And that is what is primarily being we are trying to convert.",
+      "language": "en",
+      "ipa": "ənd ðət ɪz wət ɪz praɪˈmɛrəli biɪŋ wi ər traɪɪŋ tɪ ˈkɑnvərt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 562.54,
+      "end_time": 568.2,
+      "text": "So why is using HMM and other language model insufficient?",
+      "language": "en",
+      "ipa": "soʊ waɪ ɪz ˈjuzɪŋ həm ənd ˈəðər ˈlæŋgwɪʤ ˈmɑdəl ˌɪnsəˈfɪʃənt?",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 569.58,
+      "end_time": 571.46,
+      "text": "Let's focus on the acoustic model.",
+      "language": "en",
+      "ipa": "lɛts ˈfoʊkɪs ɔn ðə əˈkustɪk ˈmɑdəl.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 571.72,
+      "end_time": 577.98,
+      "text": "The basic reason why this acoustic model cannot be an HMM or a GMM",
+      "language": "en",
+      "ipa": "ðə ˈbeɪsɪk ˈrizən waɪ ðɪs əˈkustɪk ˈmɑdəl ˈkænɑt bi ən həm ər ə gmm",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 577.98,
+      "end_time": 583.48,
+      "text": "is because of four big problems.",
+      "language": "en",
+      "ipa": "ɪz bɪˈkəz əv fɔr bɪg ˈprɑbləmz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 583.5,
+      "end_time": 588.22,
+      "text": "And it's really important to understand these four problems thoroughly",
+      "language": "en",
+      "ipa": "ənd ɪts ˈrɪli ˌɪmˈpɔrtənt tɪ ˌəndərˈstænd ðiz fɔr ˈprɑbləmz ˈθəroʊli",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 588.22,
+      "end_time": 595.0,
+      "text": "because in the last 10 years, they have considered one problem at a time",
+      "language": "en",
+      "ipa": "bɪˈkəz ɪn ðə læst 10 jɪrz, ðeɪ hæv kənˈsɪdərd wən ˈprɑbləm æt ə taɪm",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 595.0,
+      "end_time": 599.38,
+      "text": "and provided some solutions to overcome those problems",
+      "language": "en",
+      "ipa": "ənd prəˈvaɪdɪd səm səˈluʃənz tɪ ˈoʊvərˌkəm ðoʊz ˈprɑbləmz",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 599.38,
+      "end_time": 603.0,
+      "text": "that we are going to see as building blocks.",
+      "language": "en",
+      "ipa": "ðət wi ər goʊɪŋ tɪ si ɛz ˈbɪldɪŋ blɑks.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 603.98,
+      "end_time": 606.88,
+      "text": "To avoid the first problem, they provided first solution.",
+      "language": "en",
+      "ipa": "tɪ əˈvɔɪd ðə fərst ˈprɑbləm, ðeɪ prəˈvaɪdɪd fərst səˈluʃən.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 606.88,
+      "end_time": 609.4,
+      "text": "Then on top of it, they give the second solution.",
+      "language": "en",
+      "ipa": "ðɛn ɔn tɔp əv ɪt, ðeɪ gɪv ðə ˈsɛkənd səˈluʃən.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 609.52,
+      "end_time": 611.46,
+      "text": "On top of it, they give the third solution.",
+      "language": "en",
+      "ipa": "ɔn tɔp əv ɪt, ðeɪ gɪv ðə θərd səˈluʃən.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 611.9,
+      "end_time": 614.96,
+      "text": "So we are going to see them linearly.",
+      "language": "en",
+      "ipa": "soʊ wi ər goʊɪŋ tɪ si ðɛm ˈlɪniərli.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 615.94,
+      "end_time": 618.14,
+      "text": "So let's focus on the four problems.",
+      "language": "en",
+      "ipa": "soʊ lɛts ˈfoʊkɪs ɔn ðə fɔr ˈprɑbləmz.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 619.5,
+      "end_time": 623.46,
+      "text": "Also, I'm sort of I know I'm going a little bit fast so far",
+      "language": "en",
+      "ipa": "ˈɔlsoʊ, əm sɔrt əv aɪ noʊ əm goʊɪŋ ə ˈlɪtəl bɪt fæst soʊ fɑr",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 623.46,
+      "end_time": 630.6,
+      "text": "because I'm assuming that we learned some of these topics already.",
+      "language": "en",
+      "ipa": "bɪˈkəz əm əˈsumɪŋ ðət wi ˈlərnɪd səm əv ðiz ˈtɑpɪks ɔˈrɛdi.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 631.14,
+      "end_time": 633.9,
+      "text": "But if some of these words are new to you,",
+      "language": "en",
+      "ipa": "bət ɪf səm əv ðiz wərdz ər nu tɪ ju,",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 634.16,
+      "end_time": 636.12,
+      "text": "either stop me or ask them in the chat.",
+      "language": "en",
+      "ipa": "ˈiðər stɑp mi ər æsk ðɛm ɪn ðə ʧæt.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 636.12,
+      "end_time": 638.52,
+      "text": "I'm happy to talk a little bit more about them.",
+      "language": "en",
+      "ipa": "əm ˈhæpi tɪ tɔk ə ˈlɪtəl bɪt mɔr əˈbaʊt ðɛm.",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 640.84,
+      "end_time": 644.14,
+      "text": "The key challenge is with any kind of HMM model",
+      "language": "en",
+      "ipa": "ðə ki ˈʧælənʤ ɪz wɪθ ˈɛni kaɪnd əv həm ˈmɑdəl",
+      "code_switch_before": false
+    },
+    {
+      "start_time": 644.14,
+      "end_time": 646.88,
+      "text": "or the above pipeline that I said.",
+      "language": "en",
+      "ipa": "ər ðə əˈbəv ˈpaɪˌplaɪn ðət aɪ sɛd.",
+      "code_switch_before": false
+    }
+  ]
+}

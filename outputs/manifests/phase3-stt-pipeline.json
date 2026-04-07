@@ -1,0 +1,15 @@
+{
+  "agent": "phase3-stt-pipeline",
+  "status": "complete",
+  "outputs": {
+    "scripts_written": [
+      "scripts/train_lid.py",
+      "scripts/constrained_decode.py",
+      "scripts/denoise_audio.py",
+      "scripts/run_stt_pipeline.py"
+    ],
+    "note": "Code written but NOT executed. User must run manually."
+  },
+  "config_used": {},
+  "metrics": {}
+}

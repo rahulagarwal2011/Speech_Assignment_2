@@ -1,0 +1,15 @@
+{
+  "agent": "phase4-translation-ipa",
+  "status": "complete",
+  "outputs": {
+    "scripts_written": [
+      "scripts/ipa_converter.py",
+      "scripts/translate_to_maithili.py",
+      "scripts/build_technical_dictionary.py",
+      "scripts/run_translation_pipeline.py"
+    ],
+    "note": "Code written but NOT executed. User must run manually."
+  },
+  "config_used": {},
+  "metrics": {}
+}

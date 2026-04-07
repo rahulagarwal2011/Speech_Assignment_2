@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
+*.key
+
+# Large outputs / data / models
+*.wav
+*.mp3
+*.flac
+*.pt
+*.ckpt
+*.bin
+*.onnx
+data/
+models/
+outputs/audio/
+
+# IDE
+.vscode/
+.idea/

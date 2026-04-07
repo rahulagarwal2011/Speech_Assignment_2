@@ -1,0 +1,111 @@
+target_language: "maithili"
+target_lang_code: "mai_Deva"
+target_script: "Devanagari"
+
+huggingface:
+  token: "${HF_TOKEN}"
+  cache_dir: "~/.cache/huggingface"
+
+audio:
+  target_sample_rate: 22050
+  high_quality_sr: 48000
+  min_snr_db: 15
+  min_duration_sec: 2.0
+  max_duration_sec: 15.0
+  loudness_target_lufs: -23
+
+datasets:
+  samanantar:
+    enabled: true
+    hf_path: "ai4bharat/samanantar"
+    hf_config: "mai"
+    splits: ["train"]
+    save_dir: "data/raw/samanantar"
+    priority: "high"
+    tasks: ["2.2"]
+    license: "CC0 1.0"
+  bpcc:
+    enabled: true
+    hf_path: "ai4bharat/BPCC"
+    hf_config: null
+    splits: ["train"]
+    save_dir: "data/raw/bpcc"
+    priority: "high"
+    tasks: ["2.2"]
+    license: "CC0"
+  kathbath:
+    enabled: true
+    hf_path: "ai4bharat/kathbath"
+    hf_config: "maithili"
+    splits: ["train", "valid", "test"]
+    save_dir: "data/raw/kathbath"
+    priority: "high"
+    tasks: ["3.2", "3.3", "5"]
+    license: "CC BY 4.0"
+  indicvoices_r:
+    enabled: true
+    hf_path: "ai4bharat/indicvoices_r"
+    hf_config: "maithili"
+    splits: ["train"]
+    save_dir: "data/raw/indicvoices_r"
+    priority: "critical"
+    tasks: ["3.1", "3.3", "5"]
+    license: "CC BY 4.0"
+  aksharantar:
+    enabled: true
+    hf_path: "ai4bharat/aksharantar"
+    hf_config: "mai"
+    splits: ["train"]
+    save_dir: "data/raw/aksharantar"
+    priority: "high"
+    tasks: ["2.1"]
+    license: "CC0 1.0"
+  sangraha:
+    enabled: true
+    hf_path: "ai4bharat/sangraha"
+    hf_config: "maithili"
+    splits: ["train"]
+    save_dir: "data/raw/sangraha"
+    priority: "medium"
+    tasks: ["1.2"]
+    license: "CC BY 4.0"
+  bhasha_abhijnaanam:
+    enabled: true
+    hf_path: "ai4bharat/Bhasha-Abhijnaanam"
+    hf_config: null
+    splits: ["train"]
+    save_dir: "data/raw/bhasha_abhijnaanam"
+    priority: "medium"
+    tasks: ["1.1"]
+    license: "CC0 1.0"
+  nllb_seed:
+    enabled: true
+    hf_path: "allenai/nllb"
+    hf_config: "eng_Latn-mai_Deva"
+    splits: ["train"]
+    save_dir: "data/raw/nllb_seed"
+    priority: "medium"
+    tasks: ["2.2"]
+    license: "CC BY-SA 4.0"
+  indicvoices_st:
+    enabled: true
+    hf_path: "ai4bharat/IndicVoices-ST"
+    hf_config: "indic2en"
+    splits: ["maithili"]
+    save_dir: "data/raw/indicvoices_st"
+    priority: "low"
+    tasks: ["bridge"]
+    license: "CC BY 4.0"
+
+evaluation:
+  wer_english_threshold: 0.15
+  wer_hindi_threshold: 0.25
+  mcd_threshold: 8.0
+  lid_switch_precision_ms: 200
+  eer_threshold: 0.10
+  adversarial_snr_min_db: 40
+
+technical_dictionary:
+  min_terms: 500
+  output_path: "data/manual/technical_parallel_corpus.tsv"
+  domains: ["speech_processing", "signal_processing", "machine_learning", "acoustics"]

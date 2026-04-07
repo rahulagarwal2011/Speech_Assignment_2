@@ -1,0 +1,54 @@
+{
+  "wer": {
+    "wer_english": null,
+    "wer_hindi": null,
+    "overall_wer": null,
+    "pass_english": null,
+    "pass_hindi": null,
+    "note": "Ground truth path not provided; skipped."
+  },
+  "mcd_warped": {
+    "mcd": 663.1689,
+    "threshold": 8.0,
+    "pass": false
+  },
+  "mcd_flat": {
+    "mcd": 651.6079,
+    "threshold": 8.0,
+    "pass": false
+  },
+  "lid_switch": {
+    "num_predicted_switches": 0,
+    "predicted_switch_times_s": [],
+    "note": "No ground truth for switch accuracy evaluation."
+  },
+  "eer": {
+    "eer": null,
+    "pass": null,
+    "note": "File not found: outputs/antispoof_results.json"
+  },
+  "adversarial": {
+    "snr_db": null,
+    "pass": null,
+    "note": "File not found: outputs/adversarial_results.json"
+  },
+  "dictionary": {
+    "count": 322,
+    "min_required": 500,
+    "pass": false
+  },
+  "audio_files": {
+    "files": {
+      "outputs/audio/output_LRL_cloned.wav": true,
+      "outputs/audio/output_LRL_flat.wav": true,
+      "outputs/audio/original_segment_denoised.wav": true
+    },
+    "all_present": true,
+    "pass": true
+  },
+  "summary": {
+    "pass": 1,
+    "fail": 3,
+    "skip": 4
+  }
+}

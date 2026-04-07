@@ -1,0 +1,35 @@
+name: speech-pa2
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch>=2.0
+  - torchaudio>=2.0
+  - cudatoolkit=12.1
+  - pip:
+    - datasets>=2.14
+    - huggingface-hub>=0.17
+    - transformers>=4.35
+    - speechbrain>=0.5.16
+    - resemblyzer>=0.1.3
+    - parselmouth>=0.4.3
+    - epitran>=1.24
+    - indic-nlp-library>=0.1
+    - eng-to-ipa>=0.0.2
+    - pyloudnorm>=0.1
+    - librosa>=0.10
+    - kenlm
+    - deepfilternet
+    - openai-whisper
+    - soundfile
+    - praat-parselmouth
+    - dtw-python
+    - fastdtw
+    - python-dotenv
+    - jiwer
+    - scipy
+    - scikit-learn
+    - matplotlib
+    - seaborn

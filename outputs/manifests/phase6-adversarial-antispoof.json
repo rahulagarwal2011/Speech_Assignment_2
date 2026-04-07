@@ -1,0 +1,14 @@
+{
+  "agent": "phase6-adversarial-antispoof",
+  "status": "complete",
+  "outputs": {
+    "scripts_written": [
+      "scripts/train_antispoof.py",
+      "scripts/adversarial_attack.py",
+      "scripts/run_adversarial_pipeline.py"
+    ],
+    "note": "Code written but NOT executed. User must run manually."
+  },
+  "config_used": {},
+  "metrics": {}
+}

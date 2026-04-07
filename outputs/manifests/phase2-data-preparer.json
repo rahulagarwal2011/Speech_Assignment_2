@@ -1,0 +1,16 @@
+{
+  "agent": "phase2-data-preparer",
+  "status": "complete",
+  "outputs": {
+    "scripts_written": [
+      "scripts/prepare_lid_data.py",
+      "scripts/prepare_ngram_data.py",
+      "scripts/prepare_translation_data.py",
+      "scripts/prepare_tts_data.py",
+      "scripts/prepare_antispoof_data.py"
+    ],
+    "note": "Scripts written but NOT executed. User must run manually after downloading data."
+  },
+  "config_used": {},
+  "metrics": {}
+}

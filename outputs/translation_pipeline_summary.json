@@ -1,0 +1,51 @@
+{
+  "dictionary": {
+    "status": "built",
+    "count": 322
+  },
+  "ipa_conversion": {
+    "output_path": "outputs/transcript_ipa.json",
+    "num_segments": 185,
+    "code_switches": 0
+  },
+  "translation": {
+    "output_path": "outputs/maithili_translated_text.json",
+    "num_segments": 185,
+    "method_summary": {
+      "indictrans2_en": 135,
+      "dictionary+indictrans2_en": 49,
+      "empty": 1
+    }
+  },
+  "validation": {
+    "passed": false,
+    "checks": [
+      {
+        "name": "dictionary_size",
+        "expected": ">= 500",
+        "actual": 322,
+        "passed": false
+      },
+      {
+        "name": "dictionary_translated",
+        "actual": 34,
+        "total": 322,
+        "ratio": 0.106
+      },
+      {
+        "name": "ipa_coverage",
+        "segments_with_ipa": 184,
+        "total_segments": 185,
+        "coverage": 0.995,
+        "passed": true
+      },
+      {
+        "name": "translation_coverage",
+        "segments_translated": 184,
+        "total_segments": 185,
+        "coverage": 0.995,
+        "passed": true
+      }
+    ]
+  }
+}

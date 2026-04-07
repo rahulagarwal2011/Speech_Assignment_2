@@ -1,0 +1,1945 @@
+{
+  "source_transcript": "outputs/transcript_code_switched.json",
+  "num_segments": 185,
+  "method_summary": {
+    "indictrans2_en": 135,
+    "dictionary+indictrans2_en": 49,
+    "empty": 1
+  },
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.82,
+      "original_text": "If I, if the laser pointer is visible.",
+      "original_language": "en",
+      "maithili_text": "यदि हम, यदि लेजर सूचक दृष्टिगोचर होइत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 8.52,
+      "end_time": 9.84,
+      "original_text": "Yes, we can see the laser pointer.",
+      "original_language": "en",
+      "maithili_text": "हँ, हम सभ लेजर सूचक देखि सकैत छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 10.02,
+      "end_time": 10.76,
+      "original_text": "Okay, perfect.",
+      "original_language": "en",
+      "maithili_text": "ठीक अछि, एकदम ठीक अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 11.4,
+      "end_time": 12.48,
+      "original_text": "Thank you so much Dr. Richards,",
+      "original_language": "en",
+      "maithili_text": "बहुत बहुत धन्यवाद डॉ. रिचर्ड्स,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 12.58,
+      "end_time": 13.72,
+      "original_text": "very kind of you once again.",
+      "original_language": "en",
+      "maithili_text": "एक बेर फेर अहाँ बहुत दयालु छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 14.14,
+      "end_time": 18.62,
+      "original_text": "And I, it's a great opportunity for me to join",
+      "original_language": "en",
+      "maithili_text": "आ हम, ई हमरा लेल जुड़बाक एकटा बढ़िया मौका अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 18.62,
+      "end_time": 21.48,
+      "original_text": "part of your lecture series as much as I can",
+      "original_language": "en",
+      "maithili_text": "हम यथासम्भव अहाँक व्याख्यान श्रृंखलाक हिस्सा बनि सकैत छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 22.0,
+      "end_time": 24.400000000000002,
+      "original_text": "and share some of the things that I'm working on.",
+      "original_language": "en",
+      "maithili_text": "आ किछु एहन बात सभ साझा करू जाहि पर हम काज कऽ रहल छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 25.779999999999998,
+      "end_time": 29.04,
+      "original_text": "And more than that, I'm super excited to be",
+      "original_language": "en",
+      "maithili_text": "आ ओहिसँ बेसी, हम बड्ड उत्साहित छी जे हम होइ।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 29.04,
+      "end_time": 32.44,
+      "original_text": "part of this class, share some of the knowledge that I have.",
+      "original_language": "en",
+      "maithili_text": "एहि कक्षाक हिस्सा, हमरा लग जे किछु ज्ञान अछि से साझा करू।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 33.22,
+      "end_time": 37.2,
+      "original_text": "And as in every time I try to come and share my knowledge here,",
+      "original_language": "en",
+      "maithili_text": "आ जेना हर बेर हम एतऽ आबि कऽ अपन ज्ञान बाँटिबाक प्रयास करैत छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 37.68,
+      "end_time": 40.76,
+      "original_text": "the most exciting part for me is the questions",
+      "original_language": "en",
+      "maithili_text": "हमर लेल सबसँ रोमाञ्चक भाग प्रश्न अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 40.76,
+      "end_time": 44.38,
+      "original_text": "that the students ask every time they ask a question.",
+      "original_language": "en",
+      "maithili_text": "जे छात्रसभ प्रत्येक बेर जखन कोनो प्रश्न पूछैत छथि तखन पूछैत छथि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 44.9,
+      "end_time": 47.76,
+      "original_text": "Many of the questions are new for me also.",
+      "original_language": "en",
+      "maithili_text": "बहुतो प्रश्न हमरा लेल सेहो नव अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 47.76,
+      "end_time": 49.28,
+      "original_text": "It makes me think a lot.",
+      "original_language": "en",
+      "maithili_text": "ई हमरा बड्ड सोचने पर मजबूर करैत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 49.56,
+      "end_time": 53.94,
+      "original_text": "So I'm looking forward to a lot of questions from this class.",
+      "original_language": "en",
+      "maithili_text": "तेँ हम एहि कक्षासँ बहुत रास प्रश्नक प्रतीक्षा कऽ रहल छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 54.52,
+      "end_time": 56.64,
+      "original_text": "I don't have a lot of content.",
+      "original_language": "en",
+      "maithili_text": "हमरा लग बेसी सामग्री नहि अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 56.64,
+      "end_time": 58.7,
+      "original_text": "I also don't prepare a lot of slides.",
+      "original_language": "en",
+      "maithili_text": "हम बेसी स्लाइड सेहो तैयार नहि करैत छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 59.44,
+      "end_time": 61.44,
+      "original_text": "I just tend to talk a lot.",
+      "original_language": "en",
+      "maithili_text": "हम बेसी गप करैत छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 61.46,
+      "end_time": 65.4,
+      "original_text": "So if you have any questions or any kind of additional thoughts,",
+      "original_language": "en",
+      "maithili_text": "तेँ जँ अहाँक कोनो प्रश्न या कोनो प्रकारक अतिरिक्त विचार अछि,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 66.42,
+      "end_time": 69.92,
+      "original_text": "do not hesitate to unmute yourself and ask them.",
+      "original_language": "en",
+      "maithili_text": "स्वयंकेँ अनम्युट करबामे आ हुनका सभसँ पूछबामे संकोच नहि करू।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 70.06,
+      "end_time": 72.26,
+      "original_text": "Or I also have an eye on the chat.",
+      "original_language": "en",
+      "maithili_text": "वा गपशप पर हमर सेहो नजर अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 72.6,
+      "end_time": 75.44,
+      "original_text": "If you want to ask any questions on the chat, I'm happy with that also.",
+      "original_language": "en",
+      "maithili_text": "जँ अहाँ गपशप पर कोनो प्रश्न पुछय चाहैत छी तऽ हम ओहि सँ सेहो खुश छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 77.42,
+      "end_time": 80.88,
+      "original_text": "With that in mind, I will go to the next slide",
+      "original_language": "en",
+      "maithili_text": "एकरा ध्यानमे राखिकऽ हम अगिला स्लाइड पर चलब।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 80.88,
+      "end_time": 83.62,
+      "original_text": "where I'm talking through the rough agenda",
+      "original_language": "en",
+      "maithili_text": "जतय हम मोटा-मोटी कार्यसूचीक माध्यमसँ बात कऽ रहल छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 83.62,
+      "end_time": 86.56,
+      "original_text": "that we will be going through for the next four classes.",
+      "original_language": "en",
+      "maithili_text": "जाहि सँ हम अगिला चारि कक्षाक लेल गुजरब।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 88.74000000000001,
+      "end_time": 94.74,
+      "original_text": "I got to know that we learned about speech recognition",
+      "original_language": "en",
+      "maithili_text": "हमरा पता चललै जे हमसभ [TRANSLATE:speech recognition] के बारे मे सीखलहुँ।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "speech recognition",
+          "maithili": "[TRANSLATE:speech recognition]"
+        }
+      ]
+    },
+    {
+      "start_time": 96.16,
+      "end_time": 98.94,
+      "original_text": "using hidden Markov models and other techniques.",
+      "original_language": "en",
+      "maithili_text": "[TRANSLATE:hidden Markov model]s आ अन्य तकनीकसभक उपयोग करैत।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "hidden markov model",
+          "maithili": "[TRANSLATE:hidden Markov model]"
+        }
+      ]
+    },
+    {
+      "start_time": 99.38,
+      "end_time": 104.3,
+      "original_text": "So we will be migrating from hidden Markov models",
+      "original_language": "en",
+      "maithili_text": "तेँ हमसभ [TRANSLATE:hidden Markov model]s सँ पलायन करब।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "hidden markov model",
+          "maithili": "[TRANSLATE:hidden Markov model]"
+        }
+      ]
+    },
+    {
+      "start_time": 104.3,
+      "end_time": 107.92,
+      "original_text": "and see how in the last four to five years,",
+      "original_language": "en",
+      "maithili_text": "आ देखू कि पिछले चारि-पाँच साल मे,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 109.3,
+      "end_time": 111.48,
+      "original_text": "transformers and modern generative AI",
+      "original_language": "en",
+      "maithili_text": "[TRANSLATE:transformer]s आ आधुनिक उत्पादक AI",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "transformer",
+          "maithili": "[TRANSLATE:transformer]"
+        }
+      ]
+    },
+    {
+      "start_time": 111.48,
+      "end_time": 117.12,
+      "original_text": "has reinvented this whole space of speech recognition.",
+      "original_language": "en",
+      "maithili_text": "[TRANSLATE:speech recognition] क एहि पूरा क्षेत्रकेँ पुनः आविष्कार कयल गेल अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "speech recognition",
+          "maithili": "[TRANSLATE:speech recognition]"
+        }
+      ]
+    },
+    {
+      "start_time": 117.92,
+      "end_time": 120.02,
+      "original_text": "So we'll be talking about transformers,",
+      "original_language": "en",
+      "maithili_text": "एहि लेल हम [TRANSLATE:transformer]s के बारे मे बात करब।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "transformer",
+          "maithili": "[TRANSLATE:transformer]"
+        }
+      ]
+    },
+    {
+      "start_time": 120.58,
+      "end_time": 121.62,
+      "original_text": "self-supervised learning,",
+      "original_language": "en",
+      "maithili_text": "[TRANSLATE:self-supervised learning],",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "self-supervised learning",
+          "maithili": "[TRANSLATE:self-supervised learning]"
+        }
+      ]
+    },
+    {
+      "start_time": 121.66,
+      "end_time": 124.26,
+      "original_text": "and then two of the most important topics,",
+      "original_language": "en",
+      "maithili_text": "आ फेर दूटा सबसँ महत्वपूर्ण विषय,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 124.52,
+      "end_time": 126.86,
+      "original_text": "which is like speech to text and text to speech.",
+      "original_language": "en",
+      "maithili_text": "जे स्पीच टू टेक्स्ट आ टेक्स्ट टू स्पीच जकाँ अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 128.24,
+      "end_time": 130.68,
+      "original_text": "And as an add-on, we will, towards the end,",
+      "original_language": "en",
+      "maithili_text": "आर एक ऐड-ऑन के रूप में हम अंत तक,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 130.8,
+      "end_time": 134.32,
+      "original_text": "talk about generating speech and understanding speech is good,",
+      "original_language": "en",
+      "maithili_text": "भाषण उत्पन्न करबाक आ भाषणकेँ बुझबाक बात नीक अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 134.48,
+      "end_time": 136.9,
+      "original_text": "but music is just one level above it.",
+      "original_language": "en",
+      "maithili_text": "मुदा संगीत एकर ऊपर मात्र एक स्तर अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 136.9,
+      "end_time": 140.88,
+      "original_text": "How do we go about doing music generation and general audio modeling?",
+      "original_language": "en",
+      "maithili_text": "हम संगीत उत्पादन आ सामान्य ऑडियो मॉडलिंग कोना कऽ सकैत छी?",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 140.88,
+      "end_time": 143.16,
+      "original_text": "And we'll end up with one of my favorite topics",
+      "original_language": "en",
+      "maithili_text": "आ हम सब हमर प्रिय विषय मे सँ एक के संग समाप्त करब।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 143.16,
+      "end_time": 148.3,
+      "original_text": "on how do we identify this whole space of speech processing",
+      "original_language": "en",
+      "maithili_text": "हम सभ भाषण प्रक्रियाक एहि सम्पूर्ण स्थानक पहिचान कोना कऽ सकैत छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 148.3,
+      "end_time": 150.1,
+      "original_text": "using multi-agent systems.",
+      "original_language": "en",
+      "maithili_text": "बहु-अभिकर्ता प्रणालीक उपयोग।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 152.86,
+      "end_time": 157.9,
+      "original_text": "Let's start with a simple landscape to define some of the keywords",
+      "original_language": "en",
+      "maithili_text": "किछु मुख्य शब्दकेँ परिभाषित करबाक लेल एकटा सरल परिदृश्यसँ शुरू करू।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 157.9,
+      "end_time": 162.18,
+      "original_text": "that I will be using again and again in this whole set of lectures.",
+      "original_language": "en",
+      "maithili_text": "जकर उपयोग हम एहि पूरा व्याख्यानमे बार-बार करब।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 163.62,
+      "end_time": 166.54,
+      "original_text": "The set of problems that we are going to talk about",
+      "original_language": "en",
+      "maithili_text": "समस्या सभक समूह जेना पर हम बात करय जा रहल छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 166.54,
+      "end_time": 168.44,
+      "original_text": "is these set of problems.",
+      "original_language": "en",
+      "maithili_text": "ई समस्यासभक समूह अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 169.07999999999998,
+      "end_time": 171.18,
+      "original_text": "There is a speaker who is speaking something,",
+      "original_language": "en",
+      "maithili_text": "एकटा वक्ता छथि जे किछु बाजि रहल छथि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 171.42,
+      "end_time": 172.68,
+      "original_text": "or we have an audio file.",
+      "original_language": "en",
+      "maithili_text": "वा हमरा लग कोनो ऑडियो फाइल अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 173.4,
+      "end_time": 176.28,
+      "original_text": "What automated speech recognition does",
+      "original_language": "en",
+      "maithili_text": "स्वचालित [TRANSLATE:speech recognition] की करैत अछि?",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "speech recognition",
+          "maithili": "[TRANSLATE:speech recognition]"
+        }
+      ]
+    },
+    {
+      "start_time": 176.28,
+      "end_time": 179.6,
+      "original_text": "is to take those audio files or speech",
+      "original_language": "en",
+      "maithili_text": "ओ ऑडियो फाइल या भाषण लेब अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 179.6,
+      "end_time": 182.16,
+      "original_text": "and convert them into natural language text.",
+      "original_language": "en",
+      "maithili_text": "आ ओकरा स्वाभाविक भाषा पाठमे परिवर्तित करू।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 182.66,
+      "end_time": 186.0,
+      "original_text": "Some of the internal problems of ASR",
+      "original_language": "en",
+      "maithili_text": "ए. एस. आर. क किछु आन्तरिक समस्या।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 186.0,
+      "end_time": 188.7,
+      "original_text": "include speech to text and speaker diarization",
+      "original_language": "en",
+      "maithili_text": "स्पीच टू टेक्स्ट आ [TRANSLATE:speaker diarization] शामिल करू।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "speaker diarization",
+          "maithili": "[TRANSLATE:speaker diarization]"
+        }
+      ]
+    },
+    {
+      "start_time": 188.7,
+      "end_time": 190.86,
+      "original_text": "and also speaker alignment.",
+      "original_language": "en",
+      "maithili_text": "आ वक्ता संरेखण सेहो।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 191.96,
+      "end_time": 195.72,
+      "original_text": "And then when the data is in natural language format,",
+      "original_language": "en",
+      "maithili_text": "आ फेर जखन डेटा प्राकृतिक भाषा प्रारूपमे होयत अछि,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 195.72,
+      "end_time": 198.32,
+      "original_text": "we get to any kind of data transformation,",
+      "original_language": "en",
+      "maithili_text": "हम सब कोनो प्रकारक डेटा परिवर्तन तक पहुँचैत छी,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 198.6,
+      "end_time": 200.36,
+      "original_text": "data cleaning, language translation,",
+      "original_language": "en",
+      "maithili_text": "डेटा सफाई, भाषा अनुवाद,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 200.54,
+      "end_time": 202.18,
+      "original_text": "whatever you want to do on top of it.",
+      "original_language": "en",
+      "maithili_text": "एकर ऊपर जे किछु अहाँ करय चाहैत छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 202.79999999999998,
+      "end_time": 205.68,
+      "original_text": "And once the data is transformed and cleaned,",
+      "original_language": "en",
+      "maithili_text": "आ एक बेर जखन डेटा परिवर्तित आ साफ भऽ जाइत अछि,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 206.46,
+      "end_time": 209.66,
+      "original_text": "we then perform what is called as speech synthesis",
+      "original_language": "en",
+      "maithili_text": "तखन हमसभ प्रदर्शन करैत छी जकरा [TRANSLATE:speech synthesis] कहल जाइत अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "speech synthesis",
+          "maithili": "[TRANSLATE:speech synthesis]"
+        }
+      ]
+    },
+    {
+      "start_time": 210.22,
+      "end_time": 212.42,
+      "original_text": "or also called as text to speech.",
+      "original_language": "en",
+      "maithili_text": "वा एकरा टेक्स्ट टू स्पीच सेहो कहल जाइत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 212.9,
+      "end_time": 215.88,
+      "original_text": "It should be called as TTS, text to speech,",
+      "original_language": "en",
+      "maithili_text": "एकरा टी. टी. एस., टेक्स्ट टू स्पीच कहल जाय।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 217.06,
+      "end_time": 220.3,
+      "original_text": "where we can add tone, voice, music, whatever,",
+      "original_language": "en",
+      "maithili_text": "जतय हम 20. कारण, ओकरा सभ केँ ओहि स्वरक ई आज्ञा बरदास्त नहि भेलैक जे, \"जँ मालो-जाल पहाड़ मे भिड़त तँ ओकरा पथरबाहि कऽ कऽ मारि देल जाय।, आवाज, संगीत, जे किछु सेहो जोड़ सकैत छी,",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "tone",
+          "maithili": "20. कारण, ओकरा सभ केँ ओहि स्वरक ई आज्ञा बरदास्त नहि भेलैक जे, \"जँ मालो-जाल पहाड़ मे भिड़त तँ ओकरा पथरबाहि कऽ कऽ मारि देल जाय।"
+        }
+      ]
+    },
+    {
+      "start_time": 220.3,
+      "end_time": 222.24,
+      "original_text": "and it comes back as an audio file.",
+      "original_language": "en",
+      "maithili_text": "आ ई ऑडियो फाइलक रूपमे वापस अबैत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 222.24,
+      "end_time": 226.0,
+      "original_text": "So this is the life cycle of an audio file",
+      "original_language": "en",
+      "maithili_text": "एहिलेल ई कोनो ऑडियो फाइलक जीवन चक्र थिक।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 226.0,
+      "end_time": 227.96,
+      "original_text": "to text and back to audio file.",
+      "original_language": "en",
+      "maithili_text": "पाठ आ ऑडियो फाइल पर वापस जाउ।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 228.42,
+      "end_time": 229.84,
+      "original_text": "And these are all the problems",
+      "original_language": "en",
+      "maithili_text": "आ ई सभ समस्या अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 229.84,
+      "end_time": 231.6,
+      "original_text": "that we will be seeing in the lectures.",
+      "original_language": "en",
+      "maithili_text": "जे हम सभ व्याख्यानमे देखब।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 231.76,
+      "end_time": 234.6,
+      "original_text": "And especially from a perspective on",
+      "original_language": "en",
+      "maithili_text": "आ विशेष रूपसँ एकटा दृष्टिकोणसँ",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 234.6,
+      "end_time": 237.94,
+      "original_text": "how generative AI models, transformers, and agents",
+      "original_language": "en",
+      "maithili_text": "कतेक उत्पादक AI मॉडल, [TRANSLATE:transformer]s, आ एजेंट अछि",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "transformer",
+          "maithili": "[TRANSLATE:transformer]"
+        }
+      ]
+    },
+    {
+      "start_time": 237.94,
+      "end_time": 240.48,
+      "original_text": "have basically reinvented this whole space.",
+      "original_language": "en",
+      "maithili_text": "मूल रूपसँ एहि सम्पूर्ण स्थानकेँ पुनः आविष्कार कयल गेल अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 242.22,
+      "end_time": 246.14,
+      "original_text": "So to start with, I'm going to stick into this,",
+      "original_language": "en",
+      "maithili_text": "तेँ शुरू करब, हम एहि बात पर अडिग रहब।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 246.14,
+      "end_time": 247.94,
+      "original_text": "in this lecture for the next one hour,",
+      "original_language": "en",
+      "maithili_text": "अगिला एक घंटा धरि एहि व्याख्यानमे,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 247.94,
+      "end_time": 253.82,
+      "original_text": "I'm going to stick to, just, let me just get a pen.",
+      "original_language": "en",
+      "maithili_text": "हम टिकल जा रहल छी, बस, हमरा एकटा कलम लेबाक दे।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 254.28,
+      "end_time": 258.48,
+      "original_text": "I'm going to stick with, the pen should work,",
+      "original_language": "en",
+      "maithili_text": "हम संग रहब छी, कलम चलबाक चाही,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 258.48,
+      "end_time": 260.44,
+      "original_text": "let me just check.",
+      "original_language": "en",
+      "maithili_text": "हमरा चेक करबाक अनुमति दियौक।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 264.28,
+      "end_time": 264.28,
+      "original_text": "",
+      "original_language": "en",
+      "maithili_text": "",
+      "translation_method": "empty",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 269.48,
+      "end_time": 270.08,
+      "original_text": "Yeah, okay.",
+      "original_language": "en",
+      "maithili_text": "हँ, ठीक अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 270.38,
+      "end_time": 274.2,
+      "original_text": "Going to speak only about automated speech recognition.",
+      "original_language": "en",
+      "maithili_text": "हम केवल स्वचालित [TRANSLATE:speech recognition] के बारे में बात करब।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "speech recognition",
+          "maithili": "[TRANSLATE:speech recognition]"
+        }
+      ]
+    },
+    {
+      "start_time": 274.48,
+      "end_time": 277.18,
+      "original_text": "So let's stick to that problem for the next one hour.",
+      "original_language": "en",
+      "maithili_text": "एहिलेल अगिला एक घंटा धरि ओहि समस्या पर टिकी रहू।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 277.18,
+      "end_time": 279.28,
+      "original_text": "So just giving a perspective on",
+      "original_language": "en",
+      "maithili_text": "एहिलेल मात्र एकटा दृष्टिकोण देल जा रहल अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 279.28,
+      "end_time": 281.62,
+      "original_text": "what we are going to focus about.",
+      "original_language": "en",
+      "maithili_text": "हम कोन बात पर ध्यान केन्द्रित करय जा रहल छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 282.38,
+      "end_time": 284.14,
+      "original_text": "If you look at automated speech recognition,",
+      "original_language": "en",
+      "maithili_text": "यदि अहाँ स्वचालित [TRANSLATE:speech recognition] देखैत छी,",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "speech recognition",
+          "maithili": "[TRANSLATE:speech recognition]"
+        }
+      ]
+    },
+    {
+      "start_time": 285.14,
+      "end_time": 287.6,
+      "original_text": "in the pipeline of automated speech recognition,",
+      "original_language": "en",
+      "maithili_text": "स्वचालित [TRANSLATE:speech recognition]क पाइपलाइनमे,",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "speech recognition",
+          "maithili": "[TRANSLATE:speech recognition]"
+        }
+      ]
+    },
+    {
+      "start_time": 287.68,
+      "end_time": 289.68,
+      "original_text": "there are multiple models that are involved.",
+      "original_language": "en",
+      "maithili_text": "अनेक मॉडल शामिल अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 290.52,
+      "end_time": 294.76,
+      "original_text": "Specifically, I want to highlight three models.",
+      "original_language": "en",
+      "maithili_text": "विशेष रूपसँ हम तीनटा मॉडलकेँ उजागर करय चाहैत छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 295.0,
+      "end_time": 296.66,
+      "original_text": "One is the acoustic model,",
+      "original_language": "en",
+      "maithili_text": "एकटा अछि [TRANSLATE:acoustic model],",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "acoustic model",
+          "maithili": "[TRANSLATE:acoustic model]"
+        }
+      ]
+    },
+    {
+      "start_time": 297.14,
+      "end_time": 298.62,
+      "original_text": "the other is called a language model,",
+      "original_language": "en",
+      "maithili_text": "दोसरकेँ [TRANSLATE:language model] कहल जाइत अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "language model",
+          "maithili": "[TRANSLATE:language model]"
+        }
+      ]
+    },
+    {
+      "start_time": 298.76,
+      "end_time": 300.38,
+      "original_text": "the other is called a decoder model.",
+      "original_language": "en",
+      "maithili_text": "दोसरकेँ [TRANSLATE:decoder] मॉडल कहल जाइत अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "decoder",
+          "maithili": "[TRANSLATE:decoder]"
+        }
+      ]
+    },
+    {
+      "start_time": 301.3,
+      "end_time": 304.58,
+      "original_text": "Both are basically the same image",
+      "original_language": "en",
+      "maithili_text": "दुनू मूल रूपसँ एकहि छवि अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 304.58,
+      "end_time": 308.48,
+      "original_text": "in two different perspectives to understand what is happening.",
+      "original_language": "en",
+      "maithili_text": "की भS रहल अछि से बुझबाक लेल दूटा अलग-अलग दृष्टिकोणसँ।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 309.1,
+      "end_time": 312.28,
+      "original_text": "If you look at the top image, there's a speech,",
+      "original_language": "en",
+      "maithili_text": "जँ अहाँ शीर्ष छवि देखू तँ एकटा भाषण अछि,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 312.58,
+      "end_time": 314.34,
+      "original_text": "audio file, audio wave, whatever it is.",
+      "original_language": "en",
+      "maithili_text": "ऑडियो फाइल, ऑडियो वेव, जे किछु हो।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 314.98,
+      "end_time": 317.28,
+      "original_text": "From that, we do some kind of feature extraction.",
+      "original_language": "en",
+      "maithili_text": "ओहिसँ हम सभ कोनो प्रकारक [TRANSLATE:feature extraction] करैत छी।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "feature extraction",
+          "maithili": "[TRANSLATE:feature extraction]"
+        }
+      ]
+    },
+    {
+      "start_time": 318.26,
+      "end_time": 321.42,
+      "original_text": "The end of the feature extraction is some kind of a spectrogram",
+      "original_language": "en",
+      "maithili_text": "[TRANSLATE:feature extraction]क अन्त कोनो प्रकारक [TRANSLATE:spectrogram] होइत अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "feature extraction",
+          "maithili": "[TRANSLATE:feature extraction]"
+        },
+        {
+          "english": "spectrogram",
+          "maithili": "[TRANSLATE:spectrogram]"
+        }
+      ]
+    },
+    {
+      "start_time": 321.42,
+      "end_time": 324.7,
+      "original_text": "or a substrogram like MFCC features.",
+      "original_language": "en",
+      "maithili_text": "वा सबस्ट्रोग्राम जेनाकि [TRANSLATE:MFCC] विशेषता अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "mfcc",
+          "maithili": "[TRANSLATE:MFCC]"
+        }
+      ]
+    },
+    {
+      "start_time": 325.34,
+      "end_time": 330.28,
+      "original_text": "And from those features, we build what is called as an acoustic model,",
+      "original_language": "en",
+      "maithili_text": "आ ओहि विशेषता सभसँ हम सभ तकनीकक निर्माण करैत छी जकरा [TRANSLATE:acoustic model] कहल जाइत अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "acoustic model",
+          "maithili": "[TRANSLATE:acoustic model]"
+        }
+      ]
+    },
+    {
+      "start_time": 330.28,
+      "end_time": 335.1,
+      "original_text": "which basically understands what this audio is all about",
+      "original_language": "en",
+      "maithili_text": "जे मूल रूपसँ बुझैत अछि जे ई ऑडियो केना अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 335.1,
+      "end_time": 339.0,
+      "original_text": "and we get higher order audio features.",
+      "original_language": "en",
+      "maithili_text": "आ हमरा सभकेँ उच्च ऑर्डर ऑडियो सुविधा भेटैत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 340.34,
+      "end_time": 343.96,
+      "original_text": "Typically for this, I don't know what is happening.",
+      "original_language": "en",
+      "maithili_text": "सामान्यतः एकर लेल हम नहि जनैत छी कि की भऽ रहल अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 344.6,
+      "end_time": 346.2,
+      "original_text": "Typically for the acoustic model,",
+      "original_language": "en",
+      "maithili_text": "सामान्यतः [TRANSLATE:acoustic model] लेल,",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "acoustic model",
+          "maithili": "[TRANSLATE:acoustic model]"
+        }
+      ]
+    },
+    {
+      "start_time": 346.32,
+      "end_time": 351.08,
+      "original_text": "that is where we either use Gaussian mixture model GMMs",
+      "original_language": "en",
+      "maithili_text": "यहीँ हम या त [TRANSLATE:Gaussian mixture model] GMMs क उपयोग करैत छी।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "gaussian mixture model",
+          "maithili": "[TRANSLATE:Gaussian mixture model]"
+        }
+      ]
+    },
+    {
+      "start_time": 351.08,
+      "end_time": 352.84,
+      "original_text": "or hidden Markov models,",
+      "original_language": "en",
+      "maithili_text": "वा [TRANSLATE:hidden Markov model]s,",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "hidden markov model",
+          "maithili": "[TRANSLATE:hidden Markov model]"
+        }
+      ]
+    },
+    {
+      "start_time": 352.88,
+      "end_time": 355.26,
+      "original_text": "which is a special case of Gaussian mixture model.",
+      "original_language": "en",
+      "maithili_text": "जे [TRANSLATE:Gaussian mixture model] केर एकटा विशेष मामला अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "gaussian mixture model",
+          "maithili": "[TRANSLATE:Gaussian mixture model]"
+        }
+      ]
+    },
+    {
+      "start_time": 356.21999999999997,
+      "end_time": 359.14,
+      "original_text": "So that is what we have seen so far,",
+      "original_language": "en",
+      "maithili_text": "एखन धरि हम सभ इहो देखि रहल छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 359.34,
+      "end_time": 365.66,
+      "original_text": "that how we can use HMM for building this acoustic model.",
+      "original_language": "en",
+      "maithili_text": "हम एहि [TRANSLATE:acoustic model] के निर्माण लेल एच. एम. एम. क उपयोग कोना कऽ सकैत छी।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "acoustic model",
+          "maithili": "[TRANSLATE:acoustic model]"
+        }
+      ]
+    },
+    {
+      "start_time": 366.38,
+      "end_time": 368.66,
+      "original_text": "And then we build a language model.",
+      "original_language": "en",
+      "maithili_text": "आ तखन हमसभ एकटा [TRANSLATE:language model] बनबैत छी।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "language model",
+          "maithili": "[TRANSLATE:language model]"
+        }
+      ]
+    },
+    {
+      "start_time": 369.56,
+      "end_time": 372.6,
+      "original_text": "Language model basically understands the underlying language itself.",
+      "original_language": "en",
+      "maithili_text": "[TRANSLATE:language model] मूल रूपसँ अन्तर्निहित भाषाकेँ बुझैत अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "language model",
+          "maithili": "[TRANSLATE:language model]"
+        }
+      ]
+    },
+    {
+      "start_time": 372.64,
+      "end_time": 375.68,
+      "original_text": "Say for example, if I'm speaking in English,",
+      "original_language": "en",
+      "maithili_text": "उदाहरण लेल, यदि हम अंग्रेजीमे बाजि रहल छी,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 376.48,
+      "end_time": 378.72,
+      "original_text": "understanding my voice is one part,",
+      "original_language": "en",
+      "maithili_text": "हमर आवाज बुझब एकटा हिस्सा अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 379.22,
+      "end_time": 382.1,
+      "original_text": "but understanding English itself is another part.",
+      "original_language": "en",
+      "maithili_text": "मुदा अंग्रेजी बुझब एकटा दोसर हिस्सा अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 382.42,
+      "end_time": 384.58,
+      "original_text": "English also has a lot of grammar in it.",
+      "original_language": "en",
+      "maithili_text": "अँग्रेजीमे सेहो बहुत व्याकरण छैक।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 384.58,
+      "end_time": 389.6,
+      "original_text": "So if we understand the English language and the grammar behind it,",
+      "original_language": "en",
+      "maithili_text": "तेँ जँ हम अंग्रेजी भाषा आ ओकर पिछोकड़क व्याकरणकेँ बुझब,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 389.6,
+      "end_time": 392.44,
+      "original_text": "understanding what I'm speaking is going to be much more easier.",
+      "original_language": "en",
+      "maithili_text": "हम जे कहि रहल छी से बुझब बहुत आसान भऽ जायत।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 393.08,
+      "end_time": 395.18,
+      "original_text": "So that becomes my second model.",
+      "original_language": "en",
+      "maithili_text": "तेँ ई हमर दोसर मॉडल बनि जाइत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 395.68,
+      "end_time": 399.08,
+      "original_text": "And my third model is like, okay, I understand the language,",
+      "original_language": "en",
+      "maithili_text": "आ हमर तेसर मॉडल अछि जेना, ठीक अछि, हम भाषा बुझैत छी,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 399.12,
+      "end_time": 400.18,
+      "original_text": "I understand your voice.",
+      "original_language": "en",
+      "maithili_text": "हम अहाँक आवाज बुझैत छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 400.58,
+      "end_time": 403.16,
+      "original_text": "Now I exactly want to transcribe what you are saying",
+      "original_language": "en",
+      "maithili_text": "आब हम ठीक-ठीक प्रतिलिपि बनाबय चाहैत छी जे अहाँ की कहि रहल छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 403.16,
+      "end_time": 405.1,
+      "original_text": "and that becomes my decoder model.",
+      "original_language": "en",
+      "maithili_text": "आ ई हमर [TRANSLATE:decoder] मॉडल बनि जाइत अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "decoder",
+          "maithili": "[TRANSLATE:decoder]"
+        }
+      ]
+    },
+    {
+      "start_time": 406.24,
+      "end_time": 408.26,
+      "original_text": "So the same, we have a language model,",
+      "original_language": "en",
+      "maithili_text": "तँ ओही, हमरा सभ लग एकटा [TRANSLATE:language model] अछि,",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "language model",
+          "maithili": "[TRANSLATE:language model]"
+        }
+      ]
+    },
+    {
+      "start_time": 408.26,
+      "end_time": 410.74,
+      "original_text": "we have an acoustic model and we have a decoder model.",
+      "original_language": "en",
+      "maithili_text": "हमरा लग एकटा [TRANSLATE:acoustic model] अछि आ हमरा लग एकटा [TRANSLATE:decoder] मॉडल अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "acoustic model",
+          "maithili": "[TRANSLATE:acoustic model]"
+        },
+        {
+          "english": "decoder",
+          "maithili": "[TRANSLATE:decoder]"
+        }
+      ]
+    },
+    {
+      "start_time": 411.18,
+      "end_time": 413.5,
+      "original_text": "These three models is what we have been learning.",
+      "original_language": "en",
+      "maithili_text": "ई तीनू मॉडल हम सभ सीखैत रहलहुँ।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 414.14,
+      "end_time": 416.96,
+      "original_text": "The acoustic model is usually a hidden Markov model.",
+      "original_language": "en",
+      "maithili_text": "[TRANSLATE:acoustic model] सामान्यतः [TRANSLATE:hidden Markov model] होइत अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "hidden markov model",
+          "maithili": "[TRANSLATE:hidden Markov model]"
+        },
+        {
+          "english": "acoustic model",
+          "maithili": "[TRANSLATE:acoustic model]"
+        }
+      ]
+    },
+    {
+      "start_time": 417.36,
+      "end_time": 421.08,
+      "original_text": "The language model traditionally was an engram model",
+      "original_language": "en",
+      "maithili_text": "[TRANSLATE:language model] पारम्परिक रूपसँ एकटा एनग्राम मॉडल छल।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "language model",
+          "maithili": "[TRANSLATE:language model]"
+        }
+      ]
+    },
+    {
+      "start_time": 421.08,
+      "end_time": 422.52,
+      "original_text": "or a bag of words model.",
+      "original_language": "en",
+      "maithili_text": "वा शब्द मॉडलक एकटा थैला।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 423.04,
+      "end_time": 427.8,
+      "original_text": "And the decoding model could be anything from a probabilistic model",
+      "original_language": "en",
+      "maithili_text": "आ डिकोडिंग मॉडल संभावित मॉडलसँ किछु सेहो भऽ सकैत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 427.8,
+      "end_time": 429.44,
+      "original_text": "to even a lookup table.",
+      "original_language": "en",
+      "maithili_text": "एकटा लुकअप टेबल पर सेहो।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 430.12,
+      "end_time": 433.38,
+      "original_text": "So this is what we have been seeing so far.",
+      "original_language": "en",
+      "maithili_text": "एहिलेल हम एखन धरि इहो देखि रहल छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 433.66,
+      "end_time": 436.12,
+      "original_text": "But what I want to focus is like,",
+      "original_language": "en",
+      "maithili_text": "मुदा हम जे बात पर ध्यान केन्द्रित करय चाहैत छी से ई अछि जे,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 436.12,
+      "end_time": 440.18,
+      "original_text": "how do we migrate from hidden Markov models to transformers?",
+      "original_language": "en",
+      "maithili_text": "हम सभ [TRANSLATE:hidden Markov model]s सँ [TRANSLATE:transformer]s पर कोना जा सकैत छी?",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "hidden markov model",
+          "maithili": "[TRANSLATE:hidden Markov model]"
+        },
+        {
+          "english": "transformer",
+          "maithili": "[TRANSLATE:transformer]"
+        }
+      ]
+    },
+    {
+      "start_time": 441.46,
+      "end_time": 446.6,
+      "original_text": "Okay, so again, repeating one more time just to make it clear.",
+      "original_language": "en",
+      "maithili_text": "ठीक अछि, तँ फेरसँ, मात्र स्पष्ट करबाक लेल एक बेर आओर दोहराउ।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 447.16,
+      "end_time": 449.44,
+      "original_text": "When we take a transcript or a voice,",
+      "original_language": "en",
+      "maithili_text": "जखन हम कोनो प्रतिलिपि वा आवाज लैत छी,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 450.04,
+      "end_time": 452.90000000000003,
+      "original_text": "we break them into phonemes.",
+      "original_language": "en",
+      "maithili_text": "हम ओकरा [TRANSLATE:phoneme]s मे तोड़ैत छी।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "phoneme",
+          "maithili": "[TRANSLATE:phoneme]"
+        }
+      ]
+    },
+    {
+      "start_time": 453.7,
+      "end_time": 460.64,
+      "original_text": "Phonemes are the smallest component of an audio wave or a sound wave.",
+      "original_language": "en",
+      "maithili_text": "[TRANSLATE:phoneme]s ध्वनि तरंग वा ध्वनि तरंगक सबसँ छोट घटक अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "phoneme",
+          "maithili": "[TRANSLATE:phoneme]"
+        }
+      ]
+    },
+    {
+      "start_time": 461.04,
+      "end_time": 462.74,
+      "original_text": "So we break them into phonemes.",
+      "original_language": "en",
+      "maithili_text": "तेँ हम ओकरा [TRANSLATE:phoneme]s मे तोड़ैत छी।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "phoneme",
+          "maithili": "[TRANSLATE:phoneme]"
+        }
+      ]
+    },
+    {
+      "start_time": 462.82,
+      "end_time": 464.08,
+      "original_text": "Each phoneme is a state.",
+      "original_language": "en",
+      "maithili_text": "प्रत्येक [TRANSLATE:phoneme] एकटा राज्य अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "phoneme",
+          "maithili": "[TRANSLATE:phoneme]"
+        }
+      ]
+    },
+    {
+      "start_time": 464.64,
+      "end_time": 466.52,
+      "original_text": "So we take one particular phoneme.",
+      "original_language": "en",
+      "maithili_text": "तेँ हम सभ एकटा विशेष [TRANSLATE:phoneme] लैत छी।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "phoneme",
+          "maithili": "[TRANSLATE:phoneme]"
+        }
+      ]
+    },
+    {
+      "start_time": 466.86,
+      "end_time": 468.2,
+      "original_text": "We use an acoustic model.",
+      "original_language": "en",
+      "maithili_text": "हम सभ [TRANSLATE:acoustic model] क उपयोग करैत छी।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "acoustic model",
+          "maithili": "[TRANSLATE:acoustic model]"
+        }
+      ]
+    },
+    {
+      "start_time": 468.2,
+      "end_time": 472.34,
+      "original_text": "It's either a hidden Markov model or a Gaussian mixture model",
+      "original_language": "en",
+      "maithili_text": "ई या त [TRANSLATE:hidden Markov model] या [TRANSLATE:Gaussian mixture model] अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "gaussian mixture model",
+          "maithili": "[TRANSLATE:Gaussian mixture model]"
+        },
+        {
+          "english": "hidden markov model",
+          "maithili": "[TRANSLATE:hidden Markov model]"
+        }
+      ]
+    },
+    {
+      "start_time": 472.34,
+      "end_time": 474.5,
+      "original_text": "and extract features from it.",
+      "original_language": "en",
+      "maithili_text": "आ एकर विशेषता निकालू।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 474.72,
+      "end_time": 478.98,
+      "original_text": "So the output of this acoustic modeling is basically features.",
+      "original_language": "en",
+      "maithili_text": "तेँ एहि [TRANSLATE:acoustic model]ing क आउटपुट मूल रूपसँ विशेषता अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "acoustic model",
+          "maithili": "[TRANSLATE:acoustic model]"
+        }
+      ]
+    },
+    {
+      "start_time": 480.2,
+      "end_time": 483.76,
+      "original_text": "And again, traditionally, if you look at language model,",
+      "original_language": "en",
+      "maithili_text": "आर फेर सँ, पारंपरिक रूप सँ, अगर अहाँ [TRANSLATE:language model] केँ देखू,",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "language model",
+          "maithili": "[TRANSLATE:language model]"
+        }
+      ]
+    },
+    {
+      "start_time": 483.76,
+      "end_time": 488.06,
+      "original_text": "it is a huge lookup table or could be a bag of words model.",
+      "original_language": "en",
+      "maithili_text": "ई एकटा पैघ लुकअप टेबल अछि वा शब्द मॉडलक थैला भऽ सकैत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 488.24,
+      "end_time": 491.98,
+      "original_text": "Say for example, if I say 1, 2, 3,",
+      "original_language": "en",
+      "maithili_text": "उदाहरण लेल, यदि हम 1,2,3 कहैत छी,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 492.76,
+      "end_time": 495.86,
+      "original_text": "and expect what is the next token in the sentence.",
+      "original_language": "en",
+      "maithili_text": "आ अपेक्षा करू जे वाक्यमे अगिला टोकन की अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 496.0,
+      "end_time": 497.84,
+      "original_text": "As humans, we know it could be a comma.",
+      "original_language": "en",
+      "maithili_text": "मनुष्यक रूपमे हम सभ जनैत छी जे ई अल्पविराम भऽ सकैत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 498.2,
+      "end_time": 502.2,
+      "original_text": "And that is what our bag of words model will also predict,",
+      "original_language": "en",
+      "maithili_text": "आ हमर सभक बैग ऑफ वर्ड्स मॉडल सेहो यही भविष्यवाणी करत,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 502.62,
+      "end_time": 507.28,
+      "original_text": "saying that there is 54% chance that it is a comma.",
+      "original_language": "en",
+      "maithili_text": "ई कहैत जे 54 प्रतिशत संभावना अछि जे ई अल्पविराम अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 508.78,
+      "end_time": 513.54,
+      "original_text": "There is a 5% chance it is an ellipsis like dot dot dot.",
+      "original_language": "en",
+      "maithili_text": "5 प्रतिशत संभावना अछि जे ई डॉट डॉट डॉट जकाँ दीर्घवृत्ताकार अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 513.94,
+      "end_time": 515.94,
+      "original_text": "There is a 4% chance it is a full stop.",
+      "original_language": "en",
+      "maithili_text": "एकर पूर्ण विराम होयबाक 4 प्रतिशत संभावना अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 516.12,
+      "end_time": 518.6,
+      "original_text": "And there is a 4.5% chance it's an and.",
+      "original_language": "en",
+      "maithili_text": "आ 4.5% संभावना अछि जे ई एक आ अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 520.44,
+      "end_time": 525.04,
+      "original_text": "So it basically predicts the next word in the sequence.",
+      "original_language": "en",
+      "maithili_text": "तेँ ई मूल रूपसँ अनुक्रममे अगिला शब्दक भविष्यवाणी करैत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 525.5999999999999,
+      "end_time": 529.38,
+      "original_text": "And once we predict the next, take the top rank one,",
+      "original_language": "en",
+      "maithili_text": "आ एक बेर जखन हम अगिला भविष्यवाणी कऽ लैत छी तखन शीर्ष रैंक लऽ लिअ।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 529.44,
+      "end_time": 533.64,
+      "original_text": "which is comma and say, OK, it's 1, 2, 3.",
+      "original_language": "en",
+      "maithili_text": "जे अल्पविराम अछि आ कहैत अछि, ठीक अछि, ई 1,2,3 अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 534.06,
+      "end_time": 535.32,
+      "original_text": "What is the next word?",
+      "original_language": "en",
+      "maithili_text": "अगिला शब्द की अछि?",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 535.88,
+      "end_time": 538.64,
+      "original_text": "It says there is a 46% chance that it is 4",
+      "original_language": "en",
+      "maithili_text": "ई कहैत अछि जे 46 प्रतिशत संभावना अछि जे ई 4 अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 538.64,
+      "end_time": 541.38,
+      "original_text": "and 7% chance that it is and.",
+      "original_language": "en",
+      "maithili_text": "आ 7 प्रतिशत संभावना अछि जे ई आ अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 541.9,
+      "end_time": 544.06,
+      "original_text": "So that's what basically language model does.",
+      "original_language": "en",
+      "maithili_text": "एहिलेल मूल रूपसँ [TRANSLATE:language model] इहो करैत अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "language model",
+          "maithili": "[TRANSLATE:language model]"
+        }
+      ]
+    },
+    {
+      "start_time": 544.26,
+      "end_time": 545.64,
+      "original_text": "It understands the vocabulary.",
+      "original_language": "en",
+      "maithili_text": "ई शब्दावलीकेँ बुझैत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 545.88,
+      "end_time": 547.0,
+      "original_text": "It understands the grammar.",
+      "original_language": "en",
+      "maithili_text": "ई व्याकरण बुझैत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 547.44,
+      "end_time": 549.4,
+      "original_text": "And it also tries to predict the next word.",
+      "original_language": "en",
+      "maithili_text": "आ ई अगिला शब्दक भविष्यवाणी करबाक प्रयास सेहो करैत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 552.38,
+      "end_time": 556.14,
+      "original_text": "OK, so we saw these two models, right?",
+      "original_language": "en",
+      "maithili_text": "ठीक अछि, एहिलेल हम ई दूटा मॉडल देखलहुँ, सही नै?",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 556.14,
+      "end_time": 557.64,
+      "original_text": "The acoustic model and language model.",
+      "original_language": "en",
+      "maithili_text": "[TRANSLATE:acoustic model] आ [TRANSLATE:language model]।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "language model",
+          "maithili": "[TRANSLATE:language model]"
+        },
+        {
+          "english": "acoustic model",
+          "maithili": "[TRANSLATE:acoustic model]"
+        }
+      ]
+    },
+    {
+      "start_time": 557.74,
+      "end_time": 562.04,
+      "original_text": "And that is what is primarily being we are trying to convert.",
+      "original_language": "en",
+      "maithili_text": "आ ई ओ अछि जे मुख्य रूपसँ हम सभ धर्म परिवर्तन करबाक प्रयास कऽ रहल छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 562.54,
+      "end_time": 568.2,
+      "original_text": "So why is using HMM and other language model insufficient?",
+      "original_language": "en",
+      "maithili_text": "तखन एच. एम. एम. आ अन्य तकनीकक उपयोग किएक अपर्याप्त अछि?",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "language model",
+          "maithili": "[TRANSLATE:language model]"
+        }
+      ]
+    },
+    {
+      "start_time": 569.58,
+      "end_time": 571.46,
+      "original_text": "Let's focus on the acoustic model.",
+      "original_language": "en",
+      "maithili_text": "आब [TRANSLATE:acoustic model] पर ध्यान केन्द्रित करू।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "acoustic model",
+          "maithili": "[TRANSLATE:acoustic model]"
+        }
+      ]
+    },
+    {
+      "start_time": 571.72,
+      "end_time": 577.98,
+      "original_text": "The basic reason why this acoustic model cannot be an HMM or a GMM",
+      "original_language": "en",
+      "maithili_text": "मूल कारण जे ई [TRANSLATE:acoustic model] एच. एम. एम. या जी. एम. एम. नहि भऽ सकैत अछि।",
+      "translation_method": "dictionary+indictrans2_en",
+      "technical_terms_used": [
+        {
+          "english": "acoustic model",
+          "maithili": "[TRANSLATE:acoustic model]"
+        }
+      ]
+    },
+    {
+      "start_time": 577.98,
+      "end_time": 583.48,
+      "original_text": "is because of four big problems.",
+      "original_language": "en",
+      "maithili_text": "ई चारिटा पैघ समस्याक कारण अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 583.5,
+      "end_time": 588.22,
+      "original_text": "And it's really important to understand these four problems thoroughly",
+      "original_language": "en",
+      "maithili_text": "आ एहि चारिटा समस्याकेँ नीकसँ बुझब वास्तवमे महत्वपूर्ण अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 588.22,
+      "end_time": 595.0,
+      "original_text": "because in the last 10 years, they have considered one problem at a time",
+      "original_language": "en",
+      "maithili_text": "किएक तँ विगत 10 बरखमे ओ सभ एक बेरमे एकटा समस्या पर विचार कयने छथि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 595.0,
+      "end_time": 599.38,
+      "original_text": "and provided some solutions to overcome those problems",
+      "original_language": "en",
+      "maithili_text": "आ ओहि समस्यासभकेँ दूर करबाक लेल किछु समाधान देल।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 599.38,
+      "end_time": 603.0,
+      "original_text": "that we are going to see as building blocks.",
+      "original_language": "en",
+      "maithili_text": "एकरा हम सभ निर्माण खंडक रूपमे देखब।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 603.98,
+      "end_time": 606.88,
+      "original_text": "To avoid the first problem, they provided first solution.",
+      "original_language": "en",
+      "maithili_text": "पहिल समस्यासँ बचबाक लेल ओ सब पहिल समाधान देलनि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 606.88,
+      "end_time": 609.4,
+      "original_text": "Then on top of it, they give the second solution.",
+      "original_language": "en",
+      "maithili_text": "फेर ओकर ऊपर ओ दोसर समाधान दैत छथि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 609.52,
+      "end_time": 611.46,
+      "original_text": "On top of it, they give the third solution.",
+      "original_language": "en",
+      "maithili_text": "एकर ऊपर ओ दोसर समाधान दैत अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 611.9,
+      "end_time": 614.96,
+      "original_text": "So we are going to see them linearly.",
+      "original_language": "en",
+      "maithili_text": "तेँ हम सभ ओकरा रैखिक रूप सँ देखब।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 615.94,
+      "end_time": 618.14,
+      "original_text": "So let's focus on the four problems.",
+      "original_language": "en",
+      "maithili_text": "एहिलेल आइ चारि टा समस्या पर ध्यान केन्द्रित करू।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 619.5,
+      "end_time": 623.46,
+      "original_text": "Also, I'm sort of I know I'm going a little bit fast so far",
+      "original_language": "en",
+      "maithili_text": "एकर अलावा, हम एक तरह सँ जनैत छी जे हम एखन धरि किछु तेजी सँ जा रहल छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 623.46,
+      "end_time": 630.6,
+      "original_text": "because I'm assuming that we learned some of these topics already.",
+      "original_language": "en",
+      "maithili_text": "कारण जे हम मानैत छी जे हम सभ एहि मे सँ किछु विषय पहिने सँ सीखल छी।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 631.14,
+      "end_time": 633.9,
+      "original_text": "But if some of these words are new to you,",
+      "original_language": "en",
+      "maithili_text": "मुदा जँ एहि मे सँ किछु शब्द अहाँ सभक लेल नव अछि,",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 634.16,
+      "end_time": 636.12,
+      "original_text": "either stop me or ask them in the chat.",
+      "original_language": "en",
+      "maithili_text": "या तऽ हमरा रोकू या गपशप मे पूछू।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 636.12,
+      "end_time": 638.52,
+      "original_text": "I'm happy to talk a little bit more about them.",
+      "original_language": "en",
+      "maithili_text": "हमरा हुनका सभक विषयमे किछु आओर बात करबामे खुशी अछि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 640.84,
+      "end_time": 644.14,
+      "original_text": "The key challenge is with any kind of HMM model",
+      "original_language": "en",
+      "maithili_text": "मुख्य चुनौती कोनो प्रकारक एच. एम. एम. मॉडलक सङ्ग छैक।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    },
+    {
+      "start_time": 644.14,
+      "end_time": 646.88,
+      "original_text": "or the above pipeline that I said.",
+      "original_language": "en",
+      "maithili_text": "वा उपरोक्त पाइपलाइन जे हम कहलनि।",
+      "translation_method": "indictrans2_en",
+      "technical_terms_used": []
+    }
+  ]
+}
