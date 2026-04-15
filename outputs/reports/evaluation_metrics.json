@@ -1,41 +1,50 @@
 {
   "wer": {
-    "wer_english": null,
-    "wer_hindi": null,
-    "overall_wer": null,
-    "pass_english": null,
-    "pass_hindi": null,
-    "note": "Ground truth path not provided; skipped."
+    "wer_english": 0.2174,
+    "pass_english": false,
+    "wer_hindi": 0.8608,
+    "pass_hindi": false,
+    "overall_wer": 0.8479
   },
   "mcd_warped": {
-    "mcd": 663.1689,
+    "mcd": 44.9831,
     "threshold": 8.0,
     "pass": false
   },
   "mcd_flat": {
-    "mcd": 651.6079,
+    "mcd": 44.7711,
     "threshold": 8.0,
     "pass": false
   },
   "lid_switch": {
-    "num_predicted_switches": 0,
-    "predicted_switch_times_s": [],
-    "note": "No ground truth for switch accuracy evaluation."
+    "num_predicted_switches": 4,
+    "predicted_switch_times_s": [
+      36.94,
+      40.0,
+      301.32,
+      305.0
+    ],
+    "num_gt_switches": 16,
+    "mean_abs_error_ms": 108673.75,
+    "pct_within_threshold": 12.5,
+    "threshold_ms": 200.0,
+    "pass": false
   },
   "eer": {
-    "eer": null,
-    "pass": null,
-    "note": "File not found: outputs/antispoof_results.json"
+    "eer": 0.0,
+    "threshold": 0.1,
+    "pass": true
   },
   "adversarial": {
-    "snr_db": null,
-    "pass": null,
-    "note": "File not found: outputs/adversarial_results.json"
+    "snr_db": 61.47,
+    "threshold_db": 40,
+    "pass": true,
+    "min_epsilon": 0.000100095272064209
   },
   "dictionary": {
-    "count": 322,
+    "count": 511,
     "min_required": 500,
-    "pass": false
+    "pass": true
   },
   "audio_files": {
     "files": {
@@ -47,8 +56,8 @@
     "pass": true
   },
   "summary": {
-    "pass": 1,
+    "pass": 4,
     "fail": 3,
-    "skip": 4
+    "skip": 1
   }
 }

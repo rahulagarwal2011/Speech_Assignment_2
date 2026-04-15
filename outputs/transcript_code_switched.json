@@ -1,1313 +1,636 @@
 {
   "audio_source": "outputs/audio/original_segment.wav",
-  "denoised_audio": "outputs/audio/denoised_segment.wav",
+  "denoised_audio": "outputs/audio/original_segment_denoised.wav",
   "pipeline_config": {
     "denoise_method": "deepfilternet",
-    "whisper_model": "medium",
+    "whisper_model": "large-v3",
     "ngram_alpha": 0.3,
     "technical_beta": 3.0
   },
   "lid_summary": {
-    "num_segments": 0,
-    "languages": []
+    "num_segments": 1,
+    "languages": [
+      "en"
+    ]
   },
   "segments": [
     {
-      "text": "If I, if the laser pointer is visible.",
+      "text": "अब देखिए जैसे 2024 का चुनाव, अभी जो लोग सबाग हुआ, 980 मिलियन रजिस्टर्ड वोटर्स, और हर एक का फोटू है, हर एक का पुरा बायो डेटा है, इतना बड़ा डेटा,",
       "start_time": 0.0,
-      "end_time": 7.82,
-      "language": "en",
-      "confidence": -0.2291058105172463
-    },
-    {
-      "text": "Yes, we can see the laser pointer.",
-      "start_time": 8.52,
-      "end_time": 9.84,
-      "language": "en",
-      "confidence": -0.2291058105172463
-    },
-    {
-      "text": "Okay, perfect.",
-      "start_time": 10.02,
-      "end_time": 10.76,
-      "language": "en",
-      "confidence": -0.2291058105172463
-    },
-    {
-      "text": "Thank you so much Dr. Richards,",
-      "start_time": 11.4,
-      "end_time": 12.48,
-      "language": "en",
-      "confidence": -0.2291058105172463
-    },
-    {
-      "text": "very kind of you once again.",
-      "start_time": 12.58,
-      "end_time": 13.72,
-      "language": "en",
-      "confidence": -0.2291058105172463
-    },
-    {
-      "text": "And I, it's a great opportunity for me to join",
-      "start_time": 14.14,
-      "end_time": 18.62,
-      "language": "en",
-      "confidence": -0.2291058105172463
-    },
-    {
-      "text": "part of your lecture series as much as I can",
-      "start_time": 18.62,
-      "end_time": 21.48,
-      "language": "en",
-      "confidence": -0.2291058105172463
-    },
-    {
-      "text": "and share some of the things that I'm working on.",
-      "start_time": 22.0,
-      "end_time": 24.400000000000002,
-      "language": "en",
-      "confidence": -0.2291058105172463
-    },
-    {
-      "text": "And more than that, I'm super excited to be",
-      "start_time": 25.779999999999998,
-      "end_time": 29.04,
-      "language": "en",
-      "confidence": -0.2291058105172463
-    },
-    {
-      "text": "part of this class, share some of the knowledge that I have.",
-      "start_time": 29.04,
-      "end_time": 32.44,
-      "language": "en",
-      "confidence": -0.17674424715131243
-    },
-    {
-      "text": "And as in every time I try to come and share my knowledge here,",
-      "start_time": 33.22,
-      "end_time": 37.2,
-      "language": "en",
-      "confidence": -0.17674424715131243
-    },
-    {
-      "text": "the most exciting part for me is the questions",
-      "start_time": 37.68,
-      "end_time": 40.76,
-      "language": "en",
-      "confidence": -0.17674424715131243
-    },
-    {
-      "text": "that the students ask every time they ask a question.",
-      "start_time": 40.76,
-      "end_time": 44.38,
-      "language": "en",
-      "confidence": -0.17674424715131243
-    },
-    {
-      "text": "Many of the questions are new for me also.",
-      "start_time": 44.9,
-      "end_time": 47.76,
-      "language": "en",
-      "confidence": -0.17674424715131243
-    },
-    {
-      "text": "It makes me think a lot.",
-      "start_time": 47.76,
-      "end_time": 49.28,
-      "language": "en",
-      "confidence": -0.17674424715131243
-    },
-    {
-      "text": "So I'm looking forward to a lot of questions from this class.",
-      "start_time": 49.56,
-      "end_time": 53.94,
-      "language": "en",
-      "confidence": -0.17674424715131243
-    },
-    {
-      "text": "I don't have a lot of content.",
-      "start_time": 54.52,
-      "end_time": 56.64,
-      "language": "en",
-      "confidence": -0.17674424715131243
-    },
-    {
-      "text": "I also don't prepare a lot of slides.",
-      "start_time": 56.64,
-      "end_time": 58.7,
-      "language": "en",
-      "confidence": -0.08588117758433024
-    },
-    {
-      "text": "I just tend to talk a lot.",
-      "start_time": 59.44,
-      "end_time": 61.44,
-      "language": "en",
-      "confidence": -0.08588117758433024
-    },
-    {
-      "text": "So if you have any questions or any kind of additional thoughts,",
-      "start_time": 61.46,
-      "end_time": 65.4,
-      "language": "en",
-      "confidence": -0.08588117758433024
-    },
-    {
-      "text": "do not hesitate to unmute yourself and ask them.",
-      "start_time": 66.42,
-      "end_time": 69.92,
-      "language": "en",
-      "confidence": -0.08588117758433024
-    },
-    {
-      "text": "Or I also have an eye on the chat.",
-      "start_time": 70.06,
-      "end_time": 72.26,
-      "language": "en",
-      "confidence": -0.08588117758433024
-    },
-    {
-      "text": "If you want to ask any questions on the chat, I'm happy with that also.",
-      "start_time": 72.6,
-      "end_time": 75.44,
-      "language": "en",
-      "confidence": -0.08588117758433024
-    },
-    {
-      "text": "With that in mind, I will go to the next slide",
-      "start_time": 77.42,
-      "end_time": 80.88,
-      "language": "en",
-      "confidence": -0.08588117758433024
-    },
-    {
-      "text": "where I'm talking through the rough agenda",
-      "start_time": 80.88,
-      "end_time": 83.62,
-      "language": "en",
-      "confidence": -0.08588117758433024
-    },
-    {
-      "text": "that we will be going through for the next four classes.",
-      "start_time": 83.62,
-      "end_time": 86.56,
-      "language": "en",
-      "confidence": -0.08588117758433024
-    },
-    {
-      "text": "I got to know that we learned about speech recognition",
-      "start_time": 88.74000000000001,
-      "end_time": 94.74,
-      "language": "en",
-      "confidence": -0.13051794370015463
-    },
-    {
-      "text": "using hidden Markov models and other techniques.",
-      "start_time": 96.16,
-      "end_time": 98.94,
-      "language": "en",
-      "confidence": -0.13051794370015463
-    },
-    {
-      "text": "So we will be migrating from hidden Markov models",
-      "start_time": 99.38,
-      "end_time": 104.3,
-      "language": "en",
-      "confidence": -0.13051794370015463
-    },
-    {
-      "text": "and see how in the last four to five years,",
-      "start_time": 104.3,
-      "end_time": 107.92,
-      "language": "en",
-      "confidence": -0.13051794370015463
-    },
-    {
-      "text": "transformers and modern generative AI",
-      "start_time": 109.3,
-      "end_time": 111.48,
-      "language": "en",
-      "confidence": -0.13051794370015463
-    },
-    {
-      "text": "has reinvented this whole space of speech recognition.",
-      "start_time": 111.48,
-      "end_time": 117.12,
-      "language": "en",
-      "confidence": -0.11299264753187024
-    },
-    {
-      "text": "So we'll be talking about transformers,",
-      "start_time": 117.92,
-      "end_time": 120.02,
-      "language": "en",
-      "confidence": -0.11299264753187024
-    },
-    {
-      "text": "self-supervised learning,",
-      "start_time": 120.58,
-      "end_time": 121.62,
-      "language": "en",
-      "confidence": -0.11299264753187024
-    },
-    {
-      "text": "and then two of the most important topics,",
-      "start_time": 121.66,
-      "end_time": 124.26,
-      "language": "en",
-      "confidence": -0.11299264753187024
-    },
-    {
-      "text": "which is like speech to text and text to speech.",
-      "start_time": 124.52,
-      "end_time": 126.86,
-      "language": "en",
-      "confidence": -0.11299264753187024
-    },
-    {
-      "text": "And as an add-on, we will, towards the end,",
-      "start_time": 128.24,
-      "end_time": 130.68,
-      "language": "en",
-      "confidence": -0.11299264753187024
-    },
-    {
-      "text": "talk about generating speech and understanding speech is good,",
-      "start_time": 130.8,
-      "end_time": 134.32,
-      "language": "en",
-      "confidence": -0.11299264753187024
-    },
-    {
-      "text": "but music is just one level above it.",
-      "start_time": 134.48,
-      "end_time": 136.9,
-      "language": "en",
-      "confidence": -0.11299264753187024
-    },
-    {
-      "text": "How do we go about doing music generation and general audio modeling?",
-      "start_time": 136.9,
-      "end_time": 140.88,
-      "language": "en",
-      "confidence": -0.11299264753187024
-    },
-    {
-      "text": "And we'll end up with one of my favorite topics",
-      "start_time": 140.88,
-      "end_time": 143.16,
-      "language": "en",
-      "confidence": -0.10473200480143229
-    },
-    {
-      "text": "on how do we identify this whole space of speech processing",
-      "start_time": 143.16,
-      "end_time": 148.3,
-      "language": "en",
-      "confidence": -0.10473200480143229
-    },
-    {
-      "text": "using multi-agent systems.",
-      "start_time": 148.3,
-      "end_time": 150.1,
-      "language": "en",
-      "confidence": -0.10473200480143229
+      "end_time": 22.68,
+      "language": "hi",
+      "confidence": -0.08721354100611303
     },
     {
-      "text": "Let's start with a simple landscape to define some of the keywords",
-      "start_time": 152.86,
-      "end_time": 157.9,
-      "language": "en",
-      "confidence": -0.10473200480143229
-    },
-    {
-      "text": "that I will be using again and again in this whole set of lectures.",
-      "start_time": 157.9,
-      "end_time": 162.18,
-      "language": "en",
-      "confidence": -0.10473200480143229
-    },
-    {
-      "text": "The set of problems that we are going to talk about",
-      "start_time": 163.62,
-      "end_time": 166.54,
-      "language": "en",
-      "confidence": -0.10473200480143229
-    },
-    {
-      "text": "is these set of problems.",
-      "start_time": 166.54,
-      "end_time": 168.44,
-      "language": "en",
-      "confidence": -0.10473200480143229
-    },
-    {
-      "text": "There is a speaker who is speaking something,",
-      "start_time": 169.07999999999998,
-      "end_time": 171.18,
-      "language": "en",
-      "confidence": -0.0944894896613227
-    },
-    {
-      "text": "or we have an audio file.",
-      "start_time": 171.42,
-      "end_time": 172.68,
-      "language": "en",
-      "confidence": -0.0944894896613227
-    },
-    {
-      "text": "What automated speech recognition does",
-      "start_time": 173.4,
-      "end_time": 176.28,
-      "language": "en",
-      "confidence": -0.0944894896613227
-    },
-    {
-      "text": "is to take those audio files or speech",
-      "start_time": 176.28,
-      "end_time": 179.6,
-      "language": "en",
-      "confidence": -0.0944894896613227
-    },
-    {
-      "text": "and convert them into natural language text.",
-      "start_time": 179.6,
-      "end_time": 182.16,
-      "language": "en",
-      "confidence": -0.0944894896613227
-    },
-    {
-      "text": "Some of the internal problems of ASR",
-      "start_time": 182.66,
-      "end_time": 186.0,
-      "language": "en",
-      "confidence": -0.0944894896613227
-    },
-    {
-      "text": "include speech to text and speaker diarization",
-      "start_time": 186.0,
-      "end_time": 188.7,
-      "language": "en",
-      "confidence": -0.0944894896613227
-    },
-    {
-      "text": "and also speaker alignment.",
-      "start_time": 188.7,
-      "end_time": 190.86,
-      "language": "en",
-      "confidence": -0.0944894896613227
-    },
-    {
-      "text": "And then when the data is in natural language format,",
-      "start_time": 191.96,
-      "end_time": 195.72,
-      "language": "en",
-      "confidence": -0.0944894896613227
-    },
-    {
-      "text": "we get to any kind of data transformation,",
-      "start_time": 195.72,
-      "end_time": 198.32,
-      "language": "en",
-      "confidence": -0.1288817020562979
-    },
-    {
-      "text": "data cleaning, language translation,",
-      "start_time": 198.6,
-      "end_time": 200.36,
-      "language": "en",
-      "confidence": -0.1288817020562979
-    },
-    {
-      "text": "whatever you want to do on top of it.",
-      "start_time": 200.54,
-      "end_time": 202.18,
-      "language": "en",
-      "confidence": -0.1288817020562979
-    },
-    {
-      "text": "And once the data is transformed and cleaned,",
-      "start_time": 202.79999999999998,
-      "end_time": 205.68,
-      "language": "en",
-      "confidence": -0.1288817020562979
-    },
-    {
-      "text": "we then perform what is called as speech synthesis",
-      "start_time": 206.46,
-      "end_time": 209.66,
-      "language": "en",
-      "confidence": -0.1288817020562979
-    },
-    {
-      "text": "or also called as text to speech.",
-      "start_time": 210.22,
-      "end_time": 212.42,
-      "language": "en",
-      "confidence": -0.1288817020562979
-    },
-    {
-      "text": "It should be called as TTS, text to speech,",
-      "start_time": 212.9,
-      "end_time": 215.88,
-      "language": "en",
-      "confidence": -0.1288817020562979
-    },
-    {
-      "text": "where we can add tone, voice, music, whatever,",
-      "start_time": 217.06,
-      "end_time": 220.3,
-      "language": "en",
-      "confidence": -0.1288817020562979
-    },
-    {
-      "text": "and it comes back as an audio file.",
-      "start_time": 220.3,
-      "end_time": 222.24,
-      "language": "en",
-      "confidence": -0.1288817020562979
+      "text": "और ये संख्या उत्तर अमेरिका के अबादी से दो गुने से भी अधिक है, ये पूरे यूरोपी एक संख्यी कुल अबादी से जादा है, 980 मिलियन रजिस्टर्ड वोटर्स,",
+      "start_time": 24.5,
+      "end_time": 39.94,
+      "language": "hi",
+      "confidence": -0.053260809754672116
     },
     {
-      "text": "So this is the life cycle of an audio file",
-      "start_time": 222.24,
-      "end_time": 226.0,
+      "text": "980 million registered water masses, 646 million registered water masses,",
+      "start_time": 36.94,
+      "end_time": 44.94,
       "language": "en",
-      "confidence": -0.14487428665161134
+      "confidence": -0.36917837928323183
     },
     {
-      "text": "to text and back to audio file.",
-      "start_time": 226.0,
-      "end_time": 227.96,
-      "language": "en",
-      "confidence": -0.14487428665161134
-    },
-    {
-      "text": "And these are all the problems",
-      "start_time": 228.42,
-      "end_time": 229.84,
-      "language": "en",
-      "confidence": -0.14487428665161134
-    },
-    {
-      "text": "that we will be seeing in the lectures.",
-      "start_time": 229.84,
-      "end_time": 231.6,
-      "language": "en",
-      "confidence": -0.14487428665161134
-    },
-    {
-      "text": "And especially from a perspective on",
-      "start_time": 231.76,
-      "end_time": 234.6,
-      "language": "en",
-      "confidence": -0.14487428665161134
-    },
-    {
-      "text": "how generative AI models, transformers, and agents",
-      "start_time": 234.6,
-      "end_time": 237.94,
-      "language": "en",
-      "confidence": -0.14487428665161134
-    },
-    {
-      "text": "have basically reinvented this whole space.",
-      "start_time": 237.94,
-      "end_time": 240.48,
-      "language": "en",
-      "confidence": -0.14487428665161134
+      "text": "में से 646 मिलियन लोग अपने घर से भार निकल करके और मैं महिने में मेरे देश में भैंकर गर्मी होती है कुछ जगा पर 40 डिग्री टेंप्रेचर होता है उन्होंने वोट डाला और ये वोट डालने वालों के संक्या अमेरिका की कूल आबाजी से डबल है",
+      "start_time": 40.0,
+      "end_time": 63.36,
+      "language": "hi",
+      "confidence": -0.08805320161213807
     },
     {
-      "text": "So to start with, I'm going to stick into this,",
-      "start_time": 242.22,
-      "end_time": 246.14,
-      "language": "en",
-      "confidence": -0.14487428665161134
-    },
-    {
-      "text": "in this lecture for the next one hour,",
-      "start_time": 246.14,
-      "end_time": 247.94,
-      "language": "en",
-      "confidence": -0.14487428665161134
-    },
-    {
-      "text": "I'm going to stick to, just, let me just get a pen.",
-      "start_time": 247.94,
-      "end_time": 253.82,
-      "language": "en",
-      "confidence": -0.24128933696003704
-    },
-    {
-      "text": "I'm going to stick with, the pen should work,",
-      "start_time": 254.28,
-      "end_time": 258.48,
-      "language": "en",
-      "confidence": -0.24128933696003704
+      "text": "एक मिलियन से अधिक पोलिंग बूत जहाँ पर वोटिंग होता है वन मिलियन से ज़्यादा पोलिंग बूत इसमें कितने लोग लगते हैं",
+      "start_time": 65.6,
+      "end_time": 72.66,
+      "language": "hi",
+      "confidence": -0.0802447878081223
     },
     {
-      "text": "let me just check.",
-      "start_time": 258.48,
-      "end_time": 260.44,
-      "language": "en",
-      "confidence": -0.24128933696003704
+      "text": "पाँच अजार से ज़्यादा डेली अख़बार निकलते हैं ये जो डेमोक्रेसी को साथ जुड़े हुए कुछ न कुछ रोह है और हमारे हाँ कोई भी गरीब से गरीब होगा गाउं का व्यक्ति वो टेकनोरजी को बहुत तेज़िये से एडब करता है",
+      "start_time": 95.74000000000001,
+      "end_time": 113.48,
+      "language": "hi",
+      "confidence": -0.09206570851963197
     },
     {
-      "text": "",
-      "start_time": 264.28,
-      "end_time": 264.28,
-      "language": "en",
-      "confidence": -0.24128933696003704
+      "text": "एबियम मशीन से वोट देता है दुनिया के कई देशों में चुनाव के रिजल्ट महिने महिने तक आते नहीं है मेरे हाँ एक दिन में रिजल्ट आ जाता है इतने लोगों का काउंटिन हो जाता है और आपने सही कहा कि कुछ दूर दराज ख्षित्रों में पोलिंग स्टे�",
+      "start_time": 113.48,
+      "end_time": 143.45999999999998,
+      "language": "hi",
+      "confidence": -0.040029247780017256
     },
     {
-      "text": "Yeah, okay.",
-      "start_time": 269.48,
-      "end_time": 270.08,
-      "language": "en",
-      "confidence": -0.24128933696003704
+      "text": "है मेरे घुजराद में गिर फॉरेस्ट में पूलिंग उत्था है एक ही वोटर का उसके लिए पूरे यूथा गिफ्पोल में जाएगी लाइंस है कि तो हमारी हां",
+      "start_time": 143.45999999999998,
+      "end_time": 154.4,
+      "language": "hi",
+      "confidence": -0.39725131731931407
     },
     {
-      "text": "Going to speak only about automated speech recognition.",
-      "start_time": 270.38,
-      "end_time": 274.2,
-      "language": "en",
-      "confidence": -0.24128933696003704
+      "text": "कई प्रकार के",
+      "start_time": 157.78,
+      "end_time": 159.12,
+      "language": "hi",
+      "confidence": -0.17268517388237847
     },
     {
-      "text": "So let's stick to that problem for the next one hour.",
-      "start_time": 274.48,
-      "end_time": 277.18,
-      "language": "en",
-      "confidence": -0.24128933696003704
+      "text": "कोशिस रहती है",
+      "start_time": 160.48000000000002,
+      "end_time": 161.62,
+      "language": "hi",
+      "confidence": -0.17268517388237847
     },
     {
-      "text": "So just giving a perspective on",
-      "start_time": 277.18,
-      "end_time": 279.28,
-      "language": "en",
-      "confidence": -0.11718020147206831
+      "text": "कि लोकतंत्र के काम के लिए",
+      "start_time": 161.62,
+      "end_time": 163.92000000000002,
+      "language": "hi",
+      "confidence": -0.17268517388237847
     },
     {
-      "text": "what we are going to focus about.",
-      "start_time": 279.28,
-      "end_time": 281.62,
-      "language": "en",
-      "confidence": -0.11718020147206831
+      "text": "डेमोक्रेशित को स्ट्रेंदन करने के लिए",
+      "start_time": 163.92000000000002,
+      "end_time": 166.28,
+      "language": "hi",
+      "confidence": -0.17268517388237847
     },
     {
-      "text": "If you look at automated speech recognition,",
-      "start_time": 282.38,
-      "end_time": 284.14,
-      "language": "en",
-      "confidence": -0.11718020147206831
+      "text": "कितनी प्रकार से",
+      "start_time": 167.8,
+      "end_time": 169.24,
+      "language": "hi",
+      "confidence": -0.17268517388237847
     },
     {
-      "text": "in the pipeline of automated speech recognition,",
-      "start_time": 285.14,
-      "end_time": 287.6,
-      "language": "en",
-      "confidence": -0.11718020147206831
+      "text": "कोशिस की जाए",
+      "start_time": 169.24,
+      "end_time": 170.48,
+      "language": "hi",
+      "confidence": -0.17268517388237847
     },
     {
-      "text": "there are multiple models that are involved.",
-      "start_time": 287.68,
-      "end_time": 289.68,
-      "language": "en",
-      "confidence": -0.11718020147206831
+      "text": "किया जाए",
+      "start_time": 170.48,
+      "end_time": 171.14,
+      "language": "hi",
+      "confidence": -0.17268517388237847
     },
     {
-      "text": "Specifically, I want to highlight three models.",
-      "start_time": 290.52,
-      "end_time": 294.76,
-      "language": "en",
-      "confidence": -0.11718020147206831
+      "text": "और हम बद्दान के लिए",
+      "start_time": 171.14,
+      "end_time": 173.62,
+      "language": "hi",
+      "confidence": -0.17268517388237847
     },
     {
-      "text": "One is the acoustic model,",
-      "start_time": 295.0,
-      "end_time": 296.66,
-      "language": "en",
-      "confidence": -0.11718020147206831
+      "text": "पूरी विवस्था हमरी है",
+      "start_time": 173.62,
+      "end_time": 174.78,
+      "language": "hi",
+      "confidence": -0.17268517388237847
     },
     {
-      "text": "the other is called a language model,",
-      "start_time": 297.14,
-      "end_time": 298.62,
-      "language": "en",
-      "confidence": -0.11718020147206831
+      "text": "और इसलिए मैं तो कहता हूँ",
+      "start_time": 174.78,
+      "end_time": 176.54000000000002,
+      "language": "hi",
+      "confidence": -0.17268517388237847
     },
     {
-      "text": "the other is called a decoder model.",
-      "start_time": 298.76,
-      "end_time": 300.38,
-      "language": "en",
-      "confidence": -0.11718020147206831
+      "text": "कि दुनिया में भारत के एक निस्पक्ष स्वतंत्र इलेक्शन कमिशन चुनाव करवाता है, सारे निर्णें वो करता है, ये अपने आप में कितनी बड़ी ब्राइट स्टोरी है,",
+      "start_time": 176.54,
+      "end_time": 193.72,
+      "language": "hi",
+      "confidence": -0.08301874796549479
     },
     {
-      "text": "Both are basically the same image",
-      "start_time": 301.3,
-      "end_time": 304.58,
-      "language": "en",
-      "confidence": -0.11718020147206831
+      "text": "कि दुनिया की बड़ी बड़ी उनिवर्सिटी ने उसका केस्टडी करना चाहिए, इसके मेनेंज्मेंट का केस्टडी करना चाहिए, ये मोटिवेशन का इतने लोग वोट करते हैं आज, कितना बड़ा पुलिटिकली एलर्टनेस होगा, इन सारी बातों का एक बहुत बड़ा",
+      "start_time": 193.72,
+      "end_time": 223.7,
+      "language": "hi",
+      "confidence": -0.043966395060221354
     },
     {
-      "text": "in two different perspectives to understand what is happening.",
-      "start_time": 304.58,
-      "end_time": 308.48,
-      "language": "en",
-      "confidence": -0.12487998962402344
+      "text": "but there's just nothing quite as beautiful as democracy when it functions in India you know like you said 900 million people registered to vote it's it really is a case study it's beautiful to see that many people come together willingly passionately casting a vote for some person to represent them",
+      "start_time": 223.7,
+      "end_time": 248.92,
+      "language": "hi",
+      "confidence": -0.22329018910725912
     },
     {
-      "text": "If you look at the top image, there's a speech,",
-      "start_time": 309.1,
-      "end_time": 312.28,
-      "language": "en",
-      "confidence": -0.12487998962402344
+      "text": "like they're putting their heart in that it's really important for a person to feel like their voice is going to be heard it's beautiful speaking of which you are loved by a lot of people you are one of the most powerful humans in the world do you sometimes think about whether this much power has a corrupting effect on your mind especially across the many years that you've been in power",
+      "start_time": 248.92,
+      "end_time": 270.88,
+      "language": "hi",
+      "confidence": -0.0311121087015411
     },
     {
-      "text": "audio file, audio wave, whatever it is.",
-      "start_time": 312.58,
-      "end_time": 314.34,
-      "language": "en",
-      "confidence": -0.12487998962402344
+      "text": "I can't claim that I am powerful because I am a servant and I do my identity as a chief servant and I have come out with the mantra of service",
+      "start_time": 279.65999999999997,
+      "end_time": 296.16,
+      "language": "hi",
+      "confidence": -0.6317755251514668
     },
     {
-      "text": "From that, we do some kind of feature extraction.",
-      "start_time": 314.98,
-      "end_time": 317.28,
-      "language": "en",
-      "confidence": -0.12487998962402344
+      "text": "as far as power is concerned I have never bothered about power",
+      "start_time": 296.91999999999996,
+      "end_time": 303.7,
+      "language": "hi",
+      "confidence": -0.6317755251514668
     },
     {
-      "text": "The end of the feature extraction is some kind of a spectrogram",
-      "start_time": 318.26,
-      "end_time": 321.42,
+      "text": "I have never bothered about power, I never came to politics to pursue power games.",
+      "start_time": 301.32,
+      "end_time": 309.58,
       "language": "en",
-      "confidence": -0.12487998962402344
+      "confidence": -0.42901053428649905
     },
     {
-      "text": "or a substrogram like MFCC features.",
-      "start_time": 321.42,
-      "end_time": 324.7,
-      "language": "en",
-      "confidence": -0.12487998962402344
+      "text": "I never came to politics to pursue power games",
+      "start_time": 305.0,
+      "end_time": 309.6,
+      "language": "hi",
+      "confidence": -0.1769405678274551
     },
     {
-      "text": "And from those features, we build what is called as an acoustic model,",
-      "start_time": 325.34,
-      "end_time": 330.28,
-      "language": "en",
-      "confidence": -0.12487998962402344
+      "text": "और मैं तो powerful के बजाए",
+      "start_time": 310.54,
+      "end_time": 313.66,
+      "language": "hi",
+      "confidence": -0.1769405678274551
     },
     {
-      "text": "which basically understands what this audio is all about",
-      "start_time": 330.28,
-      "end_time": 335.1,
-      "language": "en",
-      "confidence": -0.15732156313382661
+      "text": "कहूंगा मैं pro-workful होने का सामर्थक हूँ",
+      "start_time": 314.8,
+      "end_time": 318.18,
+      "language": "hi",
+      "confidence": -0.1769405678274551
     },
     {
-      "text": "and we get higher order audio features.",
-      "start_time": 335.1,
-      "end_time": 339.0,
-      "language": "en",
-      "confidence": -0.15732156313382661
+      "text": "powerful नहीं हूँ pro-workful हूँ",
+      "start_time": 318.18,
+      "end_time": 321.76,
+      "language": "hi",
+      "confidence": -0.1769405678274551
     },
     {
-      "text": "Typically for this, I don't know what is happening.",
-      "start_time": 340.34,
-      "end_time": 343.96,
-      "language": "en",
-      "confidence": -0.15732156313382661
+      "text": "अब मेरा purpose हमें सास एक",
+      "start_time": 323.72,
+      "end_time": 325.74,
+      "language": "hi",
+      "confidence": -0.1769405678274551
     },
     {
-      "text": "Typically for the acoustic model,",
-      "start_time": 344.6,
-      "end_time": 346.2,
-      "language": "en",
-      "confidence": -0.15732156313382661
+      "text": "लोगों के सेवा करने का रहा है",
+      "start_time": 325.74,
+      "end_time": 328.04,
+      "language": "hi",
+      "confidence": -0.1769405678274551
     },
     {
-      "text": "that is where we either use Gaussian mixture model GMMs",
-      "start_time": 346.32,
-      "end_time": 351.08,
-      "language": "en",
-      "confidence": -0.15732156313382661
+      "text": "उनके जीवन में कुछ भी positive योगदान कर सकता हूँ",
+      "start_time": 328.04,
+      "end_time": 331.52,
+      "language": "hi",
+      "confidence": -0.1769405678274551
     },
     {
-      "text": "or hidden Markov models,",
-      "start_time": 351.08,
-      "end_time": 352.84,
-      "language": "en",
-      "confidence": -0.15732156313382661
+      "text": "तो करने का रहा है मेरा",
+      "start_time": 331.52,
+      "end_time": 332.88,
+      "language": "hi",
+      "confidence": -0.1769405678274551
     },
     {
-      "text": "which is a special case of Gaussian mixture model.",
-      "start_time": 352.88,
-      "end_time": 355.26,
-      "language": "en",
-      "confidence": -0.15732156313382661
+      "text": "देखिए मैं अकेलापन कभी महसूस नहीं करता हूँ",
+      "start_time": 349.28,
+      "end_time": 352.86,
+      "language": "hi",
+      "confidence": -0.14756999566004828
     },
     {
-      "text": "So that is what we have seen so far,",
-      "start_time": 356.21999999999997,
-      "end_time": 359.14,
-      "language": "en",
-      "confidence": -0.08645622780982484
+      "text": "इस लिए क्यों मैं हमेशा मानता हूँ",
+      "start_time": 355.5,
+      "end_time": 358.02,
+      "language": "hi",
+      "confidence": -0.14756999566004828
     },
     {
-      "text": "that how we can use HMM for building this acoustic model.",
-      "start_time": 359.34,
-      "end_time": 365.66,
-      "language": "en",
-      "confidence": -0.08645622780982484
+      "text": "वन प्लस वन की थियरी को",
+      "start_time": 359.2,
+      "end_time": 361.28,
+      "language": "hi",
+      "confidence": -0.14756999566004828
     },
     {
-      "text": "And then we build a language model.",
-      "start_time": 366.38,
-      "end_time": 368.66,
-      "language": "en",
-      "confidence": -0.08645622780982484
+      "text": "और जब वन प्लस वन की मेरी थियरी है",
+      "start_time": 363.5,
+      "end_time": 365.94,
+      "language": "hi",
+      "confidence": -0.0903469000922309
     },
     {
-      "text": "Language model basically understands the underlying language itself.",
-      "start_time": 369.56,
-      "end_time": 372.6,
-      "language": "en",
-      "confidence": -0.08645622780982484
+      "text": "वो मेरा सात्विक समर्थन करती है",
+      "start_time": 365.94,
+      "end_time": 373.86,
+      "language": "hi",
+      "confidence": -0.0903469000922309
     },
     {
-      "text": "Say for example, if I'm speaking in English,",
-      "start_time": 372.64,
-      "end_time": 375.68,
-      "language": "en",
-      "confidence": -0.08645622780982484
+      "text": "और ये वन प्लस वन कोई भी पुछे को वन प्लस वन कौन है",
+      "start_time": 374.56,
+      "end_time": 377.9,
+      "language": "hi",
+      "confidence": -0.0903469000922309
     },
     {
-      "text": "understanding my voice is one part,",
-      "start_time": 376.48,
-      "end_time": 378.72,
-      "language": "en",
-      "confidence": -0.08645622780982484
+      "text": "तो मैं कहता हूँ पहला वन जो है वो मोदी है",
+      "start_time": 377.9,
+      "end_time": 381.96,
+      "language": "hi",
+      "confidence": -0.0903469000922309
     },
     {
-      "text": "but understanding English itself is another part.",
-      "start_time": 379.22,
-      "end_time": 382.1,
-      "language": "en",
-      "confidence": -0.08645622780982484
+      "text": "और प्लस वन है वो इश्वर है",
+      "start_time": 382.54,
+      "end_time": 385.52,
+      "language": "hi",
+      "confidence": -0.0903469000922309
     },
     {
-      "text": "English also has a lot of grammar in it.",
-      "start_time": 382.42,
-      "end_time": 384.58,
-      "language": "en",
-      "confidence": -0.08645622780982484
+      "text": "मैं अकेला कभी नहीं होता हूँ",
+      "start_time": 386.16,
+      "end_time": 387.96,
+      "language": "hi",
+      "confidence": -0.0903469000922309
     },
     {
-      "text": "So if we understand the English language and the grammar behind it,",
-      "start_time": 384.58,
-      "end_time": 389.6,
-      "language": "en",
-      "confidence": -0.09750872566586449
+      "text": "वो हमेशा मेरे साथ होता है",
+      "start_time": 387.96,
+      "end_time": 390.48,
+      "language": "hi",
+      "confidence": -0.21549397298734482
     },
     {
-      "text": "understanding what I'm speaking is going to be much more easier.",
-      "start_time": 389.6,
-      "end_time": 392.44,
-      "language": "en",
-      "confidence": -0.09750872566586449
+      "text": "तो मैं हमेशा उस भाव से",
+      "start_time": 390.48,
+      "end_time": 393.08,
+      "language": "hi",
+      "confidence": -0.21549397298734482
     },
     {
-      "text": "So that becomes my second model.",
+      "text": "और मैं",
       "start_time": 393.08,
-      "end_time": 395.18,
-      "language": "en",
-      "confidence": -0.09750872566586449
+      "end_time": 393.9,
+      "language": "hi",
+      "confidence": -0.21549397298734482
     },
     {
-      "text": "And my third model is like, okay, I understand the language,",
-      "start_time": 395.68,
-      "end_time": 399.08,
-      "language": "en",
-      "confidence": -0.09750872566586449
+      "text": "मैं जैसा कहा",
+      "start_time": 393.9,
+      "end_time": 396.22,
+      "language": "hi",
+      "confidence": -0.21549397298734482
     },
     {
-      "text": "I understand your voice.",
-      "start_time": 399.12,
-      "end_time": 400.18,
-      "language": "en",
-      "confidence": -0.09750872566586449
+      "text": "मैंने विवेकानजी के सिद्धन तोको जो जीया था",
+      "start_time": 396.22,
+      "end_time": 399.5,
+      "language": "hi",
+      "confidence": -0.21549397298734482
     },
     {
-      "text": "Now I exactly want to transcribe what you are saying",
-      "start_time": 400.58,
-      "end_time": 403.16,
-      "language": "en",
-      "confidence": -0.09750872566586449
+      "text": "की",
+      "start_time": 401.94,
+      "end_time": 402.65999999999997,
+      "language": "hi",
+      "confidence": -0.21549397298734482
     },
     {
-      "text": "and that becomes my decoder model.",
-      "start_time": 403.16,
-      "end_time": 405.1,
-      "language": "en",
-      "confidence": -0.09750872566586449
+      "text": "नर सेवा ही",
+      "start_time": 404.32,
+      "end_time": 405.56,
+      "language": "hi",
+      "confidence": -0.21549397298734482
     },
     {
-      "text": "So the same, we have a language model,",
-      "start_time": 406.24,
-      "end_time": 408.26,
-      "language": "en",
-      "confidence": -0.09750872566586449
+      "text": "नारायन सेवा है",
+      "start_time": 405.56,
+      "end_time": 406.65999999999997,
+      "language": "hi",
+      "confidence": -0.21549397298734482
     },
     {
-      "text": "we have an acoustic model and we have a decoder model.",
-      "start_time": 408.26,
-      "end_time": 410.74,
-      "language": "en",
-      "confidence": -0.09750872566586449
+      "text": "मेरे लिए देशी देव है",
+      "start_time": 407.94,
+      "end_time": 410.02,
+      "language": "hi",
+      "confidence": -0.21549397298734482
     },
     {
-      "text": "These three models is what we have been learning.",
-      "start_time": 411.18,
-      "end_time": 413.5,
-      "language": "en",
-      "confidence": -0.09750872566586449
+      "text": "नर ही नारायन है",
+      "start_time": 411.08,
+      "end_time": 412.72,
+      "language": "hi",
+      "confidence": -0.21549397298734482
     },
     {
-      "text": "The acoustic model is usually a hidden Markov model.",
-      "start_time": 414.14,
-      "end_time": 416.96,
-      "language": "en",
-      "confidence": -0.10772897759262397
+      "text": "तो",
+      "start_time": 414.3,
+      "end_time": 415.02,
+      "language": "hi",
+      "confidence": -0.21549397298734482
     },
     {
-      "text": "The language model traditionally was an engram model",
-      "start_time": 417.36,
-      "end_time": 421.08,
-      "language": "en",
-      "confidence": -0.10772897759262397
+      "text": "जन सेवा ही प्रभु सेवा",
+      "start_time": 415.02,
+      "end_time": 417.64,
+      "language": "hi",
+      "confidence": -0.21549397298734482
     },
     {
-      "text": "or a bag of words model.",
-      "start_time": 421.08,
-      "end_time": 422.52,
-      "language": "en",
-      "confidence": -0.10772897759262397
+      "text": "इस भाव को लेकर कि मैं चला हूँ और इसलिए मुझे उस प्रकार से अकेला पौन वगैरे इसका मैनेज करने का कोई प्रसंग आया नहीं, अब जैसे कोवीड के समय,",
+      "start_time": 417.64,
+      "end_time": 432.9,
+      "language": "hi",
+      "confidence": -0.14031260354178293
     },
     {
-      "text": "And the decoding model could be anything from a probabilistic model",
-      "start_time": 423.04,
-      "end_time": 427.8,
-      "language": "en",
-      "confidence": -0.10772897759262397
+      "text": "सारे बंदन लगे हुए थे, ट्राबिलिंग बंद था, तो समय का कैसे उप्योग करना, लोगडाउन था,",
+      "start_time": 439.76,
+      "end_time": 449.7,
+      "language": "hi",
+      "confidence": -0.13015877573113693
     },
     {
-      "text": "to even a lookup table.",
-      "start_time": 427.8,
-      "end_time": 429.44,
-      "language": "en",
-      "confidence": -0.10772897759262397
+      "text": "तो मैंने क्या किया, गवर्णन्स को वीडियो कांफरंस के द्वारा मोडल डेवलप कर दिया,",
+      "start_time": 451.06,
+      "end_time": 457.56,
+      "language": "hi",
+      "confidence": -0.13015877573113693
     },
     {
-      "text": "So this is what we have been seeing so far.",
-      "start_time": 430.12,
-      "end_time": 433.38,
-      "language": "en",
-      "confidence": -0.10772897759262397
+      "text": "और वर्क फॉर्म होम और मिटिंग वरिजित,",
+      "start_time": 458.5,
+      "end_time": 462.88,
+      "language": "hi",
+      "confidence": -0.13015877573113693
     },
     {
-      "text": "But what I want to focus is like,",
-      "start_time": 433.66,
-      "end_time": 436.12,
-      "language": "en",
-      "confidence": -0.10772897759262397
+      "text": "विचुली करना शुरू कर दिया, मैं अपने आपको बीजी रखता था,",
+      "start_time": 462.9,
+      "end_time": 465.52,
+      "language": "hi",
+      "confidence": -0.09270254913466928
     },
     {
-      "text": "how do we migrate from hidden Markov models to transformers?",
-      "start_time": 436.12,
-      "end_time": 440.18,
-      "language": "en",
-      "confidence": -0.10772897759262397
+      "text": "दूसरा, मैंने ताई किया, कि जिन लोगों के साथ मैंने जीवन भर काम करता रहा हूँ,",
+      "start_time": 467.17999999999995,
+      "end_time": 471.94,
+      "language": "hi",
+      "confidence": -0.09270254913466928
     },
     {
-      "text": "Okay, so again, repeating one more time just to make it clear.",
-      "start_time": 441.46,
-      "end_time": 446.6,
-      "language": "en",
-      "confidence": -0.13374996185302734
+      "text": "पुरे देश में मेरे कारकरता है, उसमें जो 70 प्लस के लोग है,",
+      "start_time": 472.7,
+      "end_time": 477.86,
+      "language": "hi",
+      "confidence": -0.09270254913466928
     },
     {
-      "text": "When we take a transcript or a voice,",
-      "start_time": 447.16,
-      "end_time": 449.44,
-      "language": "en",
-      "confidence": -0.13374996185302734
+      "text": "उनको याद करकर करके, कोविड के समय में, छोटे से छोटे कारकरताओं को भी,",
+      "start_time": 479.28,
+      "end_time": 485.2,
+      "language": "hi",
+      "confidence": -0.10364531615389837
     },
     {
-      "text": "we break them into phonemes.",
-      "start_time": 450.04,
-      "end_time": 452.90000000000003,
-      "language": "en",
-      "confidence": -0.13374996185302734
+      "text": "आने फैमिली बैग्राउंड बहुत सामान्य होगा, ऐसे भी,",
+      "start_time": 485.86,
+      "end_time": 488.58000000000004,
+      "language": "hi",
+      "confidence": -0.10364531615389837
     },
     {
-      "text": "Phonemes are the smallest component of an audio wave or a sound wave.",
-      "start_time": 453.7,
-      "end_time": 460.64,
-      "language": "en",
-      "confidence": -0.13374996185302734
+      "text": "70 प्लस हैं, उन सब को मैं फोन करता था, और उनको मैं कोविड के समय में,",
+      "start_time": 489.26,
+      "end_time": 494.65999999999997,
+      "language": "hi",
+      "confidence": -0.10364531615389837
     },
     {
-      "text": "So we break them into phonemes.",
-      "start_time": 461.04,
-      "end_time": 462.74,
-      "language": "en",
-      "confidence": -0.13374996185302734
+      "text": "उनकी तब्बे ठीक है क्या, उनके परिवार की तब्बे ठीक है क्या,",
+      "start_time": 494.65999999999997,
+      "end_time": 498.96000000000004,
+      "language": "hi",
+      "confidence": -0.13756333765962198
     },
     {
-      "text": "Each phoneme is a state.",
-      "start_time": 462.82,
-      "end_time": 464.08,
-      "language": "en",
-      "confidence": -0.13374996185302734
+      "text": "उनके आशपास के इलियाक में व्यवस्ता कैसी चल रही है,",
+      "start_time": 499.56,
+      "end_time": 502.03999999999996,
+      "language": "hi",
+      "confidence": -0.13756333765962198
     },
     {
-      "text": "So we take one particular phoneme.",
-      "start_time": 464.64,
-      "end_time": 466.52,
-      "language": "en",
-      "confidence": -0.13374996185302734
+      "text": "ये सारी बातें मैं उनके साथ कर लेता था,",
+      "start_time": 502.24,
+      "end_time": 505.41999999999996,
+      "language": "hi",
+      "confidence": -0.13756333765962198
     },
     {
-      "text": "We use an acoustic model.",
-      "start_time": 466.86,
-      "end_time": 468.2,
-      "language": "en",
-      "confidence": -0.13374996185302734
+      "text": "तो मैं भी एक प्रकार से उनसे जूड जाता था, पुरान यादा ताजा हो जाती थी,",
+      "start_time": 505.94,
+      "end_time": 510.53999999999996,
+      "language": "hi",
+      "confidence": -0.13756333765962198
     },
     {
-      "text": "It's either a hidden Markov model or a Gaussian mixture model",
-      "start_time": 468.2,
-      "end_time": 472.34,
-      "language": "en",
-      "confidence": -0.1118247465653853
+      "text": "दर्मान करता रहा तो मुझे एक खुद को भी पुराने पुराने लोगों से बाते करने का आनंद मिलता था तो ये अकेलापन नहीं था मेरी व्यस्तता के तरीके में ढूनता रहता हूँ और मैं खुद से बातचीत करने के लिए बहुत अभ्यास हूँ मेरा हिमालाइन लाइ�",
+      "start_time": 524.66,
+      "end_time": 553.04,
+      "language": "hi",
+      "confidence": -0.08133923000759549
     },
     {
-      "text": "and extract features from it.",
-      "start_time": 472.34,
-      "end_time": 474.5,
-      "language": "en",
-      "confidence": -0.1118247465653853
+      "text": "परीडियो लगता है वह एक जरूरा चुकने किसी भी षल्प कर लेने, प्रोशनल आरोह Tribhupad transfers",
+      "start_time": 553.04,
+      "end_time": 564.8399999999999,
+      "language": "hi",
+      "confidence": -1.3662667723514574
     },
     {
-      "text": "So the output of this acoustic modeling is basically features.",
-      "start_time": 474.72,
-      "end_time": 478.98,
-      "language": "en",
-      "confidence": -0.1118247465653853
+      "text": "मैं एक तुम मैं यह नहीं मनता कि मैं ये काम करता था",
+      "start_time": 565.66,
+      "end_time": 569.38,
+      "language": "hi",
+      "confidence": -1.3662667723514574
     },
     {
-      "text": "And again, traditionally, if you look at language model,",
-      "start_time": 480.2,
-      "end_time": 483.76,
-      "language": "en",
-      "confidence": -0.1118247465653853
+      "text": "मैं अपॉटिश्पी लोगों को लिखता हूँ",
+      "start_time": 569.38,
+      "end_time": 572.16,
+      "language": "hi",
+      "confidence": -1.3662667723514574
     },
     {
-      "text": "it is a huge lookup table or could be a bag of words model.",
-      "start_time": 483.76,
-      "end_time": 488.06,
-      "language": "en",
-      "confidence": -0.1118247465653853
+      "text": "और मैं हमेशा सोचता हूँ",
+      "start_time": 572.1600000000001,
+      "end_time": 573.88,
+      "language": "hi",
+      "confidence": -0.19360712687174478
     },
     {
-      "text": "Say for example, if I say 1, 2, 3,",
-      "start_time": 488.24,
-      "end_time": 491.98,
-      "language": "en",
-      "confidence": -0.1118247465653853
+      "text": "ये मेरे से ज्यादा काम करते हैं",
+      "start_time": 573.88,
+      "end_time": 575.38,
+      "language": "hi",
+      "confidence": -0.19360712687174478
     },
     {
-      "text": "and expect what is the next token in the sentence.",
-      "start_time": 492.76,
-      "end_time": 495.86,
-      "language": "en",
-      "confidence": -0.1118247465653853
+      "text": "मैं जब किसानका समारन करता हूँ",
+      "start_time": 575.98,
+      "end_time": 578.04,
+      "language": "hi",
+      "confidence": -0.19360712687174478
     },
     {
-      "text": "As humans, we know it could be a comma.",
-      "start_time": 496.0,
-      "end_time": 497.84,
-      "language": "en",
-      "confidence": -0.1118247465653853
+      "text": "मुझे लगता है किसान कितनी महनत करता है",
+      "start_time": 578.04,
+      "end_time": 579.98,
+      "language": "hi",
+      "confidence": -0.19360712687174478
     },
     {
-      "text": "And that is what our bag of words model will also predict,",
-      "start_time": 498.2,
-      "end_time": 502.2,
-      "language": "en",
-      "confidence": -0.1195676000494706
+      "text": "खुले आस्मान के नीचे कितना प्रसिना बहाता है",
+      "start_time": 580.56,
+      "end_time": 583.1600000000001,
+      "language": "hi",
+      "confidence": -0.19360712687174478
     },
     {
-      "text": "saying that there is 54% chance that it is a comma.",
-      "start_time": 502.62,
-      "end_time": 507.28,
-      "language": "en",
-      "confidence": -0.1195676000494706
+      "text": "मैं मेरे देश के ज़वान को देखता हूँ",
+      "start_time": 583.1600000000001,
+      "end_time": 586.1800000000001,
+      "language": "hi",
+      "confidence": -0.19360712687174478
     },
     {
-      "text": "There is a 5% chance it is an ellipsis like dot dot dot.",
-      "start_time": 508.78,
-      "end_time": 513.54,
-      "language": "en",
-      "confidence": -0.1195676000494706
+      "text": "तो मुझे एविचार आता है कितनी घंटे तक कोई बर्फ में,",
+      "start_time": 586.26,
+      "end_time": 589.76,
+      "language": "hi",
+      "confidence": -0.14153179592556422
     },
     {
-      "text": "There is a 4% chance it is a full stop.",
-      "start_time": 513.94,
-      "end_time": 515.94,
-      "language": "en",
-      "confidence": -0.1195676000494706
+      "text": "कोई रेगिस्तान में, कोई पानी में दिन दात काम कर रहा है।",
+      "start_time": 589.86,
+      "end_time": 593.9,
+      "language": "hi",
+      "confidence": -0.14153179592556422
     },
     {
-      "text": "And there is a 4.5% chance it's an and.",
-      "start_time": 516.12,
-      "end_time": 518.6,
-      "language": "en",
-      "confidence": -0.1195676000494706
+      "text": "मैं किसी मज़दूर को देखता हूँ,",
+      "start_time": 594.52,
+      "end_time": 596.0799999999999,
+      "language": "hi",
+      "confidence": -0.14153179592556422
     },
     {
-      "text": "So it basically predicts the next word in the sequence.",
-      "start_time": 520.44,
-      "end_time": 525.04,
-      "language": "en",
-      "confidence": -0.1195676000494706
+      "text": "तो मुझे लगता है कितनी महनत कर रहा है।",
+      "start_time": 596.12,
+      "end_time": 598.4,
+      "language": "hi",
+      "confidence": -0.14153179592556422
     },
     {
-      "text": "And once we predict the next, take the top rank one,",
-      "start_time": 525.5999999999999,
-      "end_time": 529.38,
-      "language": "en",
-      "confidence": -0.16421052841913134
+      "text": "याने मैं हमेशा सोचता हूँ कि हर परिवार में",
+      "start_time": 598.4,
+      "end_time": 616.24,
+      "language": "hi",
+      "confidence": -0.14153179592556422
     },
     {
-      "text": "which is comma and say, OK, it's 1, 2, 3.",
-      "start_time": 529.44,
-      "end_time": 533.64,
-      "language": "en",
-      "confidence": -0.16421052841913134
+      "text": "ना तो कभी शमाल ले तो सेसे मैं सोचता हूं तो मुझे लगता है रे",
+      "start_time": 616.24,
+      "end_time": 620.52,
+      "language": "hi",
+      "confidence": -0.18835501776801214
     },
     {
-      "text": "What is the next word?",
-      "start_time": 534.06,
-      "end_time": 535.32,
-      "language": "en",
-      "confidence": -0.16421052841913134
+      "text": "लोग कितना काम करते हैं मैं कैसे सो सकता हूं मैं कैसे आराम कर सकता हूं",
+      "start_time": 620.52,
+      "end_time": 626.9,
+      "language": "hi",
+      "confidence": -0.18835501776801214
     },
     {
-      "text": "It says there is a 46% chance that it is 4",
-      "start_time": 535.88,
-      "end_time": 538.64,
-      "language": "en",
-      "confidence": -0.16421052841913134
+      "text": "तो मुझे स्वाभाविक मॉटिवेशन मेरी आट के सामने जो चीजे है वो ही मुझे",
+      "start_time": 627.48,
+      "end_time": 646.22,
+      "language": "hi",
+      "confidence": -0.18835501776801214
     },
     {
-      "text": "and 7% chance that it is and.",
-      "start_time": 538.64,
-      "end_time": 541.38,
-      "language": "en",
-      "confidence": -0.16421052841913134
+      "text": "पर मौज मस्ती करने के लिए नहीं आया",
+      "start_time": 646.22,
+      "end_time": 649.06,
+      "language": "hi",
+      "confidence": -0.2279221310335047
     },
     {
-      "text": "So that's what basically language model does.",
-      "start_time": 541.9,
-      "end_time": 544.06,
-      "language": "en",
-      "confidence": -0.16421052841913134
-    },
-    {
-      "text": "It understands the vocabulary.",
-      "start_time": 544.26,
-      "end_time": 545.64,
-      "language": "en",
-      "confidence": -0.16421052841913134
-    },
-    {
-      "text": "It understands the grammar.",
-      "start_time": 545.88,
-      "end_time": 547.0,
-      "language": "en",
-      "confidence": -0.16421052841913134
-    },
-    {
-      "text": "And it also tries to predict the next word.",
-      "start_time": 547.44,
-      "end_time": 549.4,
-      "language": "en",
-      "confidence": -0.16421052841913134
-    },
-    {
-      "text": "OK, so we saw these two models, right?",
-      "start_time": 552.38,
-      "end_time": 556.14,
-      "language": "en",
-      "confidence": -0.14809516624168115
-    },
-    {
-      "text": "The acoustic model and language model.",
-      "start_time": 556.14,
-      "end_time": 557.64,
-      "language": "en",
-      "confidence": -0.14809516624168115
-    },
-    {
-      "text": "And that is what is primarily being we are trying to convert.",
-      "start_time": 557.74,
-      "end_time": 562.04,
-      "language": "en",
-      "confidence": -0.14809516624168115
-    },
-    {
-      "text": "So why is using HMM and other language model insufficient?",
-      "start_time": 562.54,
-      "end_time": 568.2,
-      "language": "en",
-      "confidence": -0.14809516624168115
-    },
-    {
-      "text": "Let's focus on the acoustic model.",
-      "start_time": 569.58,
-      "end_time": 571.46,
-      "language": "en",
-      "confidence": -0.14809516624168115
-    },
-    {
-      "text": "The basic reason why this acoustic model cannot be an HMM or a GMM",
-      "start_time": 571.72,
-      "end_time": 577.98,
-      "language": "en",
-      "confidence": -0.14809516624168115
-    },
-    {
-      "text": "is because of four big problems.",
-      "start_time": 577.98,
-      "end_time": 583.48,
-      "language": "en",
-      "confidence": -0.10514743704544871
-    },
-    {
-      "text": "And it's really important to understand these four problems thoroughly",
-      "start_time": 583.5,
-      "end_time": 588.22,
-      "language": "en",
-      "confidence": -0.10514743704544871
-    },
-    {
-      "text": "because in the last 10 years, they have considered one problem at a time",
-      "start_time": 588.22,
-      "end_time": 595.0,
-      "language": "en",
-      "confidence": -0.10514743704544871
-    },
-    {
-      "text": "and provided some solutions to overcome those problems",
-      "start_time": 595.0,
-      "end_time": 599.38,
-      "language": "en",
-      "confidence": -0.10514743704544871
-    },
-    {
-      "text": "that we are going to see as building blocks.",
-      "start_time": 599.38,
-      "end_time": 603.0,
-      "language": "en",
-      "confidence": -0.10514743704544871
-    },
-    {
-      "text": "To avoid the first problem, they provided first solution.",
-      "start_time": 603.98,
-      "end_time": 606.88,
-      "language": "en",
-      "confidence": -0.10514743704544871
-    },
-    {
-      "text": "Then on top of it, they give the second solution.",
-      "start_time": 606.88,
-      "end_time": 609.4,
-      "language": "en",
-      "confidence": -0.11980951482599432
-    },
-    {
-      "text": "On top of it, they give the third solution.",
-      "start_time": 609.52,
-      "end_time": 611.46,
-      "language": "en",
-      "confidence": -0.11980951482599432
-    },
-    {
-      "text": "So we are going to see them linearly.",
-      "start_time": 611.9,
-      "end_time": 614.96,
-      "language": "en",
-      "confidence": -0.11980951482599432
-    },
-    {
-      "text": "So let's focus on the four problems.",
-      "start_time": 615.94,
-      "end_time": 618.14,
-      "language": "en",
-      "confidence": -0.11980951482599432
-    },
-    {
-      "text": "Also, I'm sort of I know I'm going a little bit fast so far",
-      "start_time": 619.5,
-      "end_time": 623.46,
-      "language": "en",
-      "confidence": -0.11980951482599432
-    },
-    {
-      "text": "because I'm assuming that we learned some of these topics already.",
-      "start_time": 623.46,
-      "end_time": 630.6,
-      "language": "en",
-      "confidence": -0.11980951482599432
-    },
-    {
-      "text": "But if some of these words are new to you,",
-      "start_time": 631.14,
-      "end_time": 633.9,
-      "language": "en",
-      "confidence": -0.11980951482599432
-    },
-    {
-      "text": "either stop me or ask them in the chat.",
-      "start_time": 634.16,
-      "end_time": 636.12,
-      "language": "en",
-      "confidence": -0.11980951482599432
-    },
-    {
-      "text": "I'm happy to talk a little bit more about them.",
-      "start_time": 636.12,
-      "end_time": 638.52,
-      "language": "en",
-      "confidence": -0.22315725527311625
-    },
-    {
-      "text": "The key challenge is with any kind of HMM model",
-      "start_time": 640.84,
-      "end_time": 644.14,
-      "language": "en",
-      "confidence": -0.22315725527311625
-    },
-    {
-      "text": "or the above pipeline that I said.",
-      "start_time": 644.14,
-      "end_time": 646.88,
-      "language": "en",
-      "confidence": -0.22315725527311625
+      "text": "मेरी तरब से मैं पुरा प्राप्ति",
+      "start_time": 650.56,
+      "end_time": 651.98,
+      "language": "hi",
+      "confidence": -0.2279221310335047
     }
   ],
-  "num_segments": 185,
-  "total_duration": 646.88
+  "num_segments": 88,
+  "total_duration": 651.98
 }

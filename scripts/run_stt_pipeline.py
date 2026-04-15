@@ -44,7 +44,7 @@ def stage_denoise(
 
     out_path = Path(output_dir) / "audio"
     out_path.mkdir(parents=True, exist_ok=True)
-    denoised_path = str(out_path / "denoised_segment.wav")
+    denoised_path = str(out_path / "original_segment_denoised.wav")
 
     logger.info(f"[Stage 1] Denoising: {audio_path} -> {denoised_path} (method={method})")
     denoise(audio_path, denoised_path, method=method)
@@ -322,8 +322,23 @@ def run_stt_pipeline(
 
     lid_segments = stage_lid(denoised_path, model_path=lid_model_path, device=device)
 
+    # If LID produced very few segments for a long audio, the model likely
+    # classified everything as one language. Fall back to chunked Whisper
+    # language detection which handles code-switching better.
+    use_lid = True
+    if lid_segments:
+        total_duration = max((s.get("end_time", 0) for s in lid_segments), default=0)
+        unique_langs = set(s.get("language", "") for s in lid_segments)
+        if total_duration > 60 and len(unique_langs) <= 1:
+            logger.warning(
+                "LID produced only %d segment(s) with 1 language for %.0fs audio — "
+                "falling back to chunked Whisper language detection for code-switching",
+                len(lid_segments), total_duration,
+            )
+            use_lid = False
+
     if not lid_segments:
-        logger.info("No trained LID model — transcribing full audio without segmentation")
+        logger.info("No trained LID model — using chunked Whisper language detection")
 
     lid_output_path = out_dir / "lid_segments.json"
     with open(lid_output_path, "w", encoding="utf-8") as f:
@@ -332,7 +347,7 @@ def run_stt_pipeline(
 
     transcript_segments = stage_transcribe(
         audio_path=denoised_path,
-        language_segments=lid_segments if lid_segments else None,
+        language_segments=lid_segments if (lid_segments and use_lid) else None,
         ngram_lm_path=ngram_lm_path,
         technical_vocab_path=technical_vocab_path,
         model_name=whisper_model,
@@ -341,7 +356,10 @@ def run_stt_pipeline(
         device=device,
     )
 
-    final_segments = merge_lid_and_transcript(lid_segments, transcript_segments)
+    final_segments = merge_lid_and_transcript(
+        lid_segments if use_lid else [],
+        transcript_segments,
+    )
 
     wer_metrics = compute_wer_if_available(final_segments, ground_truth_path)
 

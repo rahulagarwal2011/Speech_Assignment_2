@@ -130,7 +130,7 @@ def step_prepare_antispoof(config_path: str) -> Dict:
 
 
 def step_stt(config_path: str) -> Dict:
-    """Part I — Denoise + LID + Constrained Whisper Decoding."""
+    """Part I — Denoise + LID bootstrap/train + Constrained Whisper Decoding."""
     from scripts.run_stt_pipeline import run_stt_pipeline
 
     audio_path = os.environ.get("LECTURE_AUDIO_PATH", "outputs/audio/original_segment.wav")
@@ -139,11 +139,44 @@ def step_stt(config_path: str) -> Dict:
             f"Lecture audio not found at {audio_path}. "
             "Place a 10-minute lecture WAV there before running this step."
         )
-    # Whisper uses float64 internally which MPS doesn't support — force CPU
     device = os.environ.get("TORCH_DEVICE", "").strip() or None
     if device == "mps" or (device is None and _is_mps_available()):
         logger.info("  Forcing CPU for Whisper (MPS lacks float64 support)")
         device = "cpu"
+
+    lid_model_path = "models/lid/best_model.pt"
+    if not Path(lid_model_path).exists():
+        logger.info("  LID model not found — bootstrapping and training...")
+        try:
+            from scripts.prepare_lid_data import bootstrap_lid_from_lecture, \
+                compute_log_mel_spectrogram, split_data, save_jsonl
+            from pathlib import Path as P
+
+            lid_out = P("data/processed/lid")
+            lid_out.mkdir(parents=True, exist_ok=True)
+            records = bootstrap_lid_from_lecture(audio_path, lid_out)
+
+            if len(records) >= 10:
+                train_r, val_r, _ = split_data(records)
+                save_jsonl(train_r, lid_out / "audio_train.jsonl")
+                save_jsonl(val_r, lid_out / "audio_val.jsonl")
+
+                from scripts.train_lid import train_lid_model
+                lid_device = device or "cpu"
+                train_lid_model(
+                    str(lid_out / "audio_train.jsonl"),
+                    str(lid_out / "audio_val.jsonl"),
+                    output_dir="models/lid",
+                    epochs=15,
+                    batch_size=16,
+                    device=lid_device,
+                )
+                logger.info("  LID model trained successfully")
+            else:
+                logger.warning("  Too few bootstrap chunks (%d); skipping LID training", len(records))
+        except Exception as e:
+            logger.warning("  LID bootstrap/training failed: %s", e)
+
     results = run_stt_pipeline(
         audio_path=audio_path,
         config_path=config_path,

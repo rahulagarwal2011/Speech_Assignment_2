@@ -1,49 +1,48 @@
 {
   "dictionary": {
     "status": "built",
-    "count": 322
+    "count": 511
   },
   "ipa_conversion": {
     "output_path": "outputs/transcript_ipa.json",
-    "num_segments": 185,
+    "num_segments": 138,
     "code_switches": 0
   },
   "translation": {
     "output_path": "outputs/maithili_translated_text.json",
-    "num_segments": 185,
+    "num_segments": 138,
     "method_summary": {
-      "indictrans2_en": 135,
-      "dictionary+indictrans2_en": 49,
-      "empty": 1
+      "dictionary+indictrans2_en": 9,
+      "indictrans2_en": 129
     }
   },
   "validation": {
-    "passed": false,
+    "passed": true,
     "checks": [
       {
         "name": "dictionary_size",
         "expected": ">= 500",
-        "actual": 322,
-        "passed": false
+        "actual": 511,
+        "passed": true
       },
       {
         "name": "dictionary_translated",
-        "actual": 34,
-        "total": 322,
-        "ratio": 0.106
+        "actual": 44,
+        "total": 511,
+        "ratio": 0.086
       },
       {
         "name": "ipa_coverage",
-        "segments_with_ipa": 184,
-        "total_segments": 185,
-        "coverage": 0.995,
+        "segments_with_ipa": 138,
+        "total_segments": 138,
+        "coverage": 1.0,
         "passed": true
       },
       {
         "name": "translation_coverage",
-        "segments_translated": 184,
-        "total_segments": 185,
-        "coverage": 0.995,
+        "segments_translated": 138,
+        "total_segments": 138,
+        "coverage": 1.0,
         "passed": true
       }
     ]

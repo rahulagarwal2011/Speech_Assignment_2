@@ -180,44 +180,59 @@ def run_adversarial_pipeline(
     logger.info("TASK 4.2: FGSM Adversarial Attack on LID")
     logger.info("=" * 60)
 
-    source_for_segment = lecture_audio
-    if not Path(lecture_audio).exists():
+    if not Path(lid_model_path).exists():
         logger.warning(
-            f"Denoised lecture not found at {lecture_audio}; "
-            f"falling back to spoof audio for Hindi segment selection"
+            "LID model not found at %s — skipping adversarial attack. "
+            "Train the LID model first (python scripts/train_lid.py).",
+            lid_model_path,
         )
-        source_for_segment = spoof_audio
+        summary["adversarial"] = {
+            "flip_achieved": False,
+            "min_epsilon": None,
+            "snr_at_min_db": None,
+            "snr_threshold_db": snr_min,
+            "snr_pass": False,
+            "note": f"LID model not found at {lid_model_path}; attack skipped.",
+        }
+    else:
+        source_for_segment = lecture_audio
+        if not Path(lecture_audio).exists():
+            logger.warning(
+                f"Denoised lecture not found at {lecture_audio}; "
+                f"falling back to spoof audio for Hindi segment selection"
+            )
+            source_for_segment = spoof_audio
 
-    hindi_segment = select_hindi_segment(
-        source_for_segment, lid_model_path, duration_sec=5.0, sr=sr, device=device,
-    )
+        hindi_segment = select_hindi_segment(
+            source_for_segment, lid_model_path, duration_sec=5.0, sr=sr, device=device,
+        )
 
-    orig_path = out / "audio" / "adversarial_original_5s.wav"
-    sf.write(str(orig_path), hindi_segment, sr)
-    logger.info(f"Original 5 s segment saved to {orig_path}")
+        orig_path = out / "audio" / "adversarial_original_5s.wav"
+        sf.write(str(orig_path), hindi_segment, sr)
+        logger.info(f"Original 5 s segment saved to {orig_path}")
 
-    from scripts.adversarial_attack import run_attack
+        from scripts.adversarial_attack import run_attack
 
-    attack_results = run_attack(
-        audio_path=str(orig_path),
-        lid_model_path=lid_model_path,
-        target_label_str="en",
-        output_dir=output_dir,
-        device=device,
-    )
+        attack_results = run_attack(
+            audio_path=str(orig_path),
+            lid_model_path=lid_model_path,
+            target_label_str="en",
+            output_dir=output_dir,
+            device=device,
+        )
 
-    summary["adversarial"] = {
-        "flip_achieved": attack_results["flip_achieved"],
-        "min_epsilon": attack_results.get("min_epsilon"),
-        "snr_at_min_db": attack_results.get("snr_at_min_db"),
-        "snr_threshold_db": snr_min,
-        "snr_pass": (
-            attack_results.get("snr_at_min_db") is not None
-            and attack_results["snr_at_min_db"] >= snr_min
-        ),
-        "original_segment_path": str(orig_path),
-        "adversarial_audio_path": attack_results.get("adversarial_audio_path"),
-    }
+        summary["adversarial"] = {
+            "flip_achieved": attack_results["flip_achieved"],
+            "min_epsilon": attack_results.get("min_epsilon"),
+            "snr_at_min_db": attack_results.get("snr_at_min_db"),
+            "snr_threshold_db": snr_min,
+            "snr_pass": (
+                attack_results.get("snr_at_min_db") is not None
+                and attack_results["snr_at_min_db"] >= snr_min
+            ),
+            "original_segment_path": str(orig_path),
+            "adversarial_audio_path": attack_results.get("adversarial_audio_path"),
+        }
 
     # ------------------------------------------------------------------
     # Summary
@@ -233,10 +248,13 @@ def run_adversarial_pipeline(
     logger.info("=" * 60)
     logger.info("PART IV COMPLETE")
     logger.info(f"  Anti-spoof EER : {test_eer:.4f} {'PASS' if test_eer < eer_threshold else 'FAIL'}")
-    if attack_results["flip_achieved"]:
+    adv = summary.get("adversarial", {})
+    if adv.get("note"):
+        logger.info(f"  Adversarial     : SKIPPED — {adv['note']}")
+    elif adv.get("flip_achieved"):
         logger.info(
-            f"  Adversarial eps : {attack_results['min_epsilon']:.6f}  "
-            f"SNR={attack_results['snr_at_min_db']:.1f} dB"
+            f"  Adversarial eps : {adv['min_epsilon']:.6f}  "
+            f"SNR={adv['snr_at_min_db']:.1f} dB"
         )
     else:
         logger.info("  Adversarial     : flip NOT achieved")

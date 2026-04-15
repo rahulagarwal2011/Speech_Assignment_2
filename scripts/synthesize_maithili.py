@@ -22,23 +22,24 @@ MIN_OUTPUT_SR = 22050
 
 
 class MaithiliSynthesizer:
-    """Synthesize Maithili speech with Indic-Parler-TTS or Meta MMS."""
+    """Synthesize Maithili speech with Indic-Parler-TTS, Meta MMS, or Coqui XTTS (voice cloning)."""
 
     def __init__(
         self,
-        model_name: str = "parler",
+        model_name: str = "xtts",
         speaker_embedding_path: Optional[str] = None,
+        speaker_wav_path: Optional[str] = None,
         device: str = None,
     ):
         self.model_name = model_name
         if device is None:
             from scripts.device_utils import get_device
             device = get_device()
-        # MMS VITS and Parler-TTS don't support MPS — force CPU for TTS
         if device == "mps":
             device = "cpu"
         self.device = device
         self.speaker_embedding = None
+        self.speaker_wav_path = speaker_wav_path
         self._model = None
         self._processor = None
         self._sample_rate: int = MIN_OUTPUT_SR
@@ -65,8 +66,10 @@ class MaithiliSynthesizer:
             self._load_parler()
         elif self.model_name == "mms":
             self._load_mms()
+        elif self.model_name == "xtts":
+            self._load_xtts()
         else:
-            raise ValueError(f"Unknown model: {self.model_name!r}. Use 'parler' or 'mms'.")
+            raise ValueError(f"Unknown model: {self.model_name!r}. Use 'parler', 'mms', or 'xtts'.")
 
     def _load_parler(self):
         from parler_tts import ParlerTTSForConditionalGeneration
@@ -95,6 +98,72 @@ class MaithiliSynthesizer:
             self._sample_rate = 16000
         logger.info("Loaded Meta MMS-TTS (sr=%d)", self._sample_rate)
 
+    def _load_xtts(self):
+        """Load Coqui XTTS v2 for zero-shot voice cloning."""
+        import torch
+
+        # PyTorch 2.6+ defaults weights_only=True; XTTS checkpoints need these globals
+        try:
+            from TTS.tts.configs.xtts_config import XttsConfig
+            torch.serialization.add_safe_globals([XttsConfig])
+        except Exception:
+            pass
+
+        first_error = None
+        try:
+            from TTS.api import TTS
+            self._tts_api = TTS("tts_models/multilingual/multi-dataset/xtts_v2")
+            if self.device != "cpu":
+                self._tts_api.to(self.device)
+            self._sample_rate = 24000
+            self._xtts_backend = "tts_api"
+            logger.info("Loaded XTTS v2 via TTS API (sr=%d)", self._sample_rate)
+            return
+        except Exception as err1:
+            first_error = err1
+            logger.warning("TTS API failed (%s); trying direct XTTS load...", err1)
+
+        try:
+            from TTS.tts.configs.xtts_config import XttsConfig
+            from TTS.tts.models.xtts import Xtts
+            from TTS.utils.manage import ModelManager
+
+            manager = ModelManager()
+            model_path, config_path, _ = manager.download_model("tts_models/multilingual/multi-dataset/xtts_v2")
+
+            config = XttsConfig()
+            config.load_json(config_path)
+            self._model = Xtts.init_from_config(config)
+            self._model.load_checkpoint(config, checkpoint_dir=model_path, use_deepspeed=False)
+            self._model.to(self.device)
+            self._sample_rate = 24000
+            self._xtts_backend = "direct"
+            logger.info("Loaded XTTS v2 directly (sr=%d)", self._sample_rate)
+            return
+        except Exception as err2:
+            logger.warning("Direct XTTS load also failed (%s)", err2)
+
+        # Last resort: patch torch.load and retry
+        try:
+            logger.info("Retrying XTTS with torch.load weights_only=False...")
+            _original_load = torch.load
+            torch.load = lambda *a, **kw: _original_load(*a, **{**kw, "weights_only": False})
+            from TTS.api import TTS
+            self._tts_api = TTS("tts_models/multilingual/multi-dataset/xtts_v2")
+            if self.device != "cpu":
+                self._tts_api.to(self.device)
+            self._sample_rate = 24000
+            self._xtts_backend = "tts_api"
+            torch.load = _original_load
+            logger.info("Loaded XTTS v2 via patched torch.load (sr=%d)", self._sample_rate)
+            return
+        except Exception as err3:
+            torch.load = _original_load
+            raise RuntimeError(
+                f"Could not load XTTS v2 after 3 attempts. "
+                f"Error 1: {first_error}, Error 2: {err2}, Error 3: {err3}"
+            )
+
     # ------------------------------------------------------------------
     # Segment-level synthesis
     # ------------------------------------------------------------------
@@ -115,6 +184,8 @@ class MaithiliSynthesizer:
 
         if self.model_name == "parler":
             return self._synth_parler(text, emb)
+        elif self.model_name == "xtts":
+            return self._synth_xtts(text)
         else:
             return self._synth_mms(text)
 
@@ -145,6 +216,38 @@ class MaithiliSynthesizer:
             output = self._model(**inputs)
 
         audio = output.waveform.cpu().numpy().squeeze()
+        return audio, self._sample_rate
+
+    def _synth_xtts(self, text: str) -> Tuple[np.ndarray, int]:
+        """Synthesize using XTTS v2 with zero-shot voice cloning from speaker_wav_path."""
+        if self.speaker_wav_path is None or not Path(self.speaker_wav_path).exists():
+            raise RuntimeError(
+                "XTTS requires speaker_wav_path for voice cloning. "
+                "Pass --speaker-wav pointing to your 60s voice recording."
+            )
+
+        backend = getattr(self, "_xtts_backend", "tts_api")
+
+        if backend == "tts_api":
+            wav = self._tts_api.tts(
+                text=text,
+                speaker_wav=self.speaker_wav_path,
+                language="hi",
+            )
+            audio = np.array(wav, dtype=np.float32)
+        else:
+            import torch
+            gpt_cond_latent, speaker_embedding = self._model.get_conditioning_latents(
+                audio_path=[self.speaker_wav_path]
+            )
+            out = self._model.inference(
+                text=text,
+                language="hi",
+                gpt_cond_latent=gpt_cond_latent,
+                speaker_embedding=speaker_embedding,
+            )
+            audio = np.array(out["wav"], dtype=np.float32)
+
         return audio, self._sample_rate
 
     # ------------------------------------------------------------------
@@ -224,36 +327,63 @@ class MaithiliSynthesizer:
         ref_audio_path: str,
         synth_audio_path: str,
         sr: int = 22050,
-        n_mfcc: int = 13,
+        order: int = 24,
     ) -> float:
         """Compute Mel-Cepstral Distortion between reference and synthesis.
 
-        MCD = (10 / ln 10) * mean_over_frames(
-            sqrt( 2 * sum_{d=1}^{D} (ref_c_d - synth_c_d)^2 )
+        MCD = (10 * sqrt(2) / ln(10)) * mean_over_frames(
+            sqrt( sum_{d=1}^{D} (ref_c_d - synth_c_d)^2 )
         )
-        DTW-aligns MFCC sequences before computing.
+        Uses WORLD+pysptk for proper MCCs, falls back to librosa mel+DCT.
+        DTW-aligns sequences before computing.
         """
         import librosa
 
         ref, _ = librosa.load(ref_audio_path, sr=sr, mono=True)
         syn, _ = librosa.load(synth_audio_path, sr=sr, mono=True)
 
-        ref_mfcc = librosa.feature.mfcc(y=ref, sr=sr, n_mfcc=n_mfcc + 1)[1:]  # drop c0
-        syn_mfcc = librosa.feature.mfcc(y=syn, sr=sr, n_mfcc=n_mfcc + 1)[1:]
+        try:
+            import pyworld as pw
+            import pysptk
 
-        # DTW alignment on MFCC
+            alpha = pysptk.util.mcepalpha(sr)
+
+            def _extract(audio):
+                a64 = audio.astype(np.float64)
+                f0, t = pw.harvest(a64, sr, frame_period=5.0)
+                sp = pw.cheaptrick(a64, f0, t, sr)
+                mcc = pysptk.sp2mc(sp, order=order, alpha=alpha)
+                return mcc[:, 1:]
+
+            ref_mcc = _extract(ref)
+            syn_mcc = _extract(syn)
+        except (ImportError, Exception):
+            from scipy.fft import dct
+
+            def _extract_fallback(audio):
+                mel = librosa.feature.melspectrogram(
+                    y=audio, sr=sr, n_fft=1024, hop_length=int(sr * 0.005),
+                    n_mels=order * 2 + 1, power=1.0,
+                )
+                log_mel = np.log(mel + 1e-8)
+                mcc = dct(log_mel, type=2, axis=0, norm="ortho")[1 : order + 1]
+                return mcc.T
+
+            ref_mcc = _extract_fallback(ref)
+            syn_mcc = _extract_fallback(syn)
+
         from scripts.prosody_warping import dtw_align
 
-        ref_flat = np.mean(ref_mfcc, axis=0)
-        syn_flat = np.mean(syn_mfcc, axis=0)
+        ref_flat = np.mean(ref_mcc, axis=1) if ref_mcc.shape[0] < ref_mcc.shape[1] else np.mean(ref_mcc, axis=0)
+        syn_flat = np.mean(syn_mcc, axis=1) if syn_mcc.shape[0] < syn_mcc.shape[1] else np.mean(syn_mcc, axis=0)
         src_idx, tgt_idx = dtw_align(syn_flat, ref_flat)
 
-        aligned_ref = ref_mfcc[:, tgt_idx]
-        aligned_syn = syn_mfcc[:, src_idx]
+        ref_aligned = ref_mcc[tgt_idx] if ref_mcc.shape[0] > ref_mcc.shape[1] else ref_mcc[:, tgt_idx].T
+        syn_aligned = syn_mcc[src_idx] if syn_mcc.shape[0] > syn_mcc.shape[1] else syn_mcc[:, src_idx].T
 
-        diff = aligned_ref - aligned_syn
-        frame_dist = np.sqrt(2.0 * np.sum(diff ** 2, axis=0))
-        mcd = (10.0 / np.log(10.0)) * np.mean(frame_dist)
+        diff = ref_aligned - syn_aligned
+        frame_dist = np.sqrt(np.sum(diff ** 2, axis=-1))
+        mcd = (10.0 * np.sqrt(2.0) / np.log(10.0)) * np.mean(frame_dist)
 
         logger.info("MCD(%s, %s) = %.3f dB", ref_audio_path, synth_audio_path, mcd)
         return float(mcd)
@@ -289,9 +419,14 @@ def main():
     )
     parser.add_argument(
         "--model", type=str,
-        choices=["parler", "mms"],
-        default="parler",
-        help="TTS model backend",
+        choices=["parler", "mms", "xtts"],
+        default="xtts",
+        help="TTS model backend (xtts for voice cloning)",
+    )
+    parser.add_argument(
+        "--speaker-wav", type=str,
+        default="outputs/audio/student_voice_ref.wav",
+        help="Path to speaker reference WAV for XTTS voice cloning",
     )
     parser.add_argument(
         "--device", type=str, default=None,
@@ -306,6 +441,7 @@ def main():
     synth = MaithiliSynthesizer(
         model_name=args.model,
         speaker_embedding_path=args.speaker_embedding,
+        speaker_wav_path=args.speaker_wav,
         device=args.device,
     )
     synth.synthesize_lecture(

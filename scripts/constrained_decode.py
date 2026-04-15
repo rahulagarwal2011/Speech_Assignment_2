@@ -289,35 +289,182 @@ class WhisperConstrainedTranscriber:
             return self._transcribe_full(audio, sr)
 
     def _transcribe_full(self, audio: np.ndarray, sr: int) -> List[Dict]:
-        """Transcribe entire audio without language segmentation."""
+        """Transcribe code-switched audio with dual-pass language detection.
+
+        For code-switched En/Hi audio:
+          1. Split audio into fixed-size windows (10s, 5s hop)
+          2. For each window, transcribe as BOTH English and Hindi
+          3. Use script detection (Devanagari presence) to pick the correct one
+          4. Merge consecutive same-language windows
+          5. Transcribe each merged segment with the correct language
+
+        This avoids Whisper's detect_language() which often misclassifies
+        Hinglish as English.
+        """
         import whisper
 
         duration = len(audio) / sr
-        logger.info(f"  Transcribing full audio ({duration:.1f}s) — this may take a while...")
-
-        result = whisper.transcribe(
-            self._model,
-            audio,
-            beam_size=5,
-            best_of=5,
-            word_timestamps=True,
-            verbose=True,
+        window_sec = 10.0
+        hop_sec = 5.0
+        logger.info(
+            f"  Dual-pass chunked transcription: {duration:.1f}s audio, "
+            f"{window_sec}s windows, {hop_sec}s hop"
         )
 
-        segments = []
-        for seg in result.get("segments", []):
-            segments.append({
+        window_samples = int(window_sec * sr)
+        hop_samples = int(hop_sec * sr)
+
+        window_langs = []
+        for start in range(0, len(audio) - int(sr * 2), hop_samples):
+            end = min(start + window_samples, len(audio))
+            chunk = audio[start:end]
+
+            lang = self._detect_language_by_script(chunk, sr)
+            window_langs.append({
+                "start_time": start / sr,
+                "end_time": end / sr,
+                "language": lang,
+            })
+
+        if not window_langs:
+            logger.warning("  No windows produced; falling back to full transcription")
+            return self._transcribe_full_single_lang(audio, sr)
+
+        merged = [window_langs[0].copy()]
+        for w in window_langs[1:]:
+            if w["language"] == merged[-1]["language"]:
+                merged[-1]["end_time"] = w["end_time"]
+            else:
+                merged.append(w.copy())
+
+        lang_counts = {}
+        for m in merged:
+            lang_counts[m["language"]] = lang_counts.get(m["language"], 0) + 1
+        logger.info(f"  Language segments: {lang_counts} ({len(merged)} segments)")
+
+        all_segments = []
+        for i, lang_seg in enumerate(merged):
+            start_sample = int(lang_seg["start_time"] * sr)
+            end_sample = int(lang_seg["end_time"] * sr)
+            seg_audio = audio[start_sample:end_sample]
+
+            if len(seg_audio) < sr * 0.5:
+                continue
+
+            seg_duration = len(seg_audio) / sr
+            lang_code = lang_seg["language"]
+            logger.info(
+                f"  [{i+1}/{len(merged)}] {lang_seg['start_time']:.1f}s-"
+                f"{lang_seg['end_time']:.1f}s ({seg_duration:.1f}s, "
+                f"lang={lang_code})"
+            )
+
+            result = whisper.transcribe(
+                self._model,
+                seg_audio,
+                language=lang_code,
+                task="transcribe",
+                beam_size=5,
+                best_of=5,
+                word_timestamps=True,
+            )
+
+            for seg in result.get("segments", []):
+                text = seg["text"].strip()
+                if not text:
+                    continue
+                all_segments.append({
+                    "text": text,
+                    "start_time": lang_seg["start_time"] + seg["start"],
+                    "end_time": lang_seg["start_time"] + seg["end"],
+                    "language": lang_code,
+                    "confidence": seg.get("avg_logprob", 0.0),
+                })
+
+        logger.info(f"  Total: {len(all_segments)} transcript segments")
+
+        if self.ngram_processor is not None:
+            all_segments = self._rerank_with_ngram(all_segments)
+
+        return all_segments
+
+    def _detect_language_by_script(self, audio_chunk: np.ndarray, sr: int) -> str:
+        """Detect language by transcribing as Hindi and checking for Devanagari script.
+
+        Whisper's detect_language() often misclassifies Hinglish as English.
+        Instead, we transcribe the chunk as Hindi — if the output contains
+        Devanagari characters, the speech is Hindi. Otherwise, it's English.
+        """
+        import whisper
+        import re
+
+        if len(audio_chunk) < sr * 0.5:
+            return "en"
+
+        try:
+            result = whisper.transcribe(
+                self._model,
+                audio_chunk,
+                language="hi",
+                task="transcribe",
+                beam_size=1,
+                best_of=1,
+                without_timestamps=True,
+            )
+            text = result.get("text", "")
+
+            devanagari_chars = len(re.findall(r'[\u0900-\u097F]', text))
+            latin_chars = len(re.findall(r'[a-zA-Z]', text))
+            total = devanagari_chars + latin_chars
+
+            if total == 0:
+                return "en"
+
+            hindi_ratio = devanagari_chars / total
+            return "hi" if hindi_ratio > 0.3 else "en"
+        except Exception:
+            return "en"
+
+    def _transcribe_full_single_lang(self, audio: np.ndarray, sr: int) -> List[Dict]:
+        """Fallback: transcribe entire audio as single language."""
+        import whisper
+
+        result = whisper.transcribe(
+            self._model, audio,
+            beam_size=5, best_of=5, word_timestamps=True, verbose=True,
+        )
+        return [
+            {
                 "text": seg["text"].strip(),
                 "start_time": seg["start"],
                 "end_time": seg["end"],
                 "language": result.get("language", "en"),
                 "confidence": seg.get("avg_logprob", 0.0),
-            })
+            }
+            for seg in result.get("segments", [])
+            if seg["text"].strip()
+        ]
 
-        if self.ngram_processor is not None:
-            segments = self._rerank_with_ngram(segments)
+    def _detect_segment_language_from_array(
+        self, audio_chunk: np.ndarray, sr: int,
+    ) -> Optional[str]:
+        """Detect language from a raw audio array."""
+        import whisper
 
-        return segments
+        if len(audio_chunk) < sr * 0.5:
+            return None
+
+        try:
+            padded = whisper.pad_or_trim(audio_chunk.astype(np.float32))
+            mel = whisper.log_mel_spectrogram(padded).to(self._model.device)
+            _, probs = self._model.detect_language(mel)
+
+            en_prob = probs.get("en", 0)
+            hi_prob = probs.get("hi", 0)
+            detected = "en" if en_prob > hi_prob else "hi"
+            return detected
+        except Exception:
+            return None
 
     def _transcribe_segmented(
         self,

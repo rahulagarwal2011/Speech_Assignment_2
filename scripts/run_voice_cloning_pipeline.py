@@ -104,26 +104,30 @@ def run_voice_cloning_pipeline(
     # ------------------------------------------------------------------
     from scripts.synthesize_maithili import MaithiliSynthesizer
 
-    cached_synth = Path("outputs/audio/synth_mms_raw.wav")
+    cached_synth = Path("outputs/audio/synth_xtts_raw.wav")
+    if not cached_synth.exists():
+        cached_synth = Path("outputs/audio/synth_mms_raw.wav")
     if cached_synth.exists():
         logger.info("Step 3/7: Found cached synthesis at %s — skipping re-synthesis", cached_synth)
         selected_path = str(cached_synth)
-        best_model = "mms"
+        best_model = "xtts" if "xtts" in cached_synth.name else "mms"
         mcd_scores = {}
-        results = {"mms": {"path": str(cached_synth), "error": None}}
+        results = {best_model: {"path": str(cached_synth), "error": None}}
     else:
         tmp_dir = Path(tempfile.mkdtemp(prefix="voice_clone_"))
-        parler_path = str(tmp_dir / "synth_parler.wav")
+        xtts_path = str(tmp_dir / "synth_xtts.wav")
         mms_path = str(tmp_dir / "synth_mms.wav")
 
         results: Dict[str, Dict] = {}
 
-        for model_name, out_path in [("parler", parler_path), ("mms", mms_path)]:
+        # Try XTTS first (actual voice cloning), fall back to MMS
+        for model_name, out_path in [("xtts", xtts_path), ("mms", mms_path)]:
             logger.info("Step 3/7: Synthesising with %s ...", model_name)
             try:
                 synth = MaithiliSynthesizer(
                     model_name=model_name,
                     speaker_embedding_path=embedding_out,
+                    speaker_wav_path=student_audio,
                     device=device,
                 )
                 synth.synthesize_lecture(maithili_text, out_path)

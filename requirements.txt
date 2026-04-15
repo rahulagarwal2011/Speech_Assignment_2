@@ -17,6 +17,9 @@ soundfile
 praat-parselmouth
 dtw-python
 fastdtw
+pyworld
+pysptk
+TTS
 pyyaml
 tqdm
 python-dotenv

@@ -1,11 +1,17 @@
 {
   "selected_model": "mms",
-  "mcd_scores": {},
+  "mcd_scores": {
+    "xtts": 14.699750047692179,
+    "mms": 10.188762901929811
+  },
   "output_warped": "outputs/audio/output_LRL_cloned.wav",
   "output_flat": "outputs/audio/output_LRL_flat.wav",
   "embedding_path": "outputs/audio/your_voice_embedding.pt",
   "embedding_method": "speechbrain",
   "synth_results": {
+    "xtts": {
+      "error": null
+    },
     "mms": {
       "error": null
     }

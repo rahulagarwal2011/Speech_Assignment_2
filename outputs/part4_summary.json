@@ -1,0 +1,19 @@
+{
+  "pipeline": "adversarial-antispoof",
+  "antispoof": {
+    "test_eer": 0.0,
+    "eer_threshold": 0.1,
+    "pass": true,
+    "model_path": "models/antispoof/best_antispoof.pt"
+  },
+  "adversarial": {
+    "flip_achieved": true,
+    "min_epsilon": 0.000100095272064209,
+    "snr_at_min_db": 61.466584271916,
+    "snr_threshold_db": 40,
+    "snr_pass": "True",
+    "original_segment_path": "outputs/audio/adversarial_original_5s.wav",
+    "adversarial_audio_path": "outputs/audio/adversarial_5s_segment.wav"
+  },
+  "elapsed_sec": 117.7
+}

@@ -1,0 +1,151 @@
+{
+  "min_epsilon": 0.000100095272064209,
+  "snr_at_min_db": 61.466584271916,
+  "flip_achieved": true,
+  "snr_above_threshold": "True",
+  "original_label": "en",
+  "target_label": "en",
+  "tradeoff_curve": [
+    {
+      "iteration": 0,
+      "epsilon": 0.050050000000000004,
+      "snr_db": 7.486773362900813,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 1,
+      "epsilon": 0.025075000000000004,
+      "snr_db": 13.490037861706039,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 2,
+      "epsilon": 0.012587500000000001,
+      "snr_db": 19.476064719235005,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 3,
+      "epsilon": 0.00634375,
+      "snr_db": 25.42793605682901,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 4,
+      "epsilon": 0.0032218750000000003,
+      "snr_db": 31.3126815233866,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 5,
+      "epsilon": 0.0016609375,
+      "snr_db": 37.06778984250686,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 6,
+      "epsilon": 0.0008804687500000001,
+      "snr_db": 42.580577185807925,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 7,
+      "epsilon": 0.000490234375,
+      "snr_db": 47.66678168624911,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 8,
+      "epsilon": 0.0002951171875,
+      "snr_db": 52.074966704115866,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 9,
+      "epsilon": 0.00019755859375,
+      "snr_db": 55.56093724636776,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 10,
+      "epsilon": 0.000148779296875,
+      "snr_db": 58.024005469750776,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 11,
+      "epsilon": 0.00012438964843750002,
+      "snr_db": 59.57917192717957,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 12,
+      "epsilon": 0.00011219482421875,
+      "snr_db": 60.47539977711295,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 13,
+      "epsilon": 0.00010609741210937501,
+      "snr_db": 60.96075993527599,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 14,
+      "epsilon": 0.00010304870605468751,
+      "snr_db": 61.21400558095406,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 15,
+      "epsilon": 0.00010152435302734377,
+      "snr_db": 61.34345094100311,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 16,
+      "epsilon": 0.00010076217651367188,
+      "snr_db": 61.408904702858905,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 17,
+      "epsilon": 0.00010038108825683595,
+      "snr_db": 61.44181744443039,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 18,
+      "epsilon": 0.00010019054412841797,
+      "snr_db": 61.458320656681515,
+      "flipped": true,
+      "predicted_label": "en"
+    },
+    {
+      "iteration": 19,
+      "epsilon": 0.000100095272064209,
+      "snr_db": 61.466584271916,
+      "flipped": true,
+      "predicted_label": "en"
+    }
+  ],
+  "adversarial_audio_path": "outputs/audio/adversarial_5s_segment.wav"
+}

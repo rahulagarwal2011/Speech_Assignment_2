@@ -21,9 +21,9 @@
   },
   "metrics": {
     "summary": {
-      "pass": 1,
+      "pass": 4,
       "fail": 3,
-      "skip": 4
+      "skip": 1
     },
     "prerequisite_check": {
       "outputs/manifests/phase0-scaffolder.json": true,

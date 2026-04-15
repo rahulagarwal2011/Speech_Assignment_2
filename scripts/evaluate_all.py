@@ -82,19 +82,25 @@ def compute_wer(
             gt_data = json.load(f)
         gt_segments = gt_data if isinstance(gt_data, list) else gt_data.get("segments", [])
 
-        gt_by_time = {}
-        for seg in gt_segments:
-            key = (round(seg.get("start_time", 0), 2), round(seg.get("end_time", 0), 2))
-            gt_by_time[key] = seg
-
+        # Match by closest midpoint rather than exact (start, end) since
+        # transcript and ground truth may have different segmentation.
         for seg in segments:
-            key = (round(seg.get("start_time", 0), 2), round(seg.get("end_time", 0), 2))
-            gt_seg = gt_by_time.get(key)
-            if gt_seg is None:
+            seg_mid = (seg.get("start_time", 0) + seg.get("end_time", 0)) / 2.0
+            best_gt = None
+            best_dist = float("inf")
+            for gt_seg in gt_segments:
+                gt_mid = (gt_seg.get("start_time", 0) + gt_seg.get("end_time", 0)) / 2.0
+                dist = abs(seg_mid - gt_mid)
+                if dist < best_dist:
+                    best_dist = dist
+                    best_gt = gt_seg
+
+            if best_gt is None or best_dist > 5.0:
                 continue
+
             lang = seg.get("language", "en").lower()
             hyp = seg.get("text", "").strip()
-            ref = gt_seg.get("text", "").strip()
+            ref = best_gt.get("text", "").strip()
             if not hyp or not ref:
                 continue
             if lang in ("en", "english"):
@@ -106,6 +112,9 @@ def compute_wer(
             else:
                 hi_hyps.append(hyp)
                 hi_refs.append(ref)
+
+        logger.info("WER matching: %d EN pairs, %d HI pairs (from %d transcript, %d GT segments)",
+                     len(en_hyps), len(hi_hyps), len(segments), len(gt_segments))
     else:
         # Fallback: treat all segment text as hypothesis with no ground truth
         all_text = " ".join(seg.get("text", "") for seg in segments).strip()
@@ -160,17 +169,54 @@ def compute_wer(
 # MCD
 # ---------------------------------------------------------------------------
 
+def _extract_mcc_pyworld(audio: np.ndarray, sr: int, order: int = 24) -> np.ndarray:
+    """Extract mel-cepstral coefficients using WORLD vocoder + pysptk.
+
+    Returns (T, order) array of MCCs (excluding c0).
+    """
+    import pyworld as pw
+    import pysptk
+
+    audio_f64 = audio.astype(np.float64)
+    f0, t = pw.harvest(audio_f64, sr, frame_period=5.0)
+    sp = pw.cheaptrick(audio_f64, f0, t, sr)
+
+    alpha = pysptk.util.mcepalpha(sr)
+    mcc = pysptk.sp2mc(sp, order=order, alpha=alpha)
+    return mcc[:, 1:]  # drop c0
+
+
+def _extract_mcc_librosa(audio: np.ndarray, sr: int, order: int = 24) -> np.ndarray:
+    """Fallback: extract MCCs from librosa mel-spectrogram + DCT.
+
+    Applies proper scaling so values are comparable to WORLD-based MCCs.
+    Returns (T, order) array.
+    """
+    import librosa
+    from scipy.fft import dct
+
+    mel = librosa.feature.melspectrogram(
+        y=audio, sr=sr, n_fft=1024, hop_length=int(sr * 0.005),
+        n_mels=order * 2 + 1, power=1.0,
+    )
+    log_mel = np.log(mel + 1e-8)
+    mcc = dct(log_mel, type=2, axis=0, norm="ortho")[1 : order + 1]
+    return mcc.T
+
+
 def compute_mcd(
     ref_audio_path: str,
     synth_audio_path: str,
     sr: int = 22050,
-    n_mfcc: int = 13,
+    order: int = 24,
 ) -> float:
     """Compute Mel-Cepstral Distortion between reference and synthesized audio.
 
-    MCD = (10 / ln(10)) * mean( sqrt( 2 * sum_d (ref_d - synth_d)^2 ) )
+    MCD = (10 * sqrt(2) / ln(10)) * mean_T( sqrt( sum_d (ref_d - synth_d)^2 ) )
 
-    Uses DTW to align the two MFCC sequences before computing the distance.
+    Uses WORLD vocoder + pysptk for proper mel-cepstral coefficients.
+    Falls back to librosa mel-spectrogram + DCT if unavailable.
+    DTW-aligns the sequences before computing the distance.
     """
     import librosa
     import soundfile as sf
@@ -188,26 +234,52 @@ def compute_mcd(
     if synth_audio.ndim > 1:
         synth_audio = synth_audio.mean(axis=1)
 
-    ref_mfcc = librosa.feature.mfcc(y=ref_audio, sr=sr, n_mfcc=n_mfcc).T
-    synth_mfcc = librosa.feature.mfcc(y=synth_audio, sr=sr, n_mfcc=n_mfcc).T
+    # Truncate very long audio to 60s for MCD (avoids memory explosion in DTW)
+    # MCD is an average over frames — 60s (~12k frames) is statistically sufficient.
+    # The reference recording is only 60s anyway per assignment spec.
+    max_samples = sr * 60
+    if len(ref_audio) > max_samples:
+        ref_audio = ref_audio[:max_samples]
+    if len(synth_audio) > max_samples:
+        # Sample from middle of synth to avoid silence at start/end
+        mid = len(synth_audio) // 2
+        half = max_samples // 2
+        synth_audio = synth_audio[mid - half : mid + half]
+
+    # Use librosa as primary (stable on all platforms including macOS/Apple Silicon)
+    # pyworld can bus-error on large files on macOS
+    import platform
+    use_pyworld = platform.system() != "Darwin"
+
+    if use_pyworld:
+        try:
+            ref_mcc = _extract_mcc_pyworld(ref_audio, sr, order)
+            synth_mcc = _extract_mcc_pyworld(synth_audio, sr, order)
+            logger.info("MCD: using pyworld+pysptk for mel-cepstral extraction")
+        except (ImportError, Exception) as e:
+            logger.warning("pyworld/pysptk failed (%s); using librosa fallback", e)
+            ref_mcc = _extract_mcc_librosa(ref_audio, sr, order)
+            synth_mcc = _extract_mcc_librosa(synth_audio, sr, order)
+    else:
+        logger.info("MCD: using librosa mel-cepstral extraction (macOS safe)")
+        ref_mcc = _extract_mcc_librosa(ref_audio, sr, order)
+        synth_mcc = _extract_mcc_librosa(synth_audio, sr, order)
 
     # DTW alignment
     try:
         from dtw import dtw as dtw_lib
-        alignment = dtw_lib(ref_mfcc, synth_mfcc, keep_internals=False)
-        ref_aligned = ref_mfcc[alignment.index1]
-        synth_aligned = synth_mfcc[alignment.index2]
+        alignment = dtw_lib(ref_mcc, synth_mcc, keep_internals=False)
+        ref_aligned = ref_mcc[alignment.index1]
+        synth_aligned = synth_mcc[alignment.index2]
     except ImportError:
-        # Truncate to shorter length as fallback
-        min_len = min(len(ref_mfcc), len(synth_mfcc))
-        ref_aligned = ref_mfcc[:min_len]
-        synth_aligned = synth_mfcc[:min_len]
+        min_len = min(len(ref_mcc), len(synth_mcc))
+        ref_aligned = ref_mcc[:min_len]
+        synth_aligned = synth_mcc[:min_len]
         logger.warning("dtw-python not installed; using truncation instead of DTW alignment")
 
-    # Skip c0 (energy) — use coefficients 1..n_mfcc-1
-    diff = ref_aligned[:, 1:] - synth_aligned[:, 1:]
-    frame_dists = np.sqrt(2.0 * np.sum(diff ** 2, axis=1))
-    mcd = (10.0 / math.log(10.0)) * np.mean(frame_dists)
+    diff = ref_aligned - synth_aligned
+    frame_dists = np.sqrt(np.sum(diff ** 2, axis=1))
+    mcd = (10.0 * math.sqrt(2.0) / math.log(10.0)) * np.mean(frame_dists)
 
     return float(mcd)
 
@@ -269,6 +341,7 @@ def compute_lid_switch_accuracy(
                 100.0 * within_threshold / len(gt_switches), 2,
             )
             result["threshold_ms"] = threshold_ms
+            result["pass"] = (within_threshold / len(gt_switches)) >= 0.5
         else:
             result["num_gt_switches"] = 0
             result["note"] = "No switches in ground truth."
@@ -296,7 +369,9 @@ def verify_eer(antispoof_results_path: str, threshold: float = 0.10) -> Dict[str
 
     eer = data.get("eer")
     if eer is None:
-        return {"eer": None, "pass": None, "note": "No 'eer' key in results."}
+        eer = data.get("test_eer")
+    if eer is None:
+        return {"eer": None, "pass": None, "note": "No 'eer' or 'test_eer' key in results."}
 
     eer = float(eer)
     return {
@@ -329,14 +404,20 @@ def verify_adversarial(
     if snr is None:
         snr = data.get("snr")
     if snr is None:
+        snr = data.get("snr_at_min_db")
+    if snr is None:
         return {"snr_db": None, "pass": None, "note": "No 'snr_db' key in results."}
 
+    eps = data.get("min_epsilon")
     snr = float(snr)
-    return {
+    result = {
         "snr_db": round(snr, 2),
         "threshold_db": snr_min_db,
         "pass": snr > snr_min_db,
     }
+    if eps is not None:
+        result["min_epsilon"] = eps
+    return result
 
 
 # ---------------------------------------------------------------------------
@@ -421,8 +502,12 @@ def evaluate_all(
 
     # 1. WER
     transcript_path = "outputs/transcript_code_switched.json"
+    ground_truth_path = eval_cfg.get("ground_truth_path", "data/ground_truth_transcript.json")
+    logger.info("WER: transcript=%s (exists=%s), ground_truth=%s (exists=%s)",
+                transcript_path, Path(transcript_path).exists(),
+                ground_truth_path, Path(ground_truth_path).exists())
     if Path(transcript_path).exists():
-        wer_result = compute_wer(transcript_path)
+        wer_result = compute_wer(transcript_path, ground_truth_path=ground_truth_path)
         if wer_result.get("wer_english") is not None:
             wer_result["pass_english"] = wer_result["wer_english"] < wer_en_threshold
         if wer_result.get("wer_hindi") is not None:
@@ -456,12 +541,17 @@ def evaluate_all(
 
     # 3. LID switch accuracy
     if Path(transcript_path).exists():
-        metrics["lid_switch"] = compute_lid_switch_accuracy(transcript_path)
+        metrics["lid_switch"] = compute_lid_switch_accuracy(
+            transcript_path,
+            ground_truth_path=ground_truth_path,
+        )
     else:
         metrics["lid_switch"] = {"note": "Transcript not found.", "pass": None}
 
-    # 4. Anti-spoofing EER
-    antispoof_path = "outputs/antispoof_results.json"
+    # 4. Anti-spoofing EER (check both possible locations)
+    antispoof_path = "models/antispoof/antispoof_results.json"
+    if not Path(antispoof_path).exists():
+        antispoof_path = "outputs/antispoof_results.json"
     metrics["eer"] = verify_eer(antispoof_path, threshold=eer_threshold)
 
     # 5. Adversarial robustness
