@@ -1,0 +1,1039 @@
+{
+  "note": "Review and correct 'text' for each segment. Set 'corrected' to true after fixing. Hindi segments should have Devanagari text.",
+  "audio_source": "outputs/audio/original_segment.wav",
+  "segments": [
+    {
+      "id": 0,
+      "start_time": 0.0,
+      "end_time": 29.62,
+      "language": "hi",
+      "text": "अब देखिए जैसे 2024 का चुनाव, अभी जो लोकसभा हुआ, 980 मिलियन रजिस्टर्ड वोटर्स, और हर एक का फोटो है, हर एक का पूरा बायोडाटा है, इतना बड़ा डेटा, और ये संख्या उत्तर अमेरिका की आबादी से दो गुने से भी अधिक है।",
+"corrected": true
+    },
+    {
+      "id": 1,
+      "start_time": 30.0,
+      "end_time": 39.98,
+      "language": "hi",
+      "text": "और ये संख्या उत्तर अमेरिका की आबादी से दो गुने से भी अधिक है।,",
+      "corrected": true
+    },
+    {
+      "id": 2,
+      "start_time": 37.18,
+      "end_time": 44.98,
+      "language": "en",
+      "text": "980 million registered watermessage, 646 million registered watermessages.",
+      "corrected": false
+    },
+    {
+      "id": 3,
+      "start_time": 40.0,
+      "end_time": 53.0,
+      "language": "hi",
+      "text": "इनमें से 646 मिलियन लोग अपने घर से बाहर निकलकर के, और मई महीने में मेरे देश में भयंकर गर्मी होती है।",
+      "corrected": true
+    },
+    {
+      "id": 4,
+      "start_time": 54.18,
+      "end_time": 58.0,
+      "language": "hi",
+      "text": "कुछ जगाबे 40 दिग्री टेमप्रेचर होता हैं। उन्होंने वोट डाला।",
+      "corrected": false
+    },
+    {
+      "id": 5,
+      "start_time": 59.08,
+      "end_time": 65.88,
+      "language": "hi",
+      "text": "और ये वोट डालने वालों के संकियां, अमेरिका के कूल आबाजी से डबल हैं।",
+      "corrected": false
+    },
+    {
+      "id": 6,
+      "start_time": 65.88,
+      "end_time": 69.64,
+      "language": "hi",
+      "text": "एक मिल्यन से अथिक पोलिंग बूत् जहाँ पर वोटिंग हूँते हैं।",
+      "corrected": false
+    },
+    {
+      "id": 7,
+      "start_time": 70.76,
+      "end_time": 74.04,
+      "language": "hi",
+      "text": "इसमें किटने लोग लगते हैं।",
+      "corrected": false
+    },
+    {
+      "id": 8,
+      "start_time": 74.04,
+      "end_time": 79.94,
+      "language": "hi",
+      "text": "मेरे देश में 2500 से ज़ाइँदा पोलिटिकल पार्टि ज़ाएं।",
+      "corrected": false
+    },
+    {
+      "id": 9,
+      "start_time": 79.94,
+      "end_time": 83.14,
+      "language": "hi",
+      "text": "यह आकडा सुन दुनिया के देश के लोकों के लिए अच्छार करता है।",
+      "corrected": false
+    },
+    {
+      "id": 10,
+      "start_time": 83.14,
+      "end_time": 87.24,
+      "language": "hi",
+      "text": "एसा देश जो यह हाँ 2500 पूल्टकल रजिस्टर पूल्टकल पार्टिया हैं।",
+      "corrected": false
+    },
+    {
+      "id": 11,
+      "start_time": 88.1,
+      "end_time": 94.14,
+      "language": "hi",
+      "text": "मेरे देश में 900 से जादा 24 भाय 7 टीवी चानल से हैं।",
+      "corrected": false
+    },
+    {
+      "id": 12,
+      "start_time": 96.18,
+      "end_time": 99.14,
+      "language": "hi",
+      "text": "5000 से जादा डेली अख्भार निकलते हैं।",
+      "corrected": false
+    },
+    {
+      "id": 13,
+      "start_time": 99.2,
+      "end_time": 103.66,
+      "language": "hi",
+      "text": "यह जो डेमोक्रेसी को साथ जुड़े हुए है कुछ न कुछ रोहा हैं।",
+      "corrected": false
+    },
+    {
+      "id": 14,
+      "start_time": 103.66,
+      "end_time": 110.9,
+      "language": "hi",
+      "text": "और हमारे यहाँ कोई भी गरीब से गरीब गाँव का व्यक्ति हो,",
+      "corrected": true
+    },
+    {
+      "id": 15,
+      "start_time": 110.9,
+      "end_time": 114.08,
+      "language": "hi",
+      "text": "वो टेकनोर्जी को बहुत तेज़े से एडब करता हैं।",
+      "corrected": false
+    },
+    {
+      "id": 16,
+      "start_time": 114.08,
+      "end_time": 116.3,
+      "language": "hi",
+      "text": "एबियम मशिन से वोट देता हैं।",
+      "corrected": false
+    },
+    {
+      "id": 17,
+      "start_time": 116.3,
+      "end_time": 120.3,
+      "language": "hi",
+      "text": "दुनिया के कई देशों में चुनाव के रिजल्ट महीनों तक नहीं आते हैं।",
+      "corrected": true
+    },
+    {
+      "id": 18,
+      "start_time": 121.08,
+      "end_time": 123.32,
+      "language": "hi",
+      "text": "मेरे हां एक दिन में रिजल्ड आ जाता हैं।",
+      "corrected": false
+    },
+    {
+      "id": 19,
+      "start_time": 123.32,
+      "end_time": 125.44,
+      "language": "hi",
+      "text": "इतने लोकों का काउंटिन हो जाता हैं।",
+      "corrected": false
+    },
+    {
+      "id": 20,
+      "start_time": 125.44,
+      "end_time": 131.94,
+      "language": "hi",
+      "text": "और आपने सही कहा कि दूर-दराज क्षेत्रों में पोलिंग स्टेशन होते हैं।",
+      "corrected": true
+    },
+    {
+      "id": 21,
+      "start_time": 131.94,
+      "end_time": 134.44,
+      "language": "hi",
+      "text": "हेलीकॉप्टर से हमें भेजना पड़ता है।",
+      "corrected": true
+    },
+    {
+      "id": 22,
+      "start_time": 134.98,
+      "end_time": 143.64,
+      "language": "hi",
+      "text": "आरुनाचल प्रदेश में एक पोलिंग बूत वो शायए दुन्या का सबसे टॉप पोलिंग बूत होगा।",
+      "corrected": false
+    },
+    {
+      "id": 23,
+      "start_time": 143.64,
+      "end_time": 146.2,
+      "language": "hi",
+      "text": "में गुज्राद में गीर फौरेश में पोलिंग बूत था।",
+      "corrected": false
+    },
+    {
+      "id": 24,
+      "start_time": 146.2,
+      "end_time": 151.64,
+      "language": "hi",
+      "text": "एक ही वोटर था, उसके लिए पोलिंग बूथ था, गिर फॉरेस्ट में जहाँ गिर लायन हैं।",
+      "corrected": true
+    },
+    {
+      "id": 25,
+      "start_time": 152.94,
+      "end_time": 172.58,
+      "language": "hi",
+      "text": "तो हमारे हां कितनी प्रकार के घुशिश रहती हैं।",
+      "corrected": false
+    },
+    {
+      "id": 26,
+      "start_time": 172.58,
+      "end_time": 175.2,
+      "language": "hi",
+      "text": "मद्दान के लिए पूरी विवस्थामरी हैं",
+      "corrected": false
+    },
+    {
+      "id": 27,
+      "start_time": 175.2,
+      "end_time": 176.82,
+      "language": "hi",
+      "text": "और इसलिए मैं तो कहता हूं",
+      "corrected": false
+    },
+    {
+      "id": 28,
+      "start_time": 176.82,
+      "end_time": 179.44,
+      "language": "hi",
+      "text": "कि दुनिया में भारत के",
+      "corrected": false
+    },
+    {
+      "id": 29,
+      "start_time": 179.44,
+      "end_time": 184.4,
+      "language": "hi",
+      "text": "एक निस्पक्ष स्वतंत्र",
+      "corrected": false
+    },
+    {
+      "id": 30,
+      "start_time": 184.4,
+      "end_time": 187.06,
+      "language": "hi",
+      "text": "इलेक्षन कमिशने चुनाव कर वाता हैं",
+      "corrected": false
+    },
+    {
+      "id": 31,
+      "start_time": 187.06,
+      "end_time": 189.08,
+      "language": "hi",
+      "text": "सारे निन्ने वो करता हैं",
+      "corrected": false
+    },
+    {
+      "id": 32,
+      "start_time": 189.88,
+      "end_time": 192.5,
+      "language": "hi",
+      "text": "ये अपने आप में कितनी बड़ी",
+      "corrected": false
+    },
+    {
+      "id": 33,
+      "start_time": 192.5,
+      "end_time": 194.58,
+      "language": "hi",
+      "text": "ब्राइड स्टोरी हैं",
+      "corrected": false
+    },
+    {
+      "id": 34,
+      "start_time": 194.58,
+      "end_time": 196.7,
+      "language": "hi",
+      "text": "कि दुनिया की बड़ी यूनिवर्सिटी ने",
+      "corrected": false
+    },
+    {
+      "id": 35,
+      "start_time": 196.7,
+      "end_time": 198.58,
+      "language": "hi",
+      "text": "उसका केश्टरी करना चाहिए",
+      "corrected": false
+    },
+    {
+      "id": 36,
+      "start_time": 198.58,
+      "end_time": 201.58,
+      "language": "hi",
+      "text": "इसके मैनेजमेंट का केश्टरी करना चाहिए",
+      "corrected": false
+    },
+    {
+      "id": 37,
+      "start_time": 202.22,
+      "end_time": 205.58,
+      "language": "hi",
+      "text": "ये मुटिवेश्ण का इतनी लोग वोट करते हैं आज",
+      "corrected": false
+    },
+    {
+      "id": 38,
+      "start_time": 206.36,
+      "end_time": 208.58,
+      "language": "hi",
+      "text": "कितना बड़ा पोलिटिकली आलर्टनेस होगा",
+      "corrected": false
+    },
+    {
+      "id": 39,
+      "start_time": 208.98,
+      "end_time": 213.06,
+      "language": "hi",
+      "text": "इन सारी बातों का एक बहुत बड़ा केश्टरी करके",
+      "corrected": false
+    },
+    {
+      "id": 40,
+      "start_time": 213.06,
+      "end_time": 215.94,
+      "language": "hi",
+      "text": "दुनिया के नहीं पीडी के सामने रखना चाहिए",
+      "corrected": false
+    },
+    {
+      "id": 41,
+      "start_time": 215.0,
+      "end_time": 219.06,
+      "language": "en",
+      "text": "To me, I love democracy.",
+      "corrected": false
+    },
+    {
+      "id": 42,
+      "start_time": 220.22,
+      "end_time": 223.74,
+      "language": "en",
+      "text": "This is one of the main reasons I love the United States,",
+      "corrected": false
+    },
+    {
+      "id": 43,
+      "start_time": 224.0,
+      "end_time": 227.78,
+      "language": "en",
+      "text": "but there's just nothing quite as beautiful as democracy",
+      "corrected": false
+    },
+    {
+      "id": 44,
+      "start_time": 227.78,
+      "end_time": 229.22,
+      "language": "en",
+      "text": "when it functions in India.",
+      "corrected": false
+    },
+    {
+      "id": 45,
+      "start_time": 225.0,
+      "end_time": 228.5,
+      "language": "hi",
+      "text": "जो म Cent院 का भाजिया् ल divid fellows जाओ भुट कराटा!",
+      "corrected": false
+    },
+    {
+      "id": 46,
+      "start_time": 230.34,
+      "end_time": 231.96,
+      "language": "hi",
+      "text": "बारम से बा\": açık the world hello to all of theole",
+      "corrected": false
+    },
+    {
+      "id": 47,
+      "start_time": 231.96,
+      "end_time": 234.98,
+      "language": "hi",
+      "text": "नॉनिस लेन्दियाकि अचरौ जपाकि पूल से बीरिइंष्माप्रे curve",
+      "corrected": false
+    },
+    {
+      "id": 48,
+      "start_time": 230.0,
+      "end_time": 234.96,
+      "language": "en",
+      "text": "You know, like you said, 900 million people registered to vote.",
+      "corrected": false
+    },
+    {
+      "id": 49,
+      "start_time": 235.5,
+      "end_time": 237.54,
+      "language": "en",
+      "text": "It's, it really is a case study.",
+      "corrected": false
+    },
+    {
+      "id": 50,
+      "start_time": 238.18,
+      "end_time": 239.36,
+      "language": "en",
+      "text": "It's beautiful to see.",
+      "corrected": false
+    },
+    {
+      "id": 51,
+      "start_time": 235.0,
+      "end_time": 237.6,
+      "language": "hi",
+      "text": "क respirer is a case study",
+      "corrected": false
+    },
+    {
+      "id": 52,
+      "start_time": 237.6,
+      "end_time": 239.9,
+      "language": "hi",
+      "text": "is beautiful to see",
+      "corrected": false
+    },
+    {
+      "id": 53,
+      "start_time": 239.9,
+      "end_time": 242.62,
+      "language": "hi",
+      "text": "that many people come together",
+      "corrected": false
+    },
+    {
+      "id": 54,
+      "start_time": 242.62,
+      "end_time": 243.68,
+      "language": "hi",
+      "text": "willingly",
+      "corrected": false
+    },
+    {
+      "id": 55,
+      "start_time": 244.6,
+      "end_time": 246.3,
+      "language": "hi",
+      "text": "passionately casting a vote",
+      "corrected": false
+    },
+    {
+      "id": 56,
+      "start_time": 247.0,
+      "end_time": 249.22,
+      "language": "hi",
+      "text": "for some person to represent them",
+      "corrected": false
+    },
+    {
+      "id": 57,
+      "start_time": 249.22,
+      "end_time": 250.9,
+      "language": "hi",
+      "text": "like, they're putting their heart in that",
+      "corrected": false
+    },
+    {
+      "id": 58,
+      "start_time": 250.9,
+      "end_time": 253.16,
+      "language": "hi",
+      "text": "it's really important for a person to feel like",
+      "corrected": false
+    },
+    {
+      "id": 59,
+      "start_time": 253.16,
+      "end_time": 254.7,
+      "language": "hi",
+      "text": "their voice is going to be heard",
+      "corrected": false
+    },
+    {
+      "id": 60,
+      "start_time": 256.04,
+      "end_time": 257.22,
+      "language": "hi",
+      "text": "speaking of which",
+      "corrected": false
+    },
+    {
+      "id": 61,
+      "start_time": 257.22,
+      "end_time": 258.78,
+      "language": "hi",
+      "text": "you are loved by a lot of people",
+      "corrected": false
+    },
+    {
+      "id": 62,
+      "start_time": 258.78,
+      "end_time": 261.74,
+      "language": "hi",
+      "text": "you are one of the most powerful humans in the world",
+      "corrected": false
+    },
+    {
+      "id": 63,
+      "start_time": 261.74,
+      "end_time": 263.4,
+      "language": "hi",
+      "text": "do you sometimes think about whether",
+      "corrected": false
+    },
+    {
+      "id": 64,
+      "start_time": 264.14,
+      "end_time": 264.22,
+      "language": "hi",
+      "text": "].",
+      "corrected": false
+    },
+    {
+      "id": 65,
+      "start_time": 264.22,
+      "end_time": 264.24,
+      "language": "hi",
+      "text": ".",
+      "corrected": false
+    },
+    {
+      "id": 66,
+      "start_time": 264.24,
+      "end_time": 264.26,
+      "language": "hi",
+      "text": ".",
+      "corrected": false
+    },
+    {
+      "id": 67,
+      "start_time": 264.4,
+      "end_time": 264.48,
+      "language": "hi",
+      "text": ".",
+      "corrected": false
+    },
+    {
+      "id": 68,
+      "start_time": 264.48,
+      "end_time": 264.58,
+      "language": "hi",
+      "text": ".",
+      "corrected": false
+    },
+    {
+      "id": 69,
+      "start_time": 264.58,
+      "end_time": 264.72,
+      "language": "hi",
+      "text": ".",
+      "corrected": false
+    },
+    {
+      "id": 70,
+      "start_time": 264.72,
+      "end_time": 264.74,
+      "language": "hi",
+      "text": ".",
+      "corrected": false
+    },
+    {
+      "id": 71,
+      "start_time": 264.74,
+      "end_time": 264.8,
+      "language": "hi",
+      "text": ".",
+      "corrected": false
+    },
+    {
+      "id": 72,
+      "start_time": 264.8,
+      "end_time": 264.82,
+      "language": "hi",
+      "text": ".",
+      "corrected": false
+    },
+    {
+      "id": 73,
+      "start_time": 264.82,
+      "end_time": 264.84,
+      "language": "hi",
+      "text": ".",
+      "corrected": false
+    },
+    {
+      "id": 74,
+      "start_time": 260.0,
+      "end_time": 264.64,
+      "language": "en",
+      "text": "humans in the world. Do you sometimes think about whether this much power has",
+      "corrected": false
+    },
+    {
+      "id": 75,
+      "start_time": 264.64,
+      "end_time": 269.98,
+      "language": "en",
+      "text": "a corrupting effect in your mind? Especially across the many years",
+      "corrected": false
+    },
+    {
+      "id": 76,
+      "start_time": 268.44,
+      "end_time": 278.78,
+      "language": "hi",
+      "text": "या ताखावा के लिए शब्दे ही ये मेरे जीवं जाए पहित नहीं बरता था.",
+      "corrected": false
+    },
+    {
+      "id": 77,
+      "start_time": 280.68,
+      "end_time": 286.04,
+      "language": "hi",
+      "text": "जब वे शकत साली हूं यह सा दावा नहीं कर सकता हूं.",
+      "corrected": false
+    },
+    {
+      "id": 78,
+      "start_time": 286.16,
+      "end_time": 288.74,
+      "language": "hi",
+      "text": "और नहीं क्योक्कि है कि मैं एक सेवाक हूं.",
+      "corrected": false
+    },
+    {
+      "id": 79,
+      "start_time": 289.62,
+      "end_time": 293.82,
+      "language": "hi",
+      "text": "मेरा पहाँचान भी प्रधान सेवाक के रॉब्य करता हूं.",
+      "corrected": false
+    },
+    {
+      "id": 80,
+      "start_time": 293.82,
+      "end_time": 297.18,
+      "language": "hi",
+      "text": "और सेवा के मंत्र को लेकर के मैं निकला हूँ",
+      "corrected": false
+    },
+    {
+      "id": 81,
+      "start_time": 299.28,
+      "end_time": 302.12,
+      "language": "hi",
+      "text": "जहां तक पावर की आपने बात के इए",
+      "corrected": false
+    },
+    {
+      "id": 82,
+      "start_time": 302.12,
+      "end_time": 303.94,
+      "language": "hi",
+      "text": "I have never bothered about power",
+      "corrected": false
+    },
+    {
+      "id": 83,
+      "start_time": 301.24,
+      "end_time": 309.8,
+      "language": "en",
+      "text": "I have never bothered about power, I never came to politics to pursue power games",
+      "corrected": false
+    },
+    {
+      "id": 84,
+      "start_time": 309.82,
+      "end_time": 322.0,
+      "language": "hi",
+      "text": "और मैं तो पावर्फॉल के बजाए, कहूँ का मैं प्रोव वर्क्फॉल होने का सामर्थक हूँ, पावर्फॉल नहीं हूँ, प्रोव वर्क्फॉल हूँ.",
+      "corrected": false
+    },
+    {
+      "id": 85,
+      "start_time": 322.0,
+      "end_time": 333.0,
+      "language": "hi",
+      "text": "अब मेरा पर्पॉल हमें साज लोगों के सेवार करने का रहा है, उनके जीवन में कुछ भी पोजिटिव योग्धान कर सकता हूँ, तो करने का रहा है मरा.",
+      "corrected": false
+    },
+    {
+      "id": 86,
+      "start_time": 333.06,
+      "end_time": 343.38,
+      "language": "hi",
+      "text": "गौड द्या यें था कपका से तो सोबा खेल छर्ड़ा पे ःमाँ प्युपतिएœ वता नहीं हँं।",
+      "corrected": false
+    },
+    {
+      "id": 87,
+      "start_time": 363.42,
+      "end_time": 374.06,
+      "language": "hi",
+      "text": "और जब one plus one की मेरी theory हैं, वो मेरा सात्वीक समर्थन करती हैं.",
+      "corrected": false
+    },
+    {
+      "id": 88,
+      "start_time": 375.0,
+      "end_time": 378.12,
+      "language": "hi",
+      "text": "और ये one plus one कोई is प्छैगअ, one plus one कौन दें है।",
+      "corrected": false
+    },
+    {
+      "id": 89,
+      "start_time": 378.66,
+      "end_time": 382.12,
+      "language": "hi",
+      "text": "तो मैं कह था हुँ, पहला one जो है, मोदि है।",
+      "corrected": false
+    },
+    {
+      "id": 90,
+      "start_time": 382.9,
+      "end_time": 385.68,
+      "language": "hi",
+      "text": "और plus one है, वह इश्वर है।",
+      "corrected": false
+    },
+    {
+      "id": 91,
+      "start_time": 386.46,
+      "end_time": 388.74,
+      "language": "hi",
+      "text": "मैं अकेला कभी नहीं होता हूं।",
+      "corrected": false
+    },
+    {
+      "id": 92,
+      "start_time": 388.74,
+      "end_time": 391.6,
+      "language": "hi",
+      "text": "होँ अमेशा मेरे साथ होता है।",
+      "corrected": false
+    },
+    {
+      "id": 93,
+      "start_time": 391.6,
+      "end_time": 393.32,
+      "language": "hi",
+      "text": "तो मैं अमेशा उस भाव से।",
+      "corrected": false
+    },
+    {
+      "id": 94,
+      "start_time": 393.32,
+      "end_time": 399.8,
+      "language": "hi",
+      "text": "और मैं सिद्धान तो को जिया था,",
+      "corrected": false
+    },
+    {
+      "id": 95,
+      "start_time": 405.0,
+      "end_time": 432.98,
+      "language": "hi",
+      "text": "नर सेवा ही नाराइण सेवा, मेरे लिए देशी देव है, नर ही नाराइण है, तो जन सेवा ही प्रभुसेवा इस भाव को लेकर के मैं चला हूं, और इसलिए मुझे उस प्रकार से अकेलापं वगर इसका मैनेज करने का कोई प्रसंग आया नहीं, अब ज़र्से कोईड के सम",
+      "corrected": false
+    },
+    {
+      "id": 96,
+      "start_time": 432.98,
+      "end_time": 462.96,
+      "language": "hi",
+      "text": "है, सारे बंदन बंदन लगे हुए थे, प्राविलिंग बंद था, तो समय का कैसे उप्योग करना, लॉक्डाउन था, तो मैंने क्या किया, गवर्णन्स को विडियो कान्फरंस के द्वारा मोडिल डेवलॉब कर दिया, और वर्क फरम होम और मिटिंग वर्च",
+      "corrected": false
+    },
+    {
+      "id": 97,
+      "start_time": 462.96,
+      "end_time": 464.98,
+      "language": "hi",
+      "text": "करना शुरू करेंगे, मैं अपने आपको भीज़ू",
+      "corrected": false
+    },
+    {
+      "id": 98,
+      "start_time": 460.0,
+      "end_time": 465.66,
+      "language": "en",
+      "text": "and meeting virtually karna shuru kar gaya, main apne aapko busy rakhta tha.",
+      "corrected": false
+    },
+    {
+      "id": 99,
+      "start_time": 466.92,
+      "end_time": 469.98,
+      "language": "en",
+      "text": "Dusra, maine tai kiya ki jhin logon ke saath",
+      "corrected": false
+    },
+    {
+      "id": 100,
+      "start_time": 468.5,
+      "end_time": 486.04,
+      "language": "hi",
+      "text": "जिन लोगों के साथ मैं जीवन बर काम करता रहा हूं। पूरे देश में मेरे कारकरता हैं। उसमें जो 70 प्लस के लोग हैं। उनको याद करकर करके कोईड के समय में चोटे से शोटे कारकरताओं को भी।",
+      "corrected": false
+    },
+    {
+      "id": 101,
+      "start_time": 492.96,
+      "end_time": 502.04,
+      "language": "hi",
+      "text": "अनको मैं कोईड के समय में उनकी तब्या थीक है क्या, उनके परीवार के थब्या थीक है क्या, उनके आसपास के एल्याके में वहुस्ता कैसी चल रही हैं।",
+      "corrected": false
+    },
+    {
+      "id": 102,
+      "start_time": 502.22,
+      "end_time": 511.0,
+      "language": "hi",
+      "text": "ये सारी बाते मैं उनके साथ कर लेता था, तो मैं भी एक प्रकार से उनसे जुड़ जाता था, पूरानी यादा ताजा हो जाती थी।",
+      "corrected": false
+    },
+    {
+      "id": 103,
+      "start_time": 511.0,
+      "end_time": 518.48,
+      "language": "hi",
+      "text": "उनको भी लगता था, रही है, वहाँ पहुज गयी है, पर तेबिडी जिम्मेवारी है, लेकिन अज भिमारी के समझ मेरे घर फोंग करते हैं।",
+      "corrected": false
+    },
+    {
+      "id": 104,
+      "start_time": 518.48,
+      "end_time": 526.18,
+      "language": "hi",
+      "text": "और मैं देली हैवरेज 30-40 फून करता था, देली, और पूरे कोईड कारकल के दर्मेन करता रहा।",
+      "corrected": false
+    },
+    {
+      "id": 105,
+      "start_time": 526.18,
+      "end_time": 536.18,
+      "language": "hi",
+      "text": "तो मुझे पूराने पूराने लोकों से बाते करने का आनद मिलता था, तो यह अकेला पं नहीं था, मेरी भ्यस्तता के तरीके में डुनता रहता।",
+      "corrected": false
+    },
+    {
+      "id": 106,
+      "start_time": 536.68,
+      "end_time": 543.18,
+      "language": "hi",
+      "text": "और मैं पूच से बातित करने के लिए बहुत अभ्यासू हूं, मेरा हिमालेन लाइप मुझे बड़ी मद्रत कर रहा हैं।",
+      "corrected": false
+    },
+    {
+      "id": 107,
+      "start_time": 550.0,
+      "end_time": 557.3,
+      "language": "en",
+      "text": "know. What's your philosophy behind that? Maybe you put in crazy hours every single",
+      "corrected": false
+    },
+    {
+      "id": 108,
+      "start_time": 557.3,
+      "end_time": 558.58,
+      "language": "en",
+      "text": "day. Do you ever get tired?",
+      "corrected": false
+    },
+    {
+      "id": 109,
+      "start_time": 555.0,
+      "end_time": 557.62,
+      "language": "hi",
+      "text": "You put in crazy hours every single day.",
+      "corrected": false
+    },
+    {
+      "id": 110,
+      "start_time": 557.86,
+      "end_time": 558.58,
+      "language": "hi",
+      "text": "Do you ever get tired?",
+      "corrected": false
+    },
+    {
+      "id": 111,
+      "start_time": 560.1,
+      "end_time": 565.1,
+      "language": "hi",
+      "text": "What's your source of strength and perseverance through all that?",
+      "corrected": false
+    },
+    {
+      "id": 112,
+      "start_time": 565.64,
+      "end_time": 569.86,
+      "language": "hi",
+      "text": "यह देखी एक्तो मैं यह नहींा समान था। मैं ही काम करता हूं।",
+      "corrected": false
+    },
+    {
+      "id": 113,
+      "start_time": 569.86,
+      "end_time": 572.96,
+      "language": "hi",
+      "text": "मैं मेरे आसपार लोगों को देखता हूं।",
+      "corrected": false
+    },
+    {
+      "id": 114,
+      "start_time": 572.96,
+      "end_time": 575.8,
+      "language": "hi",
+      "text": "और मैं हमें साज लो था यह लो जाजा काम करते हैं।",
+      "corrected": false
+    },
+    {
+      "id": 115,
+      "start_time": 575.8,
+      "end_time": 579.98,
+      "language": "hi",
+      "text": "मैं जब किसाण का समान कर तो मुझे रखता है किसाण किसीं महनत करता हैं",
+      "corrected": false
+    },
+    {
+      "id": 116,
+      "start_time": 575.0,
+      "end_time": 580.04,
+      "language": "en",
+      "text": "When I think of farmers, I think how hard they work.",
+      "corrected": false
+    },
+    {
+      "id": 117,
+      "start_time": 580.9,
+      "end_time": 582.04,
+      "language": "en",
+      "text": "How much sweat flows under the open sky.",
+      "corrected": false
+    },
+    {
+      "id": 118,
+      "start_time": 583.94,
+      "end_time": 584.72,
+      "language": "en",
+      "text": "I am from my country.",
+      "corrected": false
+    },
+    {
+      "id": 119,
+      "start_time": 580.66,
+      "end_time": 583.92,
+      "language": "hi",
+      "text": "खुले अस्वान के निच्य खिता परसिना भाथा है!",
+      "corrected": false
+    },
+    {
+      "id": 120,
+      "start_time": 584.08,
+      "end_time": 587.48,
+      "language": "hi",
+      "text": "में, मेंरे देश के जवान को देख थाह। तो वो में विचार आता हैं!",
+      "corrected": false
+    },
+    {
+      "id": 121,
+      "start_time": 587.54,
+      "end_time": 594.62,
+      "language": "hi",
+      "text": "कित्तिं घाँटे तक कोई बरफ में, कोई रेकिस्तान में कोई पाणी में दिन्नाद खाम कर रहा हैं!",
+      "corrected": false
+    },
+    {
+      "id": 122,
+      "start_time": 594.62,
+      "end_time": 599.0,
+      "language": "hi",
+      "text": "मैं कइसी मद्दुर को देखता हूं, तो बजे रहता ही, कितनी महणत कर रहा है welded to make cafe for those working hardly",
+      "corrected": false
+    },
+    {
+      "id": 123,
+      "start_time": 599.0,
+      "end_time": 604.48,
+      "language": "hi",
+      "text": "याणे, मैं हमेस्षा सोजता हॉं, तो हार परीवार में, माट continua,। superb, i know my mother's and send's especially put a lot of effort,",
+      "corrected": false
+    },
+    {
+      "id": 124,
+      "start_time": 604.48,
+      "end_time": 607.8,
+      "language": "hi",
+      "text": "कितनी महनत करती हैं, परीवार के सुख के लिये for everyone's well-being",
+      "corrected": false
+    },
+    {
+      "id": 125,
+      "start_time": 607.8,
+      "end_time": 615.0,
+      "language": "hi",
+      "text": "सुभे सब से पहले उड़जाए, राब भज़ाए, earth- Turkey रर बियक रम्ताल sitäाइए।",
+      "corrected": false
+    },
+    {
+      "id": 126,
+      "start_time": 618.06,
+      "end_time": 623.14,
+      "language": "hi",
+      "text": "तो ज़्रान पहस्ता सब, रुलों रुणर लोग लोग줘वका में पर सूचता हूं।",
+      "corrected": false
+    },
+    {
+      "id": 127,
+      "start_time": 627.64,
+      "end_time": 634.36,
+      "language": "hi",
+      "text": "मोहाँ सुध्वाविक िउंड़़जाए में अवर् struggाordre चाह रहे है।",
+      "corrected": false
+    },
+    {
+      "id": 128,
+      "start_time": 635.56,
+      "end_time": 651.98,
+      "language": "hi",
+      "text": "दूस्रा, मेरी जिम्मेवारी में जे डौडाती है, जो जिम्मेवारी देश्वाज्योने में जे दी है, मुझे हमेशा लगता है, कि मैं पड़ पर मौज मस्ती करने के लिए नहीं आया, मेरी तरभ से मैं पूरा पाइए।",
+      "corrected": false
+    }
+  ],
+  "num_segments": 129
+}

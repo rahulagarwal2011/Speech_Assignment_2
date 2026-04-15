@@ -23,8 +23,8 @@ env/
 *.ckpt
 *.bin
 *.onnx
-data/
-models/
+data/raw
+data/processed
 outputs/audio/
 
 # IDE

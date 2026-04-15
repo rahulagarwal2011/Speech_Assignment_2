@@ -1,0 +1,512 @@
+english_term	hindi_equivalent	maithili	ipa_maithili	domain
+speech recognition	वाक् पहचान	[TRANSLATE:speech recognition]		speech_processing
+automatic speech recognition	स्वचालित वाक् पहचान	[TRANSLATE:automatic speech recognition]		speech_processing
+speech-to-text	वाक्-से-पाठ	[TRANSLATE:speech-to-text]		speech_processing
+text-to-speech	पाठ-से-वाक्	[TRANSLATE:text-to-speech]		speech_processing
+speech synthesis	वाक् संश्लेषण	[TRANSLATE:speech synthesis]		speech_processing
+CTC	सीटीसी	दिल्ली डिस्ट्रिक्ट कोर्ट की आधिकारिक वेबसाइट @delhicourts.nic.in पर जाएं।		speech_processing
+sequence-to-sequence	अनुक्रम-से-अनुक्रम	[TRANSLATE:sequence-to-sequence]		speech_processing
+attention mechanism	ध्यान तंत्र	[TRANSLATE:attention mechanism]		speech_processing
+beam search	बीम सर्च	[TRANSLATE:beam search]		speech_processing
+language model	भाषा मॉडल	[TRANSLATE:language model]		speech_processing
+acoustic model	ध्वनिक मॉडल	[TRANSLATE:acoustic model]		speech_processing
+hidden Markov model	छुपा मार्कोव मॉडल	[TRANSLATE:hidden Markov model]		speech_processing
+Viterbi algorithm	विटरबी एल्गोरिथ्म	[TRANSLATE:Viterbi algorithm]		speech_processing
+Baum-Welch algorithm	बाम-वेल्च एल्गोरिथ्म	[TRANSLATE:Baum-Welch algorithm]		speech_processing
+Gaussian mixture model	गॉसियन मिश्रण मॉडल	[TRANSLATE:Gaussian mixture model]		speech_processing
+GRU		10 अहाँ सभ कुड़बुड़ाउ नहि, जेना कि हुनका सभ मे सँ किछु लोक कयलनि आ विनाशक दूत द्वारा मारल गेलाह।		speech_processing
+transformer	ट्रांसफार्मर	[TRANSLATE:transformer]		speech_processing
+encoder	एनकोडर	[TRANSLATE:encoder]		speech_processing
+decoder	डिकोडर	[TRANSLATE:decoder]		speech_processing
+wav2vec	वेव2वेक	[TRANSLATE:wav2vec]		speech_processing
+whisper	व्हिस्पर	(आला लगाए देखि कें) ठीक छी।		speech_processing
+word error rate	शब्द त्रुटि दर	[TRANSLATE:word error rate]		speech_processing
+voice cloning	आवाज़ क्लोनिंग	[TRANSLATE:voice cloning]		speech_processing
+voice conversion	आवाज़ रूपांतरण	[TRANSLATE:voice conversion]		speech_processing
+code-switching	कोड-स्विचिंग	[TRANSLATE:code-switching]		speech_processing
+multilingual		प्रेस विज्ञप्ति ६ भाषाओँ में (अंग्रेजी, मैन्डरिन, स्पेनिश, रुसी, पुर्तगाली, फ़्रांसिसी)		speech_processing
+speaker embedding	वक्ता अंतःस्थापन	[TRANSLATE:speaker embedding]		speech_processing
+speech enhancement	वाक् संवर्धन	[TRANSLATE:speech enhancement]		speech_processing
+noise cancellation	शोर रद्दीकरण	[TRANSLATE:noise cancellation]		speech_processing
+speech corpus	वाक् संग्रह	[TRANSLATE:speech corpus]		speech_processing
+speech quality	वाक् गुणवत्ता	[TRANSLATE:speech quality]		speech_processing
+mean opinion score	औसत राय अंक	[TRANSLATE:mean opinion score]		speech_processing
+forced alignment	बाध्य संरेखण	[TRANSLATE:forced alignment]		speech_processing
+signal	संकेत	कोनो संकेतो नहि अछि।		signal_processing
+noise	शोर	• पर्यावरण अवकर्षण, वायु, जल, भूमि, ध्वनि, रेडियोधर्मिता प्रदूषण: कारण, प्रभाव एवं निदान		signal_processing
+signal-to-noise ratio	संकेत-से-शोर अनुपात	[TRANSLATE:signal-to-noise ratio]		signal_processing
+frequency	आवृत्ति	आउटपुट आवृत्ति सटीकता (हर्ट्ज) 50 ± 0.05		signal_processing
+amplitude	आयाम	[TRANSLATE:amplitude]		signal_processing
+phase	कला	1. वीजपुरवठाः तीन-चरण-चार वायर सिस्टम (ए, बी, सी, पीई), 380 व्ही / 50 हर्ट्ज		signal_processing
+waveform	तरंगरूप	[TRANSLATE:waveform]		signal_processing
+sampling rate	प्रतिचयन दर	[TRANSLATE:sampling rate]		signal_processing
+quantization	क्वांटीकरण	[TRANSLATE:quantization]		signal_processing
+Fourier transform	फूरियर रूपांतरण	[TRANSLATE:Fourier transform]		signal_processing
+FFT	एफएफटी	[TRANSLATE:FFT]		signal_processing
+DFT	डीएफटी	[TRANSLATE:DFT]		signal_processing
+spectrogram	स्पेक्ट्रोग्राम	[TRANSLATE:spectrogram]		signal_processing
+bandwidth	बैंडविड्थ	[TRANSLATE:bandwidth]		signal_processing
+filter	फिल्टर	[TRANSLATE:filter]		signal_processing
+convolution	संवलन	[TRANSLATE:convolution]		signal_processing
+correlation	सहसंबंध	[TRANSLATE:correlation]		signal_processing
+Hamming window	हैमिंग विंडो	[TRANSLATE:Hamming window]		signal_processing
+normalization	सामान्यीकरण	[TRANSLATE:normalization]		signal_processing
+compression	संपीड़न	[TRANSLATE:compression]		signal_processing
+discrete cosine transform	असंतत कोसाइन रूपांतरण	[TRANSLATE:discrete cosine transform]		signal_processing
+zero crossing rate	शून्य क्रॉसिंग दर	[TRANSLATE:zero crossing rate]		signal_processing
+spectral centroid	वर्णक्रमीय केन्द्रक	[TRANSLATE:spectral centroid]		signal_processing
+ADC		१९८०-१९८४, केन्द्रीय राज्य मन्त्री (सूचना एवं प्रसारण, श्रम आ रोजगार, पुनर्वास, उद्योग, इस्पात आ खान, वाणिज्य आ गृह मंत्रालय)		signal_processing
+pre-emphasis	पूर्व-बल	[TRANSLATE:pre-emphasis]		signal_processing
+framing	फ्रेमिंग	[TRANSLATE:framing]		signal_processing
+windowing	विंडोइंग	[TRANSLATE:windowing]		signal_processing
+FIR		7 अहाँ सभक प्रति हमर ई भावना ठीको अछि - अहाँ सभ तँ हमरा हृदय मे बसि गेल छी, किएक तँ हम चाहे जहलक भीतर मे छी वा बाहर शुभ समाचारक सत्यताक साक्षी दऽ रहल छी आ ओकर पुष्टि कऽ रहल छी, अहाँ सभ गोटे हमरा संग परमेश्वरक कृपा मे सहभागी छी।		signal_processing
+IIR		भारतीय चावल अनुसंधान संस्थान, हैदराबाद (IIRR)		signal_processing
+pitch	पिच	तुम छल नहीं सकते !		acoustics
+fundamental frequency	मूल आवृत्ति	[TRANSLATE:fundamental frequency]		acoustics
+F0		7 हम नीक लड़ाइ लड़ि लेलहुँ, अपन दौड़ पूरा कऽ लेलहुँ और अपन विश्वास पर अटल रहलहुँ।		acoustics
+formant	फॉर्मेंट	[TRANSLATE:formant]		acoustics
+vocal tract	स्वर पथ	[TRANSLATE:vocal tract]		acoustics
+linear predictive coding	रैखिक पूर्वानुमान कोडिंग	[TRANSLATE:linear predictive coding]		acoustics
+cepstrum	सेप्स्ट्रम	[TRANSLATE:cepstrum]		acoustics
+mel-frequency	मेल-आवृत्ति	[TRANSLATE:mel-frequency]		acoustics
+MFCC	एमएफसीसी	[TRANSLATE:MFCC]		acoustics
+filterbank	फिल्टरबैंक	[TRANSLATE:filterbank]		acoustics
+loudness	प्रबलता	[TRANSLATE:loudness]		acoustics
+intensity		बंग्लौर, जुलाई 25, 2008: एक छोटे बम धमाके में एक व्यक्ति मारा गया.		acoustics
+decibel	डेसिबल	[TRANSLATE:decibel]		acoustics
+reverberation	प्रतिध्वनि	[TRANSLATE:reverberation]		acoustics
+microphone	माइक्रोफोन	[TRANSLATE:microphone]		acoustics
+PLP		पीएनआर ग्रुप		acoustics
+sound wave	ध्वनि तरंग	[TRANSLATE:sound wave]		acoustics
+reflection		"27 यीशु ओतऽ सँ आगाँ बढ़लाह तँ दू आन्हर व्यक्ति एहि तरहेँ सोर पारैत हुनका पाछाँ-पाछाँ चलऽ लगलनि जे, ""यौ दाऊदक पुत्र, हमरा सभ पर दया करू!"		acoustics
+ambient noise	परिवेशी शोर	[TRANSLATE:ambient noise]		acoustics
+white noise	श्वेत शोर	[TRANSLATE:white noise]		acoustics
+beamforming	बीमफॉर्मिंग	[TRANSLATE:beamforming]		acoustics
+neural network	तंत्रिका जाल	[TRANSLATE:neural network]		machine_learning
+deep learning	गहन अधिगम	[TRANSLATE:deep learning]		machine_learning
+machine learning	यंत्र अधिगम	[TRANSLATE:machine learning]		machine_learning
+supervised learning	पर्यवेक्षित अधिगम	[TRANSLATE:supervised learning]		machine_learning
+unsupervised learning	अपर्यवेक्षित अधिगम	[TRANSLATE:unsupervised learning]		machine_learning
+reinforcement learning	प्रबलन अधिगम	[TRANSLATE:reinforcement learning]		machine_learning
+backpropagation	पश्चप्रसारण	[TRANSLATE:backpropagation]		machine_learning
+gradient descent	प्रवणता अवरोहण	[TRANSLATE:gradient descent]		machine_learning
+learning rate	अधिगम दर	[TRANSLATE:learning rate]		machine_learning
+epoch	युग	[TRANSLATE:epoch]		machine_learning
+iteration		"हालांकि एकेडमी व्यापार हिब्रू जडो आ संरचनाओं सँ नया शब्दक अन्य भाषाओ सँग व्युत्पन्न लोनवर्ड्सक जगह पैदा कर रहल अछि , अपन नामक एक ग्रहण ""akademya.,"" [१] एकेडमी आधुनिक हिब्रू व्याकरण, वर्तनी, लिप्यंतरण आ विराम चिह्नक लेल मानको सेट भाषाके ऐतिहासिक विकास पर आधारित अछि ।"		machine_learning
+loss function	हानि फलन	[TRANSLATE:loss function]		machine_learning
+cross-entropy	क्रॉस-एन्ट्रॉपी	[TRANSLATE:cross-entropy]		machine_learning
+softmax	सॉफ्टमैक्स	[TRANSLATE:softmax]		machine_learning
+activation function	सक्रियण फलन	[TRANSLATE:activation function]		machine_learning
+dropout	ड्रॉपआउट	[TRANSLATE:dropout]		machine_learning
+regularization	नियमितीकरण	[TRANSLATE:regularization]		machine_learning
+overfitting	अतिफिटिंग	[TRANSLATE:overfitting]		machine_learning
+underfitting	अल्पफिटिंग	[TRANSLATE:underfitting]		machine_learning
+bias	पूर्वाग्रह	प्रसार माध्यमे (2)		machine_learning
+variance	प्रसरण	[TRANSLATE:variance]		machine_learning
+feature extraction	अभिलक्षण निष्कर्षण	[TRANSLATE:feature extraction]		machine_learning
+PCA		विद्युतीय पीसीबी विधानसभा, मुद्रक Pcba बोर्ड, पीसीबी Manufacture सभा - Forred		machine_learning
+classification	वर्गीकरण	एन्डीजानमे एक ठन्डा अर्द्ध शुष्क जलवायु (कोपेन जलवायु वर्गीकरण बीएसके) अछि, जाहिमे सर्दी-सर्दिसभ आ गर्म ग्रीष्मकाल होएत अछि, मुद्दा ई एक बहुत ही महाद्वीपीय प्रकृति अछि, मुद्दा मध्य-एशियामे एक स्थानक अपेक्षा सर्दिसभक तुलनामे हल्का अधिक भ सकैत अछि।		machine_learning
+regression	प्रतिगमन	[TRANSLATE:regression]		machine_learning
+clustering	संकुलन	[TRANSLATE:clustering]		machine_learning
+decision tree	निर्णय वृक्ष	[TRANSLATE:decision tree]		machine_learning
+random forest	यादृच्छिक वन	[TRANSLATE:random forest]		machine_learning
+support vector machine	सपोर्ट वेक्टर मशीन	[TRANSLATE:support vector machine]		machine_learning
+kernel function	कर्नेल फलन	[TRANSLATE:kernel function]		machine_learning
+confusion matrix	भ्रम आव्यूह	[TRANSLATE:confusion matrix]		machine_learning
+precision	परिशुद्धता	सटीकता मापना +/- 2 मिमी / एम		machine_learning
+recall	प्रत्याह्वान	4 हमरा जखन अहाँक आँखिक नोर स्मरण होइत अछि, तँ हमरा बड्ड इच्छा होइत अछि जे अहाँ सँ फेर भेँट करी आ भेँट कऽ कऽ बड़का आनन्द प्राप्त करी।		machine_learning
+F1 score	एफ1 स्कोर	[TRANSLATE:F1 score]		machine_learning
+AUC		फाउकी कऽ जन्म २४ दिसम्बर १९४० मे ब्रुकलिन, न्यूयोर्क मे स्टीफन ए. फाउकी आओर यूजेनिया ए. फाउकी के घरमे भेल छल, जतय ओ हुनकर पिता फार्मासिस्ट के रूप मे काम करैत छल, हुनकर माता आओर बहिन रजिस्टर कऽ काम केलक आओर फाउकी जतय कि डाक्टरके द्वारा देल गेल पर्चा दैत छल।		machine_learning
+accuracy	शुद्धता	मापन सटीकताः <0.5%		machine_learning
+transfer learning	अंतरण अधिगम	[TRANSLATE:transfer learning]		machine_learning
+fine-tuning	सूक्ष्म समायोजन	[TRANSLATE:fine-tuning]		machine_learning
+data augmentation	डेटा संवर्धन	[TRANSLATE:data augmentation]		machine_learning
+contrastive learning	विरोधाभासी अधिगम	[TRANSLATE:contrastive learning]		machine_learning
+knowledge distillation	ज्ञान आसवन	[TRANSLATE:knowledge distillation]		machine_learning
+model compression	मॉडल संपीड़न	[TRANSLATE:model compression]		machine_learning
+attention head	ध्यान शीर्ष	[TRANSLATE:attention head]		machine_learning
+multi-head attention	बहु-शीर्ष ध्यान	[TRANSLATE:multi-head attention]		machine_learning
+positional encoding	स्थितीय एन्कोडिंग	[TRANSLATE:positional encoding]		machine_learning
+residual connection	अवशिष्ट संयोजन	[TRANSLATE:residual connection]		machine_learning
+gradient clipping	प्रवणता क्लिपिंग	[TRANSLATE:gradient clipping]		machine_learning
+early stopping	शीघ्र रोक	[TRANSLATE:early stopping]		machine_learning
+phoneme	ध्वनिग्राम	[TRANSLATE:phoneme]		linguistics
+morpheme	रूपिम	[TRANSLATE:morpheme]		linguistics
+syntax	वाक्य विन्यास	[TRANSLATE:syntax]		linguistics
+semantics	अर्थ विज्ञान	[TRANSLATE:semantics]		linguistics
+prosody	छंद	[TRANSLATE:prosody]		linguistics
+intonation	स्वराघात	[TRANSLATE:intonation]		linguistics
+stress	बलाघात	[TRANSLATE:stress]		linguistics
+tone		"20. कारण, ओकरा सभ केँ ओहि स्वरक ई आज्ञा बरदास्त नहि भेलैक जे, ""जँ मालो-जाल पहाड़ मे भिड़त तँ ओकरा पथरबाहि कऽ कऽ मारि देल जाय।"		linguistics
+syllable	अक्षर	[TRANSLATE:syllable]		linguistics
+consonant	व्यंजन	[TRANSLATE:consonant]		linguistics
+vowel	स्वर	[TRANSLATE:vowel]		linguistics
+dental		[A] डॉ आर अहमद डेंटल कॉलेज एंड हॉस्पिटल		linguistics
+lateral		ICCPR, संयुक्त राष्ट्र महासभा (United Nations General Assembly- UNGA) द्वारा अपनाई गई एक बहुपक्षीय संधि है।		linguistics
+IPA	अंतरराष्ट्रीय ध्वन्यात्मक वर्णमाला	← नगरपालिका		linguistics
+transliteration	लिप्यंतरण	"हालांकि एकेडमी व्यापार हिब्रू जडो आ संरचनाओं सँ नया शब्दक अन्य भाषाओ सँग व्युत्पन्न लोनवर्ड्सक जगह पैदा कर रहल अछि , अपन नामक एक ग्रहण ""akademya.,"" [१] एकेडमी आधुनिक हिब्रू व्याकरण, वर्तनी, लिप्यंतरण आ विराम चिह्नक लेल मानको सेट भाषाके ऐतिहासिक विकास पर आधारित अछि ।"		linguistics
+Devanagari	देवनागरी	देवनागरी - हिन्दी, संस्कृत, मराठी, नेपाली, तथा उत्तरी भारत एवं नेपाल की अनेकों भाषाएँ		linguistics
+named entity recognition	नामित निकाय पहचान	[TRANSLATE:named entity recognition]		linguistics
+sentiment analysis	भावना विश्लेषण	[TRANSLATE:sentiment analysis]		linguistics
+word embedding	शब्द अंतःस्थापन	[TRANSLATE:word embedding]		linguistics
+GloVe		हम भी निर्माण करते हैंः रंग बॉक्स, उपहार बॉक्स, जूता बॉक्स, हस्तनिर्मित बॉक्स, पेपर बैग, डिस्प्ले बॉक्स , मैन्युअल निर्देश, कार्ड, स्टिकर, आदि ... कृपया अधिक जानकारी के लिए हमारे होमपेज पर जाएं।		linguistics
+subword tokenization	उपशब्द टोकनीकरण	[TRANSLATE:subword tokenization]		linguistics
+byte pair encoding	बाइट जोड़ी एन्कोडिंग	[TRANSLATE:byte pair encoding]		linguistics
+Indo-Aryan		मुख्य इंडो-आर्यन के आलावा, द्रविड़, ईरानी, ऑस्ट्रोएशियाटिक आ सिनो-तिब्बती भाषा, आ कुछ अन्य		linguistics
+Dravidian		मुख्य इंडो-आर्यन के आलावा, द्रविड़, ईरानी, ऑस्ट्रोएशियाटिक आ सिनो-तिब्बती भाषा, आ कुछ अन्य		linguistics
+lemmatization	लेमेटाइज़ेशन	[TRANSLATE:lemmatization]		linguistics
+stemming	स्टेमिंग	[TRANSLATE:stemming]		linguistics
+voicing		आ द्रव्य--		phonetics
+assimilation		पश्चिम गोदावरी जिला (संघीय विषय विधि एकरूपता) अधिनियम, 1949		phonetics
+schwa		आर्नोल्ड स्वाजनेगर (जन्मः ३० जुलाई १९४७) अमेरिकी अभिनेता, फिल्म निर्माता, कार्यकर्ता, व्यापारी, निवेशक, लेखक, परोपकारी, पूर्व व्यावसायिक वडि विल्डर, राजनीतिज्ञ छी ।		phonetics
+phone		फाइल सभ साझा कयल जा सकैत अछि आ डेटाक उपयोग कयने बिना फोन केँ क्लोन कयल जा सकैत अछि, आ गति 40 MB/सेकेंड धरि पहुंच सकैत अछि।		phonetics
+nucleus		मारिया गिउपर्ट मेयर (जुन २८, १९०६ - फरबरी २०, १९७२) एक जर्मन-जन्म अमेरिकी सैद्धान्तिक भौतिक विज्ञानी आ भौतिकशास्त्र परमाणविक न्यूक्लियसक आणविक शेल मोडेलक प्रस्तावक लेल पाओल नोबेल पुरस्कार विजेता छी ।		phonetics
+rime		भारत मे अपराध , 2017 रिपोर्ट		phonetics
+click		आधिकारिक वेबसाइट: Click Here		phonetics
+VOT		35 हम अहाँ सभ केँ ई बात स्वतन्त्रता पर रोक लगयबाक लेल नहि कहि रहल छी, बल्कि अहाँ सभक भलाइक लेल, जाहि सँ अहाँ सभ उचित ढंग सँ रहैत बाधा सँ बाँचि कऽ पूरा मोन सँ प्रभुक सेवाक लेल समर्पित होइ।		phonetics
+spectral tilt	वर्णक्रमीय झुकाव	[TRANSLATE:spectral tilt]		phonetics
+jitter	जिटर	[TRANSLATE:jitter]		phonetics
+shimmer	शिमर	[TRANSLATE:shimmer]		phonetics
+anti-spoofing	एंटी-स्पूफिंग	[TRANSLATE:anti-spoofing]		anti_spoofing
+replay attack	रीप्ले हमला	[TRANSLATE:replay attack]		anti_spoofing
+liveness detection	जीवंतता पहचान	[TRANSLATE:liveness detection]		anti_spoofing
+equal error rate	समान त्रुटि दर	[TRANSLATE:equal error rate]		anti_spoofing
+EER		34 अहाँ सभ जहल मे राखल गेल लोकक संग सहानुभूति रखलहुँ, और अहाँ सभक धन-सम्पत्ति जखन लुटि लेल गेल तँ तकरा खुशी सँ बरदास्त कयलहुँ, कारण अहाँ सभ केँ बुझल छल जे अहाँ सभ लग एहि सँ नीक और टिकऽ वला सम्पत्ति अछि।		anti_spoofing
+countermeasure	प्रतिउपाय	[TRANSLATE:countermeasure]		anti_spoofing
+physical access		शारीरिक अभिगम नियंत्रण		anti_spoofing
+deepfake detection	डीपफेक पहचान	[TRANSLATE:deepfake detection]		anti_spoofing
+GAN		""" 53 एहि पर लोक सभ हुनका पर हँसऽ लागल, कारण ओ सभ जनैत छल जे बच्ची मरि गेल अछि।"		anti_spoofing
+neural vocoder	तंत्रिका वोकोडर	[TRANSLATE:neural vocoder]		anti_spoofing
+machine translation	यंत्र अनुवाद	[TRANSLATE:machine translation]		translation_nmt
+neural machine translation	तंत्रिका यंत्र अनुवाद	[TRANSLATE:neural machine translation]		translation_nmt
+parallel corpus	समानांतर संग्रह	[TRANSLATE:parallel corpus]		translation_nmt
+source language	स्रोत भाषा	[TRANSLATE:source language]		translation_nmt
+target language	लक्ष्य भाषा	[TRANSLATE:target language]		translation_nmt
+low-resource language	अल्प-संसाधन भाषा	[TRANSLATE:low-resource language]		translation_nmt
+back-translation	पश्च-अनुवाद	[TRANSLATE:back-translation]		translation_nmt
+BLEU score	ब्लू स्कोर	[TRANSLATE:BLEU score]		translation_nmt
+zero-shot translation	शून्य-शॉट अनुवाद	[TRANSLATE:zero-shot translation]		translation_nmt
+few-shot learning	अल्प-शॉट अधिगम	[TRANSLATE:few-shot learning]		translation_nmt
+domain adaptation	डोमेन अनुकूलन	[TRANSLATE:domain adaptation]		translation_nmt
+voice activity detection		[TRANSLATE:voice activity detection]		speech_processing
+speaker diarization		[TRANSLATE:speaker diarization]		speech_processing
+speaker verification		[TRANSLATE:speaker verification]		speech_processing
+speaker identification		[TRANSLATE:speaker identification]		speech_processing
+keyword spotting		[TRANSLATE:keyword spotting]		speech_processing
+wake word		[TRANSLATE:wake word]		speech_processing
+end-to-end		[TRANSLATE:end-to-end]		speech_processing
+connectionist temporal classification		[TRANSLATE:connectionist temporal classification]		speech_processing
+pronunciation model		[TRANSLATE:pronunciation model]		speech_processing
+deep neural network		[TRANSLATE:deep neural network]		speech_processing
+recurrent neural network		[TRANSLATE:recurrent neural network]		speech_processing
+long short-term memory		[TRANSLATE:long short-term memory]		speech_processing
+LSTM		[TRANSLATE:LSTM]		speech_processing
+gated recurrent unit		[TRANSLATE:gated recurrent unit]		speech_processing
+self-attention		[TRANSLATE:self-attention]		speech_processing
+conformer		[TRANSLATE:conformer]		speech_processing
+transducer		[TRANSLATE:transducer]		speech_processing
+character error rate		[TRANSLATE:character error rate]		speech_processing
+sentence error rate		[TRANSLATE:sentence error rate]		speech_processing
+prosody transfer		[TRANSLATE:prosody transfer]		speech_processing
+cross-lingual		[TRANSLATE:cross-lingual]		speech_processing
+x-vector		[TRANSLATE:x-vector]		speech_processing
+d-vector		[TRANSLATE:d-vector]		speech_processing
+i-vector		[TRANSLATE:i-vector]		speech_processing
+mel spectrogram		[TRANSLATE:mel spectrogram]		speech_processing
+automatic speaker verification		[TRANSLATE:automatic speaker verification]		speech_processing
+speaker recognition		[TRANSLATE:speaker recognition]		speech_processing
+speech segmentation		[TRANSLATE:speech segmentation]		speech_processing
+utterance		[TRANSLATE:utterance]		speech_processing
+speech intelligibility		[TRANSLATE:speech intelligibility]		speech_processing
+time alignment		[TRANSLATE:time alignment]		speech_processing
+phoneme recognition		[TRANSLATE:phoneme recognition]		speech_processing
+large vocabulary continuous speech recognition		[TRANSLATE:large vocabulary continuous speech recognition]		speech_processing
+LVCSR		[TRANSLATE:LVCSR]		speech_processing
+grapheme-to-phoneme		[TRANSLATE:grapheme-to-phoneme]		speech_processing
+pronunciation dictionary		[TRANSLATE:pronunciation dictionary]		speech_processing
+speech denoising		[TRANSLATE:speech denoising]		speech_processing
+speech dereverberation		[TRANSLATE:speech dereverberation]		speech_processing
+endpoint detection		[TRANSLATE:endpoint detection]		speech_processing
+SNR		[TRANSLATE:SNR]		signal_processing
+Nyquist frequency		[TRANSLATE:Nyquist frequency]		signal_processing
+aliasing		[TRANSLATE:aliasing]		signal_processing
+bit depth		[TRANSLATE:bit depth]		signal_processing
+dynamic range		[TRANSLATE:dynamic range]		signal_processing
+fast Fourier transform		[TRANSLATE:fast Fourier transform]		signal_processing
+discrete Fourier transform		[TRANSLATE:discrete Fourier transform]		signal_processing
+inverse FFT		[TRANSLATE:inverse FFT]		signal_processing
+short-time Fourier transform		[TRANSLATE:short-time Fourier transform]		signal_processing
+STFT		[TRANSLATE:STFT]		signal_processing
+power spectral density		[TRANSLATE:power spectral density]		signal_processing
+low-pass filter		[TRANSLATE:low-pass filter]		signal_processing
+high-pass filter		[TRANSLATE:high-pass filter]		signal_processing
+band-pass filter		[TRANSLATE:band-pass filter]		signal_processing
+impulse response		[TRANSLATE:impulse response]		signal_processing
+transfer function		[TRANSLATE:transfer function]		signal_processing
+autocorrelation		[TRANSLATE:autocorrelation]		signal_processing
+cross-correlation		[TRANSLATE:cross-correlation]		signal_processing
+window function		[TRANSLATE:window function]		signal_processing
+Hanning window		[TRANSLATE:Hanning window]		signal_processing
+Gaussian window		[TRANSLATE:Gaussian window]		signal_processing
+rectangular window		[TRANSLATE:rectangular window]		signal_processing
+downsampling		[TRANSLATE:downsampling]		signal_processing
+upsampling		[TRANSLATE:upsampling]		signal_processing
+resampling		[TRANSLATE:resampling]		signal_processing
+interpolation		[TRANSLATE:interpolation]		signal_processing
+decimation		[TRANSLATE:decimation]		signal_processing
+clipping		[TRANSLATE:clipping]		signal_processing
+distortion		[TRANSLATE:distortion]		signal_processing
+decompression		[TRANSLATE:decompression]		signal_processing
+codec		[TRANSLATE:codec]		signal_processing
+noise reduction		[TRANSLATE:noise reduction]		signal_processing
+spectral subtraction		[TRANSLATE:spectral subtraction]		signal_processing
+Wiener filter		[TRANSLATE:Wiener filter]		signal_processing
+DCT		[TRANSLATE:DCT]		signal_processing
+cepstral analysis		[TRANSLATE:cepstral analysis]		signal_processing
+spectral rolloff		[TRANSLATE:spectral rolloff]		signal_processing
+spectral flux		[TRANSLATE:spectral flux]		signal_processing
+spectral entropy		[TRANSLATE:spectral entropy]		signal_processing
+spectral flatness		[TRANSLATE:spectral flatness]		signal_processing
+analog to digital converter		[TRANSLATE:analog to digital converter]		signal_processing
+digital to analog converter		[TRANSLATE:digital to analog converter]		signal_processing
+de-emphasis		[TRANSLATE:de-emphasis]		signal_processing
+overlap-add		[TRANSLATE:overlap-add]		signal_processing
+overlap-save		[TRANSLATE:overlap-save]		signal_processing
+circular convolution		[TRANSLATE:circular convolution]		signal_processing
+finite impulse response		[TRANSLATE:finite impulse response]		signal_processing
+infinite impulse response		[TRANSLATE:infinite impulse response]		signal_processing
+harmonics		[TRANSLATE:harmonics]		acoustics
+overtone		[TRANSLATE:overtone]		acoustics
+resonance		[TRANSLATE:resonance]		acoustics
+formant frequency		[TRANSLATE:formant frequency]		acoustics
+glottis		[TRANSLATE:glottis]		acoustics
+larynx		[TRANSLATE:larynx]		acoustics
+pharynx		[TRANSLATE:pharynx]		acoustics
+nasal cavity		[TRANSLATE:nasal cavity]		acoustics
+oral cavity		[TRANSLATE:oral cavity]		acoustics
+articulatory		[TRANSLATE:articulatory]		acoustics
+source-filter model		[TRANSLATE:source-filter model]		acoustics
+LPC		[TRANSLATE:LPC]		acoustics
+cepstral coefficients		[TRANSLATE:cepstral coefficients]		acoustics
+mel-frequency cepstral coefficients		[TRANSLATE:mel-frequency cepstral coefficients]		acoustics
+mel filterbank		[TRANSLATE:mel filterbank]		acoustics
+log mel spectrogram		[TRANSLATE:log mel spectrogram]		acoustics
+bark scale		[TRANSLATE:bark scale]		acoustics
+critical band		[TRANSLATE:critical band]		acoustics
+sound pressure level		[TRANSLATE:sound pressure level]		acoustics
+echo		[TRANSLATE:echo]		acoustics
+room impulse response		[TRANSLATE:room impulse response]		acoustics
+acoustic feature		[TRANSLATE:acoustic feature]		acoustics
+perceptual linear prediction		[TRANSLATE:perceptual linear prediction]		acoustics
+relative spectral		[TRANSLATE:relative spectral]		acoustics
+RASTA		[TRANSLATE:RASTA]		acoustics
+acoustic impedance		[TRANSLATE:acoustic impedance]		acoustics
+sound propagation		[TRANSLATE:sound propagation]		acoustics
+diffraction		[TRANSLATE:diffraction]		acoustics
+absorption		[TRANSLATE:absorption]		acoustics
+noise floor		[TRANSLATE:noise floor]		acoustics
+pink noise		[TRANSLATE:pink noise]		acoustics
+Gaussian noise		[TRANSLATE:Gaussian noise]		acoustics
+babble noise		[TRANSLATE:babble noise]		acoustics
+anechoic chamber		[TRANSLATE:anechoic chamber]		acoustics
+near field		[TRANSLATE:near field]		acoustics
+far field		[TRANSLATE:far field]		acoustics
+microphone array		[TRANSLATE:microphone array]		acoustics
+spatial filtering		[TRANSLATE:spatial filtering]		acoustics
+semi-supervised learning		[TRANSLATE:semi-supervised learning]		machine_learning
+self-supervised learning		[TRANSLATE:self-supervised learning]		machine_learning
+stochastic gradient descent		[TRANSLATE:stochastic gradient descent]		machine_learning
+SGD		[TRANSLATE:SGD]		machine_learning
+Adam optimizer		[TRANSLATE:Adam optimizer]		machine_learning
+momentum		[TRANSLATE:momentum]		machine_learning
+batch size		[TRANSLATE:batch size]		machine_learning
+mean squared error		[TRANSLATE:mean squared error]		machine_learning
+sigmoid		[TRANSLATE:sigmoid]		machine_learning
+ReLU		[TRANSLATE:ReLU]		machine_learning
+batch normalization		[TRANSLATE:batch normalization]		machine_learning
+layer normalization		[TRANSLATE:layer normalization]		machine_learning
+L1 regularization		[TRANSLATE:L1 regularization]		machine_learning
+L2 regularization		[TRANSLATE:L2 regularization]		machine_learning
+training set		[TRANSLATE:training set]		machine_learning
+validation set		[TRANSLATE:validation set]		machine_learning
+test set		[TRANSLATE:test set]		machine_learning
+cross-validation		[TRANSLATE:cross-validation]		machine_learning
+hyperparameter		[TRANSLATE:hyperparameter]		machine_learning
+grid search		[TRANSLATE:grid search]		machine_learning
+feature selection		[TRANSLATE:feature selection]		machine_learning
+dimensionality reduction		[TRANSLATE:dimensionality reduction]		machine_learning
+SVD		[TRANSLATE:SVD]		machine_learning
+eigenvalue		[TRANSLATE:eigenvalue]		machine_learning
+eigenvector		[TRANSLATE:eigenvector]		machine_learning
+covariance matrix		[TRANSLATE:covariance matrix]		machine_learning
+ensemble method		[TRANSLATE:ensemble method]		machine_learning
+bagging		[TRANSLATE:bagging]		machine_learning
+boosting		[TRANSLATE:boosting]		machine_learning
+k-means		[TRANSLATE:k-means]		machine_learning
+k-nearest neighbors		[TRANSLATE:k-nearest neighbors]		machine_learning
+ROC curve		[TRANSLATE:ROC curve]		machine_learning
+true positive		[TRANSLATE:true positive]		machine_learning
+false positive		[TRANSLATE:false positive]		machine_learning
+true negative		[TRANSLATE:true negative]		machine_learning
+false negative		[TRANSLATE:false negative]		machine_learning
+pre-training		[TRANSLATE:pre-training]		machine_learning
+perturbation		[TRANSLATE:perturbation]		machine_learning
+robustness		[TRANSLATE:robustness]		machine_learning
+adversarial example		[TRANSLATE:adversarial example]		machine_learning
+adversarial training		[TRANSLATE:adversarial training]		machine_learning
+triplet loss		[TRANSLATE:triplet loss]		machine_learning
+metric learning		[TRANSLATE:metric learning]		machine_learning
+pruning		[TRANSLATE:pruning]		machine_learning
+quantization aware training		[TRANSLATE:quantization aware training]		machine_learning
+mixed precision training		[TRANSLATE:mixed precision training]		machine_learning
+feed-forward network		[TRANSLATE:feed-forward network]		machine_learning
+skip connection		[TRANSLATE:skip connection]		machine_learning
+weight initialization		[TRANSLATE:weight initialization]		machine_learning
+Xavier initialization		[TRANSLATE:Xavier initialization]		machine_learning
+He initialization		[TRANSLATE:He initialization]		machine_learning
+gradient accumulation		[TRANSLATE:gradient accumulation]		machine_learning
+warmup schedule		[TRANSLATE:warmup schedule]		machine_learning
+cosine annealing		[TRANSLATE:cosine annealing]		machine_learning
+learning rate scheduler		[TRANSLATE:learning rate scheduler]		machine_learning
+lexeme		[TRANSLATE:lexeme]		linguistics
+grapheme		[TRANSLATE:grapheme]		linguistics
+phonology		[TRANSLATE:phonology]		linguistics
+morphology		[TRANSLATE:morphology]		linguistics
+pragmatics		[TRANSLATE:pragmatics]		linguistics
+rhythm		[TRANSLATE:rhythm]		linguistics
+diphthong		[TRANSLATE:diphthong]		linguistics
+voiced		[TRANSLATE:voiced]		linguistics
+voiceless		[TRANSLATE:voiceless]		linguistics
+aspirated		[TRANSLATE:aspirated]		linguistics
+retroflex		[TRANSLATE:retroflex]		linguistics
+alveolar		[TRANSLATE:alveolar]		linguistics
+velar		[TRANSLATE:velar]		linguistics
+palatal		[TRANSLATE:palatal]		linguistics
+labial		[TRANSLATE:labial]		linguistics
+nasal		[TRANSLATE:nasal]		linguistics
+fricative		[TRANSLATE:fricative]		linguistics
+affricate		[TRANSLATE:affricate]		linguistics
+approximant		[TRANSLATE:approximant]		linguistics
+stop consonant		[TRANSLATE:stop consonant]		linguistics
+plosive		[TRANSLATE:plosive]		linguistics
+International Phonetic Alphabet		[TRANSLATE:International Phonetic Alphabet]		linguistics
+Romanization		[TRANSLATE:Romanization]		linguistics
+code-mixing		[TRANSLATE:code-mixing]		linguistics
+diglossia		[TRANSLATE:diglossia]		linguistics
+bilingualism		[TRANSLATE:bilingualism]		linguistics
+language identification		[TRANSLATE:language identification]		linguistics
+script detection		[TRANSLATE:script detection]		linguistics
+part-of-speech tagging		[TRANSLATE:part-of-speech tagging]		linguistics
+dependency parsing		[TRANSLATE:dependency parsing]		linguistics
+constituency parsing		[TRANSLATE:constituency parsing]		linguistics
+text classification		[TRANSLATE:text classification]		linguistics
+word2vec		[TRANSLATE:word2vec]		linguistics
+FastText		[TRANSLATE:FastText]		linguistics
+BPE		[TRANSLATE:BPE]		linguistics
+WordPiece		[TRANSLATE:WordPiece]		linguistics
+SentencePiece		[TRANSLATE:SentencePiece]		linguistics
+unigram model		[TRANSLATE:unigram model]		linguistics
+language family		[TRANSLATE:language family]		linguistics
+agglutinative		[TRANSLATE:agglutinative]		linguistics
+inflectional		[TRANSLATE:inflectional]		linguistics
+isolating		[TRANSLATE:isolating]		linguistics
+morphological analysis		[TRANSLATE:morphological analysis]		linguistics
+compound word		[TRANSLATE:compound word]		linguistics
+sandhi rules		[TRANSLATE:sandhi rules]		linguistics
+conjunct consonant		[TRANSLATE:conjunct consonant]		linguistics
+articulatory phonetics		[TRANSLATE:articulatory phonetics]		phonetics
+acoustic phonetics		[TRANSLATE:acoustic phonetics]		phonetics
+auditory phonetics		[TRANSLATE:auditory phonetics]		phonetics
+place of articulation		[TRANSLATE:place of articulation]		phonetics
+manner of articulation		[TRANSLATE:manner of articulation]		phonetics
+aspiration		[TRANSLATE:aspiration]		phonetics
+nasalization		[TRANSLATE:nasalization]		phonetics
+coarticulation		[TRANSLATE:coarticulation]		phonetics
+elision		[TRANSLATE:elision]		phonetics
+gemination		[TRANSLATE:gemination]		phonetics
+lenition		[TRANSLATE:lenition]		phonetics
+fortition		[TRANSLATE:fortition]		phonetics
+monophthong		[TRANSLATE:monophthong]		phonetics
+triphthong		[TRANSLATE:triphthong]		phonetics
+suprasegmental		[TRANSLATE:suprasegmental]		phonetics
+segment		[TRANSLATE:segment]		phonetics
+allophone		[TRANSLATE:allophone]		phonetics
+minimal pair		[TRANSLATE:minimal pair]		phonetics
+complementary distribution		[TRANSLATE:complementary distribution]		phonetics
+free variation		[TRANSLATE:free variation]		phonetics
+phonotactics		[TRANSLATE:phonotactics]		phonetics
+onset		[TRANSLATE:onset]		phonetics
+coda		[TRANSLATE:coda]		phonetics
+pitch accent		[TRANSLATE:pitch accent]		phonetics
+lexical tone		[TRANSLATE:lexical tone]		phonetics
+contour tone		[TRANSLATE:contour tone]		phonetics
+register tone		[TRANSLATE:register tone]		phonetics
+downdrift		[TRANSLATE:downdrift]		phonetics
+downstep		[TRANSLATE:downstep]		phonetics
+breathy voice		[TRANSLATE:breathy voice]		phonetics
+creaky voice		[TRANSLATE:creaky voice]		phonetics
+modal voice		[TRANSLATE:modal voice]		phonetics
+ejective		[TRANSLATE:ejective]		phonetics
+implosive		[TRANSLATE:implosive]		phonetics
+vowel harmony		[TRANSLATE:vowel harmony]		phonetics
+consonant cluster		[TRANSLATE:consonant cluster]		phonetics
+syllabification		[TRANSLATE:syllabification]		phonetics
+resyllabification		[TRANSLATE:resyllabification]		phonetics
+connected speech		[TRANSLATE:connected speech]		phonetics
+sandhi		[TRANSLATE:sandhi]		phonetics
+formant transition		[TRANSLATE:formant transition]		phonetics
+voice onset time		[TRANSLATE:voice onset time]		phonetics
+harmonic to noise ratio		[TRANSLATE:harmonic to noise ratio]		phonetics
+HNR		[TRANSLATE:HNR]		phonetics
+glottal pulse		[TRANSLATE:glottal pulse]		phonetics
+glottal flow		[TRANSLATE:glottal flow]		phonetics
+acoustic correlate		[TRANSLATE:acoustic correlate]		phonetics
+perception		[TRANSLATE:perception]		phonetics
+spoofing detection		[TRANSLATE:spoofing detection]		anti_spoofing
+speech synthesis attack		[TRANSLATE:speech synthesis attack]		anti_spoofing
+voice conversion attack		[TRANSLATE:voice conversion attack]		anti_spoofing
+presentation attack		[TRANSLATE:presentation attack]		anti_spoofing
+detection error tradeoff		[TRANSLATE:detection error tradeoff]		anti_spoofing
+bonafide speech		[TRANSLATE:bonafide speech]		anti_spoofing
+spoof speech		[TRANSLATE:spoof speech]		anti_spoofing
+genuine speech		[TRANSLATE:genuine speech]		anti_spoofing
+tandem detection cost function		[TRANSLATE:tandem detection cost function]		anti_spoofing
+LFCC		[TRANSLATE:LFCC]		anti_spoofing
+linear frequency cepstral coefficients		[TRANSLATE:linear frequency cepstral coefficients]		anti_spoofing
+CQCC		[TRANSLATE:CQCC]		anti_spoofing
+constant Q cepstral coefficients		[TRANSLATE:constant Q cepstral coefficients]		anti_spoofing
+light convolutional neural network		[TRANSLATE:light convolutional neural network]		anti_spoofing
+LCNN		[TRANSLATE:LCNN]		anti_spoofing
+max feature map		[TRANSLATE:max feature map]		anti_spoofing
+MFM activation		[TRANSLATE:MFM activation]		anti_spoofing
+ASVspoof challenge		[TRANSLATE:ASVspoof challenge]		anti_spoofing
+logical access		[TRANSLATE:logical access]		anti_spoofing
+audio deepfake		[TRANSLATE:audio deepfake]		anti_spoofing
+generative adversarial network		[TRANSLATE:generative adversarial network]		anti_spoofing
+variational autoencoder		[TRANSLATE:variational autoencoder]		anti_spoofing
+VAE		[TRANSLATE:VAE]		anti_spoofing
+WaveNet		[TRANSLATE:WaveNet]		anti_spoofing
+WaveRNN		[TRANSLATE:WaveRNN]		anti_spoofing
+HiFi-GAN		[TRANSLATE:HiFi-GAN]		anti_spoofing
+Griffin-Lim		[TRANSLATE:Griffin-Lim]		anti_spoofing
+WORLD vocoder		[TRANSLATE:WORLD vocoder]		anti_spoofing
+bilingual corpus		[TRANSLATE:bilingual corpus]		translation_nmt
+monolingual corpus		[TRANSLATE:monolingual corpus]		translation_nmt
+pivot language		[TRANSLATE:pivot language]		translation_nmt
+high-resource language		[TRANSLATE:high-resource language]		translation_nmt
+data augmentation for NMT		[TRANSLATE:data augmentation for NMT]		translation_nmt
+METEOR score		[TRANSLATE:METEOR score]		translation_nmt
+TER score		[TRANSLATE:TER score]		translation_nmt
+alignment model		[TRANSLATE:alignment model]		translation_nmt
+phrase-based translation		[TRANSLATE:phrase-based translation]		translation_nmt
+subword segmentation		[TRANSLATE:subword segmentation]		translation_nmt
+vocabulary size		[TRANSLATE:vocabulary size]		translation_nmt
+cross-lingual transfer		[TRANSLATE:cross-lingual transfer]		translation_nmt
+multilingual model		[TRANSLATE:multilingual model]		translation_nmt
+terminology extraction		[TRANSLATE:terminology extraction]		translation_nmt
+transliteration model		[TRANSLATE:transliteration model]		translation_nmt
+script conversion		[TRANSLATE:script conversion]		translation_nmt
+IndicTrans		[TRANSLATE:IndicTrans]		translation_nmt
+NLLB		[TRANSLATE:NLLB]		translation_nmt
+mBART		[TRANSLATE:mBART]		translation_nmt
+XLM-RoBERTa		[TRANSLATE:XLM-RoBERTa]		translation_nmt
